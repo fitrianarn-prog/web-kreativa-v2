@@ -1,0 +1,4 @@
+{
+  "_note": "Prestasi siswa untuk section Beranda. HANYA isi dengan prestasi yang sudah diverifikasi sekolah (sertifikat/rilis resmi) dan, bila ada foto/nama siswa, sudah ada izin orang tua. Section tidak tampil di situs live selama 'items' kosong. Format satu item: lihat src/lib/achievements.ts.",
+  "items": []
+}

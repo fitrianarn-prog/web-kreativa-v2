@@ -1,0 +1,1058 @@
+{
+  "_source": "docs/SPEC.md — Bagian 3.7 & Lampiran A (dibangun oleh scripts/build-electives.mjs; jangan edit manual)",
+  "tracks": [
+    "applied-science",
+    "business-management",
+    "leadership-social-science"
+  ],
+  "subjects": [
+    {
+      "slug": "scientific-thinking-research-method",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Scientific Thinking & Research Method",
+        "objective": "This subject empowers students to think like scientists — curious, logical, and evidence-based. It builds a foundation for inquiry and discovery by introducing the principles of scientific reasoning, research methodology, and experimental design. Students learn how scientific knowledge is created, tested, and applied in real-world contexts.",
+        "focus": "Students explore how scientific thinking extends beyond laboratories — influencing social policy, business innovation, and everyday problem-solving. They practice designing experiments, analyzing data, and forming hypotheses rooted in observation and logic.",
+        "outcomes": [
+          "Understanding the nature and philosophy of science",
+          "Steps of the scientific method: questioning, hypothesis, experimentation, analysis",
+          "Quantitative and qualitative research methods",
+          "Data organization, analysis, and interpretation",
+          "Research ethics and integrity",
+          "Writing and presenting research findings"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "the-science-and-implications-of-generative-ai",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "The Science and Implications of Generative AI",
+        "objective": "This subject introduces students to the world of Artificial Intelligence, focusing on the science behind generative models that can produce text, images, and data. Students will understand how AI systems learn and what ethical implications come with their power to shape creativity, communication, and society.",
+        "focus": "Learners examine how generative AI models operate, their applications in various fields, and the responsibilities humans hold in using and regulating them.",
+        "outcomes": [
+          "Fundamentals of AI and neural networks",
+          "Data training and generative modeling",
+          "AI applications in science, education, medicine, and art",
+          "Ethical and societal issues: bias, privacy, and misinformation",
+          "Simulation activities and case studies in applied AI"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "earth-environmental-science",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Earth & Environmental Science",
+        "objective": "Students gain an understanding of how Earth's systems function and interact — atmosphere, hydrosphere, geosphere, and biosphere — and how human activity affects them. The subject nurtures environmental literacy and responsibility.",
+        "focus": "Learners develop the ability to analyze global environmental challenges and propose sustainable solutions grounded in science and ethics.",
+        "outcomes": [
+          "Earth's natural systems and ecological interdependence",
+          "Environmental change, pollution, and conservation",
+          "Renewable energy and sustainable development",
+          "Climate science and global warming analysis",
+          "Local and international case studies",
+          "Field observation and environmental data collection"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "applied-biology-human-systems-health",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Applied Biology: Human Systems & Health",
+        "objective": "This subject explores the human body from a biological and health perspective. It builds understanding of human anatomy, physiology, and genetics while connecting them to real-world applications in medicine and wellness.",
+        "focus": "Students analyze how biological systems maintain balance and how disruptions lead to disease. The subject encourages healthy living, empathy in healthcare, and an appreciation of biotechnology's role in human advancement.",
+        "outcomes": [
+          "Human organ systems and body regulation",
+          "Genetics, heredity, and cellular function",
+          "Diseases, immunity, and global health issues",
+          "Nutrition, mental health, and preventive medicine",
+          "Introduction to medical biotechnology"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "physics-of-everyday-life",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Physics of Everyday Life",
+        "objective": "Students explore the physical laws that govern daily life — from gravity and motion to sound, electricity, and energy.",
+        "focus": "The subject emphasizes the relevance of physics in modern technology and environmental design. Students learn to connect equations to everyday phenomena, making physics both visual and practical.",
+        "outcomes": [
+          "Fundamental laws of motion and energy",
+          "Light, sound, and electromagnetism",
+          "Renewable energy and real-world applications",
+          "Simple experiments and problem-based projects",
+          "How physics influences transportation, devices, and architecture"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "chemistry-in-medicine-materials",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Chemistry in Medicine & Materials",
+        "objective": "To connect chemistry with real-life innovation in healthcare, medicine, and sustainable materials. Students explore how molecular structures influence properties and design breakthroughs that improve human life.",
+        "focus": "Learners study the relationship between chemistry, biology, and engineering — from drug development to biomaterials and nanotechnology.",
+        "outcomes": [
+          "Chemical bonding and molecular structure",
+          "Biochemical applications in medicine",
+          "Synthesis of materials and nanotechnology",
+          "Environmental and industrial chemistry",
+          "Lab-based simulations and chemical modeling"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-engineering-design-principles",
+      "track": "applied-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Engineering & Design Principles",
+        "objective": "This subject introduces engineering as a creative and problem-solving discipline. Students learn to apply physics, mathematics, and design thinking to create practical solutions for real-world challenges.",
+        "focus": "Combining innovation with analytical thinking, learners explore how engineers design systems, build prototypes, and improve efficiency in industries and communities.",
+        "outcomes": [
+          "Engineering branches: civil, mechanical, electrical, and environmental",
+          "The design process: define, ideate, prototype, test",
+          "Systems and process optimization",
+          "Engineering ethics and sustainability",
+          "Hands-on projects and collaborative challenges"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-applied-statistics-data-visualization",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Applied Statistics & Data Visualization",
+        "objective": "Students learn to interpret and communicate data effectively — a crucial skill across science, business, and technology.",
+        "focus": "This subject emphasizes how numbers tell stories. Learners build skills in data collection, statistical reasoning, and visualization to make informed, data-driven conclusions.",
+        "outcomes": [
+          "Fundamentals of descriptive and inferential statistics",
+          "Data organization, sampling, and reliability",
+          "Correlation, probability, and hypothesis testing",
+          "Data visualization tools (Excel, Python, Tableau)",
+          "Communicating findings through visuals and reports"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "biotechnology-society",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Biotechnology & Society",
+        "objective": "Students investigate how biotechnology is transforming the world through advances in medicine, agriculture, and environmental management.",
+        "focus": "The subject blends science, innovation, and ethics — encouraging critical thinking about both the power and responsibility of modern biotech.",
+        "outcomes": [
+          "DNA, genetic engineering, and CRISPR technology",
+          "Biotechnology in food and agriculture",
+          "Biopharmaceuticals and medical innovation",
+          "Bioethics and sustainability debates",
+          "Real-world biotechnology research case studies"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "advanced-data-science-predictive-analytics",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Advanced Data Science & Predictive Analytics",
+        "objective": "This subject equips students with modern computational skills for analyzing large datasets and predicting outcomes. It serves as a bridge between mathematics, computer science, and social applications.",
+        "focus": "Learners explore how data shapes decision-making, policy design, and business strategy through hands-on modeling and interpretation.",
+        "outcomes": [
+          "Data analysis and machine learning foundations",
+          "Predictive modeling and pattern recognition",
+          "Forecasting, regression, and classification methods",
+          "Data ethics, bias, and digital responsibility",
+          "Capstone data project based on real datasets"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "mathematics-for-economics-decision-making",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Mathematics for Economics & Decision Making",
+        "objective": "This subject links mathematical logic with economic reasoning, enabling students to understand how data and formulas influence markets and choices.",
+        "focus": "Students apply mathematics to model real-world problems in business, finance, and social systems. They develop quantitative insight and decision-making confidence.",
+        "outcomes": [
+          "Algebra, calculus, and optimization principles",
+          "Probability, statistics, and game theory",
+          "Economic modeling and simulation",
+          "Behavioral economics and risk analysis",
+          "Mathematical projects in real-world decision contexts"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "scientific-research-academic-writing",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 4,
+      "en": {
+        "title": "Scientific Research & Academic Writing",
+        "objective": "This subject guides students through the complete process of scientific research — from inquiry to publication. It strengthens analytical thinking, methodology, and formal communication.",
+        "focus": "Students conduct small-scale research projects while learning to structure academic writing, analyze data, and present findings effectively.",
+        "outcomes": [
+          "Research design and data methodology",
+          "Academic writing structure and referencing",
+          "Quantitative and qualitative analysis",
+          "Presentation and peer review process",
+          "Publishing and ethics in academic work"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "sustainable-energy-systems",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Sustainable Energy Systems",
+        "objective": "Students explore the science and innovation behind renewable energy systems, aiming to understand how clean technology supports global sustainability.",
+        "focus": "The subject emphasizes interdisciplinary learning, integrating physics, chemistry, and environmental science to solve energy-related challenges.",
+        "outcomes": [
+          "Energy sources and global demand",
+          "Solar, wind, and hydropower technologies",
+          "Battery storage and efficiency systems",
+          "Climate change and energy policy",
+          "Design project: building a small-scale renewable prototype"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "global-health-epidemiology",
+      "track": "applied-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Global Health & Epidemiology",
+        "objective": "This subject studies how science informs public health systems, disease control, and global wellness. Students explore the relationships between biology, environment, and society.",
+        "focus": "Learners use data and case studies to understand how diseases spread, how health policies are formed, and how scientific innovation can improve lives worldwide.",
+        "outcomes": [
+          "Epidemiology and health data systems",
+          "Infectious and chronic diseases",
+          "Public health and global health infrastructure",
+          "Research in disease prevention and vaccination",
+          "Designing community-based health awareness projects"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-budgeting-and-financial-management",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Budgeting and Financial Management",
+        "objective": "To equip students with essential financial planning and resource management skills used by organizations and individuals alike. Students will learn how money moves within a business — from income and expense forecasting to investment and risk planning.",
+        "focus": "This subject introduces financial management as the language of business. Students gain practical experience in budgeting, interpreting financial statements, and making strategic financial decisions that sustain growth.",
+        "outcomes": [
+          "Fundamentals of budgeting and financial planning",
+          "Cash flow management and cost control",
+          "Reading and analyzing financial reports",
+          "Capital allocation and funding sources",
+          "Strategic budgeting and forecasting models"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "operations-business-process-management",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Operations & Business Process Management",
+        "objective": "To help students understand how organizations deliver products and services efficiently through process design and continuous improvement.",
+        "focus": "Students explore the science of operations — where business strategy meets execution. They will learn to design workflows, measure performance, and optimize processes using real-world business cases.",
+        "outcomes": [
+          "Introduction to operations and supply chain management",
+          "Process mapping and system design",
+          "Lean management and Six Sigma principles",
+          "Quality control and efficiency strategies",
+          "Case study: optimizing a service or product process"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "performance-leadership",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Performance Leadership",
+        "objective": "To develop the mindset and skill set of a performance-oriented leader who motivates teams and drives results.",
+        "focus": "Students will analyze leadership theories, feedback models, and performance metrics that sustain excellence. This subject integrates behavioral science with management principles.",
+        "outcomes": [
+          "Understanding leadership styles and motivation",
+          "Goal setting and accountability systems",
+          "Coaching and feedback for improvement",
+          "Performance metrics and productivity analysis",
+          "Leadership simulation and self-assessment"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "entrepreneurship-and-innovation-in-the-private-and-social-sectors",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Entrepreneurship and Innovation in the Private and Social Sectors",
+        "objective": "To inspire students to create ventures that address both profit and purpose. The subject introduces entrepreneurship as a catalyst for innovation and positive social change.",
+        "focus": "Students will learn how to identify opportunities, design solutions, and build sustainable organizations in both commercial and nonprofit contexts.",
+        "outcomes": [
+          "Entrepreneurial mindset and opportunity recognition",
+          "Start-up planning and feasibility analysis",
+          "Innovation in business and social enterprise",
+          "Pitching ideas and attracting investment",
+          "Case studies: successful social innovators"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "microeconomics-for-modern-society",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Microeconomics for Modern Society",
+        "objective": "To introduce students to the fundamentals of microeconomics and how individuals, households, and firms make decisions in the real economy.",
+        "focus": "Students will explore concepts like supply and demand, consumer choice, and market efficiency while connecting theory to real-world business challenges.",
+        "outcomes": [
+          "Scarcity, choice, and opportunity cost",
+          "Demand, supply, and price mechanisms",
+          "Market equilibrium and elasticity",
+          "Consumer and producer behavior",
+          "Market structures: competition, monopoly, and regulation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "financial-accounting-for-beginners",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 4,
+      "en": {
+        "title": "Financial Accounting for Beginners",
+        "objective": "To provide students with a strong foundation in accounting principles and financial reporting.",
+        "focus": "Students learn how to record, summarize, and interpret financial transactions that reflect an organization's performance.",
+        "outcomes": [
+          "Accounting concepts and the accounting cycle",
+          "Preparing balance sheets and income statements",
+          "Double-entry bookkeeping",
+          "Understanding financial ratios and statements",
+          "Practical exercises and case analysis"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "behavioral-economics",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Behavioral Economics",
+        "objective": "To explore how psychology shapes economic decisions. This subject reveals why people sometimes make irrational choices — and how understanding behavior can improve policy and business design.",
+        "focus": "Students combine insights from economics and psychology to understand consumer decisions, biases, and motivation.",
+        "outcomes": [
+          "Cognitive biases and heuristics",
+          "Decision-making under uncertainty",
+          "Behavioral finance and marketing",
+          "Nudging and incentive design",
+          "Experiments in behavioral research"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "financial-literacy-personal-investing",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 4,
+      "en": {
+        "title": "Financial Literacy & Personal Investing",
+        "objective": "To prepare students for real-world financial independence. Students learn how to manage money, understand investments, and plan for the future.",
+        "focus": "Emphasis is placed on practical personal finance, investment strategies, and responsible economic behavior.",
+        "outcomes": [
+          "Budgeting and personal financial planning",
+          "Saving, credit, and debt management",
+          "Stocks, bonds, and mutual funds",
+          "Risk, diversification, and investment ethics",
+          "Personal investment simulation project"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "start-up-incubator-project",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Start-up Incubator Project",
+        "objective": "To transform ideas into ventures. Students experience the full entrepreneurial journey from concept to launch.",
+        "focus": "This project-based subject emphasizes innovation, teamwork, and real-world execution — culminating in a start-up pitch.",
+        "outcomes": [
+          "Ideation and problem identification",
+          "Business model canvas and prototype development",
+          "Branding, marketing, and finance",
+          "Mentorship and pitch competition",
+          "Reflection and business evaluation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "marketing-consumer-psychology",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 4,
+      "en": {
+        "title": "Marketing & Consumer Psychology",
+        "objective": "To understand how consumers think, feel, and make decisions — and how marketers use psychology to influence them.",
+        "focus": "Students bridge theory and practice in branding, market research, and advertising design.",
+        "outcomes": [
+          "Marketing mix and consumer journey",
+          "Branding and positioning strategies",
+          "Digital and social media marketing",
+          "Market segmentation and behavior analysis",
+          "Psychological drivers of purchasing decisions"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "design-thinking-product-innovation",
+      "track": "business-management",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Design Thinking & Product Innovation",
+        "objective": "To nurture creativity and human-centered innovation. Students learn to solve problems through empathy, experimentation, and iteration.",
+        "focus": "Students design products and services that respond to real user needs using design thinking frameworks pioneered by leading global institutions.",
+        "outcomes": [
+          "Principles of design thinking",
+          "Empathy mapping and problem framing",
+          "Ideation, prototyping, and user testing",
+          "Product design and innovation strategy",
+          "Portfolio project: design for impact"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "business-analytics-data-driven-decisions",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Business Analytics & Data-Driven Decisions",
+        "objective": "To develop analytical and data interpretation skills for modern business decision-making.",
+        "focus": "Students learn to turn data into actionable insights using statistical tools and dashboards.",
+        "outcomes": [
+          "Fundamentals of business analytics",
+          "Data visualization and storytelling",
+          "Predictive modeling and key metrics",
+          "Decision-making under uncertainty",
+          "Project: data-driven business proposal"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-global-trade-development",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Global Trade & Development",
+        "objective": "To explore the global economy and the interconnectedness of nations through trade and development.",
+        "focus": "Students learn how global trade shapes economies, influences policy, and affects inequality and sustainability.",
+        "outcomes": [
+          "International trade theories and patterns",
+          "Globalization and emerging markets",
+          "Role of organizations (WTO, IMF, World Bank)",
+          "Sustainable development and SDGs",
+          "Case studies in trade policy and investment"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "global-macroeconomics-policy",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Global Macroeconomics & Policy",
+        "objective": "To understand large-scale economic forces and policies that shape global growth, inflation, and trade.",
+        "focus": "Students apply macroeconomic theory to analyze government decisions and international economic challenges.",
+        "outcomes": [
+          "National income, GDP, and growth models",
+          "Fiscal and monetary policy",
+          "Inflation, unemployment, and interest rates",
+          "International finance and exchange rates",
+          "Policy-making simulations and reports"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "social-entrepreneurship-innovation",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Social Entrepreneurship & Innovation",
+        "objective": "To empower students to create innovative solutions for social and environmental problems.",
+        "focus": "Students combine entrepreneurial skills with empathy to design projects that create measurable social impact.",
+        "outcomes": [
+          "Social enterprise models and strategies",
+          "Community needs analysis",
+          "Impact measurement and reporting",
+          "Funding, scaling, and partnerships",
+          "Launching a social impact project"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "principles-of-business-strategic-management",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 4,
+      "en": {
+        "title": "Principles of Business & Strategic Management",
+        "objective": "To provide an overview of how businesses are structured, managed, and led strategically.",
+        "focus": "Students learn how vision, planning, and leadership drive business success.",
+        "outcomes": [
+          "Business organization and governance",
+          "SWOT and competitive analysis",
+          "Strategic planning and goal setting",
+          "Decision-making frameworks",
+          "Leadership in business environments"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "innovation-economics-future-markets",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Innovation Economics & Future Markets",
+        "objective": "To analyze how technology and innovation reshape economies and industries.",
+        "focus": "Students investigate trends such as automation, digital transformation, and sustainability-driven markets.",
+        "outcomes": [
+          "Economic growth and innovation cycles",
+          "Emerging industries and digital economies",
+          "Innovation ecosystems and policy",
+          "Future labor markets and AI economics",
+          "Research project on industry innovation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "business-ethics-corporate-responsibility",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Business Ethics & Corporate Responsibility",
+        "objective": "To help students develop moral awareness and decision-making frameworks for ethical leadership.",
+        "focus": "The subject explores how ethics influences corporate behavior, governance, and sustainability.",
+        "outcomes": [
+          "Ethical theories and business dilemmas",
+          "Corporate social responsibility (CSR)",
+          "Environmental, Social, and Governance (ESG)",
+          "Stakeholder analysis and whistleblowing",
+          "Business case studies and debates"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "digital-entrepreneurship-e-commerce-strategy",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Digital Entrepreneurship & E-Commerce Strategy",
+        "objective": "To teach students how to build and manage digital businesses using online platforms, data, and marketing.",
+        "focus": "Students combine entrepreneurial strategy with technology and user experience design.",
+        "outcomes": [
+          "Digital business models and ecosystems",
+          "E-commerce management and logistics",
+          "Online marketing and analytics",
+          "Customer experience and UX design",
+          "Project: launching a digital store prototype"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-islamic-economics-and-halal-industry",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Islamic Economics and Halal Industry",
+        "objective": "To introduce students to ethical finance and the rapidly growing global halal economy.",
+        "focus": "Students examine how Islamic principles guide economic activity, trade, and investment with fairness and sustainability.",
+        "outcomes": [
+          "Core principles of Islamic economics",
+          "Halal industry sectors: food, finance, tourism, and fashion",
+          "Zakat, waqf, and social justice in economics",
+          "Case studies of halal market trends",
+          "Ethics and inclusivity in global trade"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "project-management-agile-leadership",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Project Management & Agile Leadership",
+        "objective": "To prepare students to plan, execute, and manage projects effectively using modern agile methods.",
+        "focus": "Students develop project management and teamwork skills using global frameworks like Scrum and Kanban.",
+        "outcomes": [
+          "Project life cycle and planning tools",
+          "Risk management and communication",
+          "Agile principles and iterative design",
+          "Leadership in project teams",
+          "Project simulation and presentation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "hospitality-and-service-operations",
+      "track": "business-management",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Hospitality and Service Operations",
+        "objective": "To explore the global hospitality industry and the science behind service excellence.",
+        "focus": "Students learn how operations, guest experience, and management intersect in hotels, tourism, and service businesses.",
+        "outcomes": [
+          "Overview of hospitality and service industries",
+          "Service design and customer satisfaction",
+          "Event and facility management",
+          "Sustainable hospitality and tourism",
+          "Industry project or case simulation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "strategy-structure-and-leadership-in-public-service-organizations",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 4,
+      "en": {
+        "title": "Strategy, Structure, and Leadership in Public Service Organizations",
+        "objective": "This subject prepares students to understand how leadership operates in public service, government, and nonprofit organizations. Students learn how structure, policy, and strategy shape decision-making in institutions that serve communities.",
+        "focus": "The subject emphasizes the balance between mission-driven work and strategic management. Students examine real-world models from public agencies and international organizations to understand how leadership decisions affect outcomes and social impact.",
+        "outcomes": [
+          "Fundamentals of organizational structure and management",
+          "Leadership styles in public and nonprofit sectors",
+          "Policy implementation and decision frameworks",
+          "Case studies in government, education, and health administration",
+          "Ethics, accountability, and innovation in public service"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "getting-things-done-management-in-a-development-context",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Getting Things Done: Management in a Development Context",
+        "objective": "This subject introduces students to the realities of managing projects and initiatives in developing contexts — where resources are limited, challenges are complex, and leadership requires creativity.",
+        "focus": "Students learn how effective managers plan, coordinate, and evaluate social programs. The subject highlights how development management blends logistics, teamwork, and empathy.",
+        "outcomes": [
+          "Fundamentals of project management in social development",
+          "Monitoring and evaluation frameworks",
+          "Stakeholder mapping and community engagement",
+          "Adaptive leadership and problem-solving under constraints",
+          "Field-based project simulation and reflection"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-negotiation-analysis",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": null,
+      "en": {
+        "title": "Introduction to Negotiation Analysis",
+        "objective": "To equip students with the essential skills of negotiation and conflict resolution — skills that empower leaders to build consensus, manage disagreement, and achieve win-win outcomes.",
+        "focus": "Students learn how psychology, communication, and strategy intersect in negotiation. Through simulations and real-life case studies, they analyze techniques used in diplomacy, business, and everyday interactions.",
+        "outcomes": [
+          "Principles of negotiation and conflict dynamics",
+          "Interests vs. positions: creating mutual value",
+          "Persuasion, communication, and emotional intelligence",
+          "Cross-cultural negotiation and mediation",
+          "Practical workshops and role-playing exercises"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "global-issues-un-diplomacy-mun",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Global Issues & UN Diplomacy (MUN)",
+        "tagline": "Speak for nations. Solve for humanity.",
+        "objective": "This subject immerses students in global governance through the United Nations framework. It develops awareness of international relations, diplomacy, and policy-making.",
+        "focus": "Students step into the shoes of diplomats, representing nations and negotiating solutions to pressing global issues. They learn to research, debate, and collaborate while understanding the complexities of world affairs.",
+        "outcomes": [
+          "Introduction to the UN system and international law",
+          "Current global challenges (climate, poverty, conflict, migration)",
+          "Diplomatic writing and public speaking",
+          "MUN simulation and committee participation",
+          "Resolution drafting and international cooperation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "emotional-influences-on-decision-making-bias-and-benefit",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Emotional Influences on Decision Making: Bias and Benefit",
+        "objective": "To explore how emotions and biases influence human choices — in leadership, politics, marketing, and daily life.",
+        "focus": "Students analyze how emotions drive judgment and learn strategies for self-awareness and better decision-making. The subject combines insights from psychology, neuroscience, and behavioral economics.",
+        "outcomes": [
+          "Emotional intelligence and decision psychology",
+          "Cognitive biases and rational choice theory",
+          "The role of intuition in leadership",
+          "Managing emotions in negotiations and teamwork",
+          "Reflective practices and emotional regulation exercises"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "leadership-and-personal-branding",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Leadership and Personal Branding",
+        "objective": "To help students discover their leadership identity and learn how to communicate their strengths authentically and confidently.",
+        "focus": "Students reflect on who they are, what they stand for, and how they want to be perceived in academic, social, and professional contexts.",
+        "outcomes": [
+          "Foundations of personal leadership",
+          "Building self-awareness and confidence",
+          "Crafting a personal vision and digital identity",
+          "Communication and storytelling for influence",
+          "Creating a leadership portfolio and presentation"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "philanthropy-and-public-problem-solving",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Philanthropy and Public Problem-Solving",
+        "objective": "To introduce students to philanthropy as a force for social innovation and civic responsibility.",
+        "focus": "Students learn how charitable organizations, social entrepreneurs, and private donors collaborate to address complex public problems.",
+        "outcomes": [
+          "History and philosophy of philanthropy",
+          "Designing effective giving and impact initiatives",
+          "Partnerships between government, business, and civil society",
+          "Evaluating social impact and sustainability",
+          "Real-world case studies and proposal development"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "creative-writing-journalism",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Creative Writing & Journalism",
+        "objective": "To help students master the art of storytelling — crafting narratives that inform, inspire, and challenge society.",
+        "focus": "Students explore the power of the written word across genres such as journalism, creative nonfiction, and opinion writing.",
+        "outcomes": [
+          "Writing fundamentals and story structure",
+          "Journalism ethics and investigative techniques",
+          "Opinion pieces, editorials, and feature writing",
+          "Creative writing forms: poetry, fiction, essay",
+          "Student publication or digital magazine project"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "introduction-to-psychology",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Introduction to Psychology",
+        "objective": "To introduce students to the scientific study of the mind and behavior.",
+        "focus": "Students gain insight into cognitive, emotional, and social processes that shape human life. The subject bridges everyday experience with academic psychology.",
+        "outcomes": [
+          "Major psychological perspectives and theorists",
+          "Perception, learning, memory, and motivation",
+          "Personality and emotional development",
+          "Mental health and human well-being",
+          "Experimental methods in psychology"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "art-design-and-identity",
+      "track": "leadership-social-science",
+      "semester": 1,
+      "credits": 2,
+      "en": {
+        "title": "Art, Design, and Identity",
+        "objective": "To explore how art and design shape cultural identity and self-expression.",
+        "focus": "Students analyze visual language, symbolism, and aesthetics through historical and contemporary perspectives.",
+        "outcomes": [
+          "Art movements and cultural narratives",
+          "Visual communication and design principles",
+          "Art as social commentary and activism",
+          "Personal portfolio and creative exhibition",
+          "Field trips to galleries or artist studios"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "psychology-for-learning-and-well-being",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Psychology for Learning and Well-being",
+        "objective": "To help students understand how psychological principles enhance learning, resilience, and personal growth.",
+        "focus": "Students explore motivation, stress management, and emotional regulation as part of lifelong learning.",
+        "outcomes": [
+          "The science of learning and memory",
+          "Motivation and mindset theory",
+          "Coping strategies and positive psychology",
+          "Self-reflection and goal setting",
+          "Wellness-based study habits"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "film-media-and-society",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Film, Media, and Society",
+        "objective": "To analyze how media and film influence culture, identity, and social change.",
+        "focus": "Students critically engage with visual storytelling and its power to reflect — and reshape — the world around them.",
+        "outcomes": [
+          "Media theory and film language",
+          "Representation and cultural narratives",
+          "Media influence on behavior and politics",
+          "Filmmaking and digital production basics",
+          "Film analysis and review writing"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "sociology-culture-in-modern-society",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Sociology & Culture in Modern Society",
+        "objective": "To provide an understanding of how societies function and evolve through institutions, culture, and social interaction.",
+        "focus": "Students analyze social behavior, inequality, and global issues through the lens of sociology.",
+        "outcomes": [
+          "Foundations of sociology and social structure",
+          "Culture, identity, and norms",
+          "Inequality, power, and globalization",
+          "Social change and modernity",
+          "Research on local and global communities"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "creative-writing-storytelling-for-change",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 4,
+      "en": {
+        "title": "Creative Writing & Storytelling for Change",
+        "objective": "To train students to use creative writing as a vehicle for advocacy and empathy.",
+        "focus": "Students write stories that give voice to social issues and human experiences.",
+        "outcomes": [
+          "Narrative techniques and emotional storytelling",
+          "Writing for advocacy and awareness",
+          "Character and dialogue development",
+          "Publishing and performing written works",
+          "Final project: story collection or digital campaign"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "media-literacy-digital-society",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Media Literacy & Digital Society",
+        "objective": "To teach students how to navigate, analyze, and create responsibly in the digital age.",
+        "focus": "Students learn to evaluate online content, recognize bias, and understand the impact of media on democracy and culture.",
+        "outcomes": [
+          "Critical analysis of media messages",
+          "Social media and identity",
+          "Misinformation and digital ethics",
+          "Media production and content creation",
+          "Digital citizenship and online safety"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "psychology-of-leadership-influence",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 4,
+      "en": {
+        "title": "Psychology of Leadership & Influence",
+        "objective": "To explore how psychological principles shape leadership, persuasion, and human motivation.",
+        "focus": "Students study how great leaders inspire trust, influence decisions, and drive change using emotional intelligence and social insight.",
+        "outcomes": [
+          "Motivation and behavior theories",
+          "Emotional intelligence and interpersonal dynamics",
+          "Persuasion, power, and influence",
+          "Leadership communication and decision-making",
+          "Leadership personality assessment"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "international-relations-global-diplomacy",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "International Relations & Global Diplomacy",
+        "objective": "To build understanding of how countries interact, cooperate, and compete on the global stage.",
+        "focus": "Students explore foreign policy, international conflict, and diplomacy through both theoretical and practical lenses.",
+        "outcomes": [
+          "Theories of international relations",
+          "Diplomacy and conflict resolution",
+          "Global institutions and governance",
+          "International security and development",
+          "Crisis simulation and model diplomacy exercise"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "cultural-studies-identity-gender-power",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Cultural Studies: Identity, Gender & Power",
+        "objective": "To explore how culture, identity, and social structures shape our understanding of gender, race, and power in society.",
+        "focus": "Students critically examine representations in media, politics, and daily life to build awareness and empathy across differences.",
+        "outcomes": [
+          "Theories of culture, identity, and intersectionality",
+          "Gender and media representation",
+          "Global perspectives on diversity and inclusion",
+          "Debates on equality and empowerment",
+          "Reflection projects and social analysis essays"
+        ]
+      },
+      "id": null
+    },
+    {
+      "slug": "islamic-civilization-history",
+      "track": "leadership-social-science",
+      "semester": 2,
+      "credits": 2,
+      "en": {
+        "title": "Islamic Civilization History",
+        "objective": "To explore the rise, contributions, and enduring influence of Islamic civilization across centuries.",
+        "focus": "Students study how Islamic history shaped world knowledge, culture, and ethics — from science and philosophy to art and governance.",
+        "outcomes": [
+          "The origins and spread of Islamic civilization",
+          "Contributions in science, art, and architecture",
+          "Key dynasties and cultural exchange",
+          "Values of justice, knowledge, and community",
+          "Contemporary relevance and interfaith dialogue"
+        ]
+      },
+      "id": null
+    }
+  ]
+}

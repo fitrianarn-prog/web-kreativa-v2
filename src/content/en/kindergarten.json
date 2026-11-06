@@ -1,0 +1,96 @@
+{
+  "_source": "docs/SPEC.md 3.3 (kreativaglobal.sch.id/kindergarten)",
+  "meta": {
+    "title": "Kindergarten",
+    "description": "Kreativa Global Kindergarten: play-based, inquiry-driven, theme-integrated learning grounded in Islamic values, built on Kurikulum Merdeka Fase Fondasi."
+  },
+  "hero": {
+    "title": "Kindergarten",
+    "subtitle": "Nurturing generations with character, knowledge, and Qur'anic values for global competitiveness."
+  },
+  "curriculum": {
+    "title": "Our Kindergarten Curriculum",
+    "paragraphs": [
+      "Our program is built upon Kurikulum Merdeka Fase Fondasi, enriched with a play-based, inquiry-driven, and theme-integrated learning approach, while being grounded in Islamic values. Through meaningful learning experiences, children are encouraged to explore, ask questions, discover, and develop strong character in a joyful and nurturing environment."
+    ]
+  },
+  "thematic": {
+    "title": "Thematic Learning",
+    "paragraphs": [
+      "Every term, children explore the world through meaningful thematic blocks from Friends, Family & Me to Space and the Future. Each theme weaves together literacy, numeracy, science, arts, and social development into one connected learning experience. Children don't just learn subjects, they explore ideas, ask questions, and make sense of the world around them."
+    ]
+  },
+  "steam": {
+    "title": "STEAM Integration",
+    "paragraphs": [
+      "Creativity and critical thinking are built into every theme. Through hands-on projects and open-ended exploration, children engage with Science, Technology, Engineering, Arts, and Mathematics in ways that feel natural and exciting, building real skills through real experiences."
+    ]
+  },
+  "literacy": {
+    "title": "Literacy & Phonics",
+    "paragraphs": [
+      "English is developed through two pathways running side by side: contextual immersion within every thematic unit and a structured Phonics programme that builds phonemic awareness and early reading skills systematically. This approach is designed for young English as Foreign Language learners, ensuring children develop confidence in English at their own pace."
+    ]
+  },
+  "islamic": {
+    "title": "Islamic Values at the Core",
+    "paragraphs": [
+      "Faith is not a separate subject, it is woven into everything. Each day, children grow in aqidah, akhlak, and everyday Islamic habits through routines, dua, stories, and learning experiences that connect them to Allah as Creator and to one another as a community."
+    ]
+  },
+  "independence": {
+    "title": "Independence & Life Skills",
+    "paragraphs": [
+      "At KGS Kindergarten, independence is a daily practice. From the moment children arrive, they take ownership of their day: hanging up their bags, tidying their workspace, preparing their materials, and caring for their belongings. Through consistent routines and loving encouragement, children grow in four areas of independence: self-care, responsibility for belongings, social independence and learning readiness all grounded in the Islamic values of self-discipline."
+    ]
+  },
+  "muslimKreativa": {
+    "title": "7 Muslim Kreativa",
+    "intro": "Every learning experience at KGS Kindergarten is designed to nurture our 7 Muslim Kreativa learner profile, growing children who are:",
+    "traits": [
+      "Faithful Thinkers",
+      "Noble in Character",
+      "Self-Disciplined",
+      "Curious Learners",
+      "Healthy in Mind & Body",
+      "Organized & Responsible",
+      "Impactful to Community"
+    ],
+    "outro": "These are not just values we teach, they are qualities we live and practice together, every day."
+  },
+  "holistic": {
+    "title": "Subjects: A Holistic Approach",
+    "paragraphs": [
+      "Our curriculum is designed to be comprehensive and aligned with the themes established by the National Department of Early Childhood Education. This means we cover 30 distinct themes, each one further explored through 7 key learning areas:"
+    ],
+    "areas": [
+      "Islamic Studies",
+      "Practical Life Skills",
+      "Sensorial & Science Exploration",
+      "Language Development",
+      "Math, Technology & Engineering Integration",
+      "Cultural Awareness",
+      "Art & Creativity"
+    ]
+  },
+  "daily": {
+    "title": "Daily Activities",
+    "items": [
+      "Duha prayer",
+      "Morning dhikr",
+      "Recitations and Tahfidz of the Qur'an",
+      "Teaching and learning activity",
+      "Congregational Dhuhr prayer",
+      "Sirah Nabawiyah"
+    ]
+  },
+  "hours": {
+    "title": "School Operating Hours",
+    "rows": [
+      { "label": "School days", "value": "Monday – Friday" },
+      { "label": "Time", "value": "07.30 – 13.30 WIB" },
+      { "label": "Arrival", "value": "07.25 WIB" },
+      { "label": "Return", "value": "13.30 WIB" }
+    ]
+  }
+}

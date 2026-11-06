@@ -1,0 +1,152 @@
+{
+  "_source": "kreativaglobal.sch.id (home, checked 5 Nov 2026) + docs/SPEC.md 3.1",
+  "meta": {
+    "title": "Nurturing Global Leaders with Islamic Values",
+    "description": "Kreativa Global School integrates world-class Cambridge with a strong Islamic foundation, from Kindergarten to High School, in Bandung."
+  },
+  "hero": {
+    "eyebrow": "Unlocking Potential, Empowering Dreams",
+    "title": "Nurturing Global Leaders with Islamic Values",
+    "subtitle": "Integrating world-class Cambridge with a strong Islamic foundation, from Kindergarten to High School.",
+    "pauseVideo": "Pause background video",
+    "playVideo": "Play background video"
+  },
+  "heroExtra": {
+    "exploreLabel": "Explore our schools",
+    "scrollHint": "Scroll"
+  },
+  "why": {
+    "eyebrow": "Why Kreativa?",
+    "title": "Our Core Advantages",
+    "items": [
+      {
+        "icon": "curriculum",
+        "title": "International Curriculum",
+        "body": "A seamless blend of Cambridge and Islamic values to foster academic excellence and faith."
+      },
+      {
+        "icon": "leaders",
+        "title": "Expert-Led Vision Strategy",
+        "body": "Founded and guided by visionary leaders and graduates from world-renowned universities, ensuring excellence."
+      },
+      {
+        "icon": "character",
+        "title": "Faith & Character Building",
+        "body": "Dedicated programs to shape resilient, compassionate, and principled Muslim leaders."
+      },
+      {
+        "icon": "career",
+        "title": "University & Career Readiness",
+        "body": "Real-world exposure through internships, capstone projects, global insight, and university prep."
+      }
+    ]
+  },
+  "visionaries": {
+    "title": "Meet Our Visionaries",
+    "subtitle": "Guided by leaders committed to integrating global excellence with profound values.",
+    "people": [
+      {
+        "id": "syauqi-robbani",
+        "name": "Mr. Syauqi Robbani, MPA",
+        "role": "Founder – Harvard University Graduate",
+        "quote": "…shaping future leaders through global excellence and strong Islamic values to inspire a purposeful and better world.",
+        "image": "/images/people/syauqi-robbani.webp"
+      },
+      {
+        "id": "yorga-permana",
+        "name": "Mr. Yorga Permana, PhD",
+        "role": "Board of Trustees – LSE Graduate",
+        "quote": "…we prepare learners with the curiosity and future-ready expertise needed to lead in an ever-evolving global ecosystem.",
+        "image": "/images/people/yorga-permana.webp"
+      }
+    ],
+    "moreLabel": "Read the founder's message"
+  },
+  "levels": {
+    "title": "Our Academic Levels",
+    "subtitle": "A complete educational journey designed for each stage of development.",
+    "titles": {
+      "kindergarten": "Kindergarten (TK)",
+      "primary": "Primary (SD)",
+      "secondary": "Secondary (SMP)",
+      "high-school": "High School (SMA)"
+    }
+  },
+  "programs": {
+    "title": "Our Signature Programs",
+    "subtitle": "This is how we build competence. We show, not just tell.",
+    "items": [
+      {
+        "id": "capstone",
+        "title": "Kreativa Capstone Exhibition",
+        "body": "Students research, design, and present real-world solutions, integrating science, creativity, and leadership. This pinnacle project showcases their ability to solve complex problems and create tangible impact.",
+        "image": "/images/home/program-capstone.webp"
+      },
+      {
+        "id": "internship",
+        "title": "Internship & Industry Exposure",
+        "body": "We bridge academia with the professional world through real-world learning. Our students gain invaluable experience via professional placements with partner companies and organizations.",
+        "image": "/images/home/program-internship.webp"
+      },
+      {
+        "id": "clubs",
+        "title": "Student Clubs (MUN & Robotics)",
+        "body": "Fostering teamwork, innovation, and global perspectives through specialized clubs like Model United Nations (MUN) and Robotics, preparing students for international stages and technological challenges.",
+        "image": "/images/home/program-clubs.webp"
+      }
+    ]
+  },
+  "achievements": {
+    "eyebrow": "Student Achievements",
+    "title": "Celebrating Our Students",
+    "subtitle": "Verified achievements by Kreativa students in academics, olympiads, languages, sports, and the arts.",
+    "categories": {
+      "academic": "Academic",
+      "olympiad": "Olympiad",
+      "english": "English",
+      "sports": "Sports",
+      "arts": "Arts & Creativity",
+      "other": "Achievement"
+    },
+    "pendingTitle": "Achievement content needed",
+    "pendingBody": "This section stays hidden on the live site until verified achievements are added to src/content/shared/achievements.json."
+  },
+  "testimonials": {
+    "title": "What Our Community Says",
+    "subtitle": "Voices of trust from our parents and students.",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial",
+    "slideLabel": "{n} of {total}",
+    "items": [
+      {
+        "name": "Bunga Ayu",
+        "role": "Parent of K1 Student",
+        "quote": "We chose Kreativa Global because we wanted a school that would foster children with a global perspective while remaining grounded in Islamic values. In just three months, Kehan has mastered several surahs (chapters), prayer movements, and daily etiquette. May Kreativa continue to shape a golden generation ready to face the future."
+      },
+      {
+        "name": "Mutiara Adi",
+        "role": "Parent of P1 Student",
+        "quote": "Kreativa helps children discover their potential without pressure. In two years, our children have become happier, more disciplined in their prayers, and more confident in problem-solving—all while still enjoying the learning process."
+      },
+      {
+        "name": "Rahmaniyar",
+        "role": "Parent of K2 Student",
+        "quote": "We chose Kreativa because of its strong Islamic values. In recent months, Dastan has grown into a more independent, confident, and obedient child—now leading, praying, and learning happily with warm and caring teachers."
+      },
+      {
+        "name": "Afiona Luthfiranti",
+        "role": "Parent of K1 Student",
+        "quote": "Kreativa's Islamic–international curriculum fits us well. In three months, Alula grew from shy to social and added new surahs. She's thriving in confidence, learning, and faith."
+      },
+      {
+        "name": "Dyan Getmy",
+        "role": "Parent of P1 Student",
+        "quote": "We chose Kreativa because its values aligned with our family's. Within three months, Ataris became more expressive, emotionally mature, and confident. Kreativa truly became a safe and fun place for him to grow and enjoy his childhood."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Nurture Your Child’s Potential?",
+    "body": "Schedule a school tour to see our community firsthand or begin your enrollment process today."
+  }
+}

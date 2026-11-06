@@ -1,0 +1,88 @@
+{
+  "_source": "kreativaglobal.sch.id/id/tentang/ (dicek 5 Nov 2026)",
+  "meta": {
+    "title": "Tentang Kami",
+    "description": "Kreativa Global School adalah Islamic International School di Bandung Timur yang mengintegrasikan nilai-nilai Islam dengan Kurikulum Cambridge."
+  },
+  "hero": {
+    "title": "Tentang Kami",
+    "intro": "Kreativa Global School adalah Islamic International School di Bandung Timur yang menawarkan lingkungan belajar yang nyaman, fasilitas unggul, dan tenaga pengajar berkualitas. Kami mengintegrasikan nilai-nilai Islam dengan Kurikulum Cambridge untuk membentuk generasi berkarakter, berwawasan global, dan siap menghadapi masa depan.",
+    "videoTitle": "Video Kreativa Global School"
+  },
+  "founderMessage": {
+    "title": "Pesan Pendiri",
+    "name": "Syauqi Robbani, MPA",
+    "role": "Founder",
+    "credential": "Harvard University, Master in Public Administration",
+    "paragraphs": [
+      "Sebagai pendiri Kreativa Global School, saya menyoroti pentingnya bahasa Inggris dalam kompetisi global dan perlunya meningkatkan kemampuan berbahasa Inggris di Indonesia. Pembangunan ekonomi dan kemajuan bergantung pada kompleksitas ekonomi dan kemampuan STEM, serta bahwa Indonesia harus mengembangkan kemampuan ini untuk mendorong inovasi. Syauqi juga mengakui bahwa kematangan emosional dan nilai-nilai Islam memiliki peran penting dalam pendidikan, karena membentuk karakter dan kebiasaan anak-anak. Dengan misi Kreativa Global School yang fokus pada membangun pondasi kuat dalam STEM, kematangan emosional, dan nilai-nilai Islam, Kreativa Global School bertekad untuk membantu siswa mempersiapkan masa depan yang sukses."
+    ]
+  },
+  "story": {
+    "title": "Sejarah Kami",
+    "parts": [
+      {
+        "heading": "Memanfaatkan Potensi Indonesia",
+        "paragraphs": [
+          "Indonesia memiliki populasi terbesar keempat di dunia, yang merupakan sumber daya manusia yang sangat berharga untuk pembangunan kemampuan manusia. Kita bisa belajar dari keberhasilan India dalam menempatkan para profesional terampil di perusahaan-perusahaan global. Namun, untuk menjadi pemain utama, Indonesia perlu mengatasi masalah kurangnya kemampuan berbahasa Inggris. Hal ini menghambat komunikasi dan kerjasama dalam dunia yang terhubung saat ini. Tidak cukup hanya memiliki ide yang brilian.",
+          "Kemampuan untuk menyampaikan ide-ide tersebut dengan jelas dan teratur sangat penting. Selain itu, kemajuan suatu bangsa bergantung pada inovasi yang terus-menerus, yang didorong oleh pondasi yang kuat dalam bidang STEM (ilmu pengetahuan, teknologi, teknik, dan matematika). Forum Ekonomi Dunia menyoroti pentingnya keterampilan seperti pemikiran terstruktur, pemecahan masalah, dan inovasi yang berkembang. Ini, dikombinasikan dengan kecerdasan emosional dan karakter yang kuat, menjadi landasan bagi generasi masa depan yang berpikiran terbuka."
+        ]
+      },
+      {
+        "heading": "Kreativa Global School: Menyambung Kesenjangan",
+        "paragraphs": [
+          "Kreativa Global School didirikan untuk mengatasi kebutuhan ini. Kami bertujuan untuk membekali generasi muda dengan kemampuan berbahasa Inggris yang luar biasa sejak usia dini, mengembangkan bakat mereka dalam bidang STEM, dan menanamkan rasa percaya diri agar mereka dapat sukses di panggung global. Semua kualitas ini kami tanamkan dalam kerangka nilai-nilai Islam, yang memberikan pedoman moral bagi mereka untuk menavigasi kompleksitas dunia yang selalu berubah ini."
+        ]
+      }
+    ]
+  },
+  "brand": {
+    "title": "Brand Kami",
+    "taglineLabel": "Tagline",
+    "tagline": "Membuka Potensi, Mewujudkan Mimpi",
+    "paragraphs": [
+      "Di dalam setiap individu terdapat sumber daya potensial yang besar, dan sejumlah impian yang menanti untuk diwujudkan. Namun, untuk membuka potensi ini dan mewujudkan impian-impian tersebut, diperlukan lebih dari sekadar motivasi individu. Hal ini memerlukan lingkungan yang mendukung, tempat di mana keterampilan diasah, kepercayaan diri dibangun, dan aspirasi tersulut.",
+      "Di dunia yang saling terhubung seperti sekarang ini, negara-negara yang berkembang adalah negara-negara yang berinvestasi dalam modal manusianya. Sumber daya paling berharga sebuah negara bukanlah sumber daya alamnya, tetapi orang-orangnya – kecerdasan mereka, kreativitas, dan kemampuan dalam memecahkan masalah. Ketika kita memberdayakan individu untuk membuka potensi mereka, kita memberdayakan mereka untuk menjadi peserta aktif dalam membentuk masa depan yang lebih cerah, bukan hanya untuk diri mereka sendiri, tetapi juga untuk komunitas dan dunia secara luas."
+    ],
+    "logoTitle": "Logo",
+    "elements": [
+      { "id": "lifelong-learning", "title": "Pembelajaran Seumur Hidup", "body": "Belajar tidak pernah berhenti. Ini tentang tumbuh, menjelajahi, dan mengembangkan diri secara terus-menerus. Dengan merangkul pembelajaran sepanjang hidup, kita menjadi lebih siap menghadapi perubahan dan kompleksitas kehidupan. Mari mulai belajar dan terus melangkah selamanya." },
+      { "id": "be-a-star", "title": "Menjadi Bintang", "body": "Bintang bersinar terang karena api yang membakarnya dari dalam. Temukanlah passionmu – satu hal yang memantik semangatmu dan mendorongmu untuk menjadi lebih baik. Ketika kamu mengejar passionmu, pekerjaan bukanlah lagi sebuah beban – melainkan sebuah perjalanan yang penuh dengan penjelajahan dan penemuan diri yang menyenangkan." },
+      { "id": "resilience", "title": "Ketangguhan", "body": "Ketangguhan berarti menghadapi tantangan dengan kekuatan. Tetaplah positif, percayalah pada dirimu sendiri, dan bersandarlah pada sistem dukunganmu. Setiap tantangan membuatmu semakin kuat." },
+      { "id": "critical-thinking", "title": "Pemikiran Kritis", "body": "Kemampuan berfikir kritis sangat penting. Hal ini membantu keputusan-keputusan yang cerdas dibuat, masalah-masalah diselesaikan, dan seseorang menjadi lebih baik. Mari kemampuan berfikir kritis kita diasah untuk menjadikan dunia tempat yang lebih baik bagi semua orang." },
+      { "id": "future-leader", "title": "Menjadi Pemimpin Masa Depan", "body": "Mari kita bantu menciptakan para pemimpin masa depan dengan membina kualitas penting seperti visi, komunikasi, dan integritas. Kita dapat membuat dunia menjadi lebih baik dengan mendukung dan membimbing generasi berikutnya." }
+    ]
+  },
+  "facilities": {
+    "title": "Fasilitas",
+    "badge": "Rencana Gedung Kami (render arsitektur)",
+    "items": [
+      { "image": "/images/facilities/lobby.webp", "label": "Lobby" },
+      { "image": "/images/facilities/stem-lab.webp", "label": "Lab STEM" },
+      { "image": "/images/facilities/counseling-room.webp", "label": "Ruang Konsultasi Siswa" },
+      { "image": "/images/facilities/restroom.webp", "label": "Toilet" },
+      { "image": "/images/facilities/kindergarten-b-classroom.webp", "label": "Kelas TK B" },
+      { "image": "/images/facilities/multipurpose-hall.webp", "label": "Ruang Serbaguna (RSG)" },
+      { "image": "/images/facilities/language-lab.webp", "label": "Lab Bahasa" },
+      { "image": "/images/facilities/kindergarten-outdoor.webp", "label": "Outdoor TK" },
+      { "image": "/images/facilities/kindergarten-a-classroom.webp", "label": "Kelas TK A" },
+      { "image": "/images/facilities/library.webp", "label": "Perpustakaan" },
+      { "image": "/images/facilities/kreativamart.webp", "label": "KreativaMart" },
+      { "image": "/images/facilities/sports-field.webp", "label": "Lapangan" }
+    ]
+  },
+  "faq": {
+    "title": "Tanya Jawab",
+    "items": [
+      { "q": "Apa itu Kreativa Global School?", "a": "Kreativa Global School adalah sekolah Islam internasional pertama di Bandung Timur. Sekolah ini menyediakan sistem pendidikan dengan perspektif internasional sambil menanamkan nilai-nilai Islam." },
+      { "q": "Bahasa apa saja yang digunakan sebagai bahasa pengantar di Kreativa Global School?", "a": "Bahasa pengantar di Kreativa Global School adalah bahasa Inggris untuk semua mata pelajaran dan aktivitas. Ini semakin meningkatkan mata pelajaran seperti Sains, Matematika, dan Literasi Bahasa Inggris." },
+      { "q": "Siapa saja guru di Kreativa Global School?", "a": "Guru di Kreativa Global School adalah para profesional berpengalaman dengan pengalaman 2-5 tahun dari sekolah internasional." },
+      { "q": "Apa nilai inti dari Kreativa Global School?", "a": "Kreativa Global School berfokus pada tiga nilai inti: Spiritualitas, Karakter Kuat, dan Keunggulan Akademik." },
+      { "q": "Kurikulum apa yang diikuti oleh Kreativa Global School?", "a": "Kreativa Global School mengintegrasikan komponen terbaik IB, Cambridge, Nasional, dan kurikulum Islam yang unik. Memanfaatkan metode CAS dari IB untuk pembelajaran berbasis proyek, Cambridge untuk materi pelajaran, dan menyesuaikan dengan standar nasional untuk ujian nasional." },
+      { "q": "Bagaimana penerapan kurikulum Islam di Kreativa Global School?", "a": "Kurikulum Islam di KGS dilaksanakan melalui amalan kerohanian dan pembentukan karakter sehari-hari seperti Tahfidz, Murojaah, Dzikir Pagi, Asmaul Husna, Sholat Dhuha dan Dhuhur berjamaah, mendongeng Sirah Nabawi serta cendekiawan dan pahlawan muslim. Sekolah bekerjasama dengan lembaga Tahfidz ternama dan menerbitkan laporan kebiasaan sehari-hari untuk orang tua." },
+      { "q": "Fasilitas apa saja yang dimiliki Kreativa Global School?", "a": "Memasuki tahun keempatnya, Kreativa Global School telah menyelesaikan fasilitasnya, antara lain gedung berlantai lima dengan kolam renang di lantai paling atas." },
+      { "q": "Berapa biaya sekolah tahunan di Kreativa Global School?", "a": "Biaya sekolah tahunan di Kreativa Global School sudah termasuk biaya sekolah satu tahun, biaya gedung, biaya kegiatan tahunan, katering, buku pelajaran, dan biaya seragam, tidak termasuk biaya ekstrakurikuler." },
+      { "q": "Di manakah lokasi Kreativa Global School?", "a": "{campuses}" }
+    ]
+  }
+}

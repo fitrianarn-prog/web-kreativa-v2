@@ -1,0 +1,379 @@
+{
+  "_note": "Biaya Tahun Ajaran 2027/2028. Ditranskripsi dari gambar tabel di kreativaglobal.sch.id/admission (diverifikasi ulang terhadap gambar asli pada 5 Nov 2026). Semua nominal dalam Rupiah. Wajib dikonfirmasi sekolah sebelum go-live — lihat CONTENT_REVIEW.md. Teks ID (nama skema, termasuk/tidak termasuk) diambil dari kreativaglobal.sch.id/id/registrasi.",
+  "academicYear": "2027/2028",
+  "currency": "IDR",
+  "registrationFee": 1000000,
+  "levels": [
+    {
+      "level": "kindergarten",
+      "brochure": "/brochures/kreativa-global-kindergarten-2027-2028.pdf",
+      "columns": [
+        "annualTuition"
+      ],
+      "grades": [
+        {
+          "grade": "K1",
+          "annualTuition": 26000000
+        },
+        {
+          "grade": "K2",
+          "annualTuition": 27200000
+        }
+      ],
+      "schemes": [],
+      "includes": {
+        "en": [
+          "School Facilities",
+          "School Activities",
+          "Curriculum Development",
+          "Learning Worksheets",
+          "Lunch",
+          "School Uniforms"
+        ],
+        "id": [
+          "Fasilitas sekolah",
+          "Kegiatan sekolah",
+          "Pengembangan kurikulum",
+          "Lembar kerja belajar",
+          "Makan siang",
+          "Seragam sekolah"
+        ]
+      },
+      "excludes": {
+        "en": [
+          "Out-of-town Field Trip",
+          "Extracurricular Activities"
+        ],
+        "id": [
+          "Kegiatan field trip luar kota",
+          "Kegiatan ekstrakurikuler"
+        ]
+      }
+    },
+    {
+      "level": "primary",
+      "brochure": "/brochures/kreativa-global-primary-school-2027-2028.pdf",
+      "columns": [
+        "annualProgramFee",
+        "monthlyTuition"
+      ],
+      "grades": [
+        {
+          "grade": "P1",
+          "annualProgramFee": 7200000,
+          "monthlyTuition": 2200000
+        },
+        {
+          "grade": "P2",
+          "annualProgramFee": 7900000,
+          "monthlyTuition": 2300000
+        },
+        {
+          "grade": "P3",
+          "annualProgramFee": 8600000,
+          "monthlyTuition": 2400000
+        },
+        {
+          "grade": "P4",
+          "annualProgramFee": 9300000,
+          "monthlyTuition": 2500000
+        },
+        {
+          "grade": "P5",
+          "annualProgramFee": 10000000,
+          "monthlyTuition": 2600000
+        },
+        {
+          "grade": "P6",
+          "annualProgramFee": 10800000,
+          "monthlyTuition": 2700000
+        }
+      ],
+      "schemes": [
+        {
+          "id": "one-time",
+          "name": {
+            "en": "One-time Enrollment Fee",
+            "id": "Biaya dengan Satu Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "P1",
+              "amount": 50000000
+            }
+          ]
+        },
+        {
+          "id": "two-time",
+          "name": {
+            "en": "Two-time Enrollment Fee",
+            "id": "Biaya dengan Dua Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "P1",
+              "amount": 30000000
+            },
+            {
+              "grade": "P4",
+              "amount": 30000000
+            }
+          ]
+        },
+        {
+          "id": "six-time",
+          "name": {
+            "en": "Six-time Enrollment Fee",
+            "id": "Biaya dengan Enam Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "P1",
+              "amount": 10500000
+            },
+            {
+              "grade": "P2",
+              "amount": 10500000
+            },
+            {
+              "grade": "P3",
+              "amount": 10500000
+            },
+            {
+              "grade": "P4",
+              "amount": 10500000
+            },
+            {
+              "grade": "P5",
+              "amount": 10500000
+            },
+            {
+              "grade": "P6",
+              "amount": 10500000
+            }
+          ]
+        }
+      ],
+      "includes": {
+        "en": [
+          "School Facilities",
+          "School Activities",
+          "Curriculum Development",
+          "Learning Books, Workbooks, and Worksheets",
+          "Lunch",
+          "School Uniforms (provided in P1, P3, and P5)"
+        ],
+        "id": [
+          "Fasilitas sekolah",
+          "Kegiatan sekolah",
+          "Pengembangan kurikulum",
+          "Buku pembelajaran, buku latihan, lembar kerja belajar",
+          "Makan siang",
+          "Seragam sekolah yang diberikan pada P1, P3, dan P5"
+        ]
+      },
+      "excludes": {
+        "en": [
+          "Cambridge Checkpoint",
+          "Overseas Immersion Program",
+          "Out-of-town Field Trip",
+          "Extracurricular Activities"
+        ],
+        "id": [
+          "Cambridge Checkpoint",
+          "Program Pengalaman Belajar di Luar Negeri",
+          "Kegiatan field trip luar kota",
+          "Kegiatan ekstrakurikuler"
+        ]
+      }
+    },
+    {
+      "level": "secondary",
+      "brochure": "/brochures/kreativa-global-secondary-school-2027-2028.pdf",
+      "columns": [
+        "annualProgramFee",
+        "monthlyTuition"
+      ],
+      "grades": [
+        {
+          "grade": "S1",
+          "annualProgramFee": 5500000,
+          "monthlyTuition": 2100000
+        },
+        {
+          "grade": "S2",
+          "annualProgramFee": 6000000,
+          "monthlyTuition": 2200000
+        },
+        {
+          "grade": "S3",
+          "annualProgramFee": 6500000,
+          "monthlyTuition": 2300000
+        }
+      ],
+      "schemes": [
+        {
+          "id": "one-time",
+          "name": {
+            "en": "One-time Enrollment Fee",
+            "id": "Biaya dengan Satu Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "S1",
+              "amount": 31520000
+            }
+          ]
+        },
+        {
+          "id": "three-time",
+          "name": {
+            "en": "Three-time Enrollment Fee",
+            "id": "Biaya dengan Tiga Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "S1",
+              "amount": 11840000
+            },
+            {
+              "grade": "S2",
+              "amount": 11840000
+            },
+            {
+              "grade": "S3",
+              "amount": 11840000
+            }
+          ]
+        }
+      ],
+      "includes": {
+        "en": [
+          "School Facilities",
+          "School Activities",
+          "Curriculum Development",
+          "Books",
+          "School Uniforms"
+        ],
+        "id": [
+          "Fasilitas sekolah",
+          "Kegiatan sekolah",
+          "Pengembangan kurikulum",
+          "Buku-buku pembelajaran",
+          "Seragam sekolah"
+        ]
+      },
+      "excludes": {
+        "en": [
+          "Cambridge Checkpoint",
+          "Overseas Immersion Program",
+          "Out-of-town Field Trip",
+          "Extracurricular Activities",
+          "Lunch"
+        ],
+        "id": [
+          "Cambridge Checkpoint",
+          "Program Imersi Luar Negeri",
+          "Field trip luar kota",
+          "Kegiatan ekstrakurikuler",
+          "Makan siang"
+        ]
+      }
+    },
+    {
+      "level": "high-school",
+      "brochure": "/brochures/kreativa-global-high-school-2027-2028.pdf",
+      "columns": [
+        "annualProgramFee",
+        "monthlyTuition"
+      ],
+      "grades": [
+        {
+          "grade": "S4",
+          "annualProgramFee": 7500000,
+          "monthlyTuition": 2200000
+        },
+        {
+          "grade": "JC1",
+          "annualProgramFee": 8000000,
+          "monthlyTuition": 2300000
+        },
+        {
+          "grade": "JC2",
+          "annualProgramFee": 8500000,
+          "monthlyTuition": 2400000
+        }
+      ],
+      "schemes": [
+        {
+          "id": "one-time",
+          "name": {
+            "en": "One-time Enrollment Fee",
+            "id": "Biaya dengan Satu Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "S4",
+              "amount": 45000000
+            }
+          ]
+        },
+        {
+          "id": "three-time",
+          "name": {
+            "en": "Three-time Enrollment Fee",
+            "id": "Biaya dengan Tiga Angsuran"
+          },
+          "installments": [
+            {
+              "grade": "S4",
+              "amount": 16000000
+            },
+            {
+              "grade": "JC1",
+              "amount": 16000000
+            },
+            {
+              "grade": "JC2",
+              "amount": 16000000
+            }
+          ]
+        }
+      ],
+      "includes": {
+        "en": [
+          "School Facilities",
+          "School Activities",
+          "Curriculum Development",
+          "Books",
+          "School Uniforms"
+        ],
+        "id": [
+          "Fasilitas sekolah",
+          "Kegiatan sekolah",
+          "Pengembangan kurikulum",
+          "Buku-buku pembelajaran",
+          "Seragam sekolah"
+        ]
+      },
+      "excludes": {
+        "en": [
+          "IGCSE Exam",
+          "A-Level Assessment",
+          "Overseas Immersion Program",
+          "Out-of-town Field Trip",
+          "Extracurricular Activities",
+          "Lunch"
+        ],
+        "id": [
+          "Ujian IGCSE",
+          "Asesmen A-Level",
+          "Program Imersi Luar Negeri",
+          "Field trip luar kota",
+          "Kegiatan ekstrakurikuler",
+          "Makan siang"
+        ]
+      }
+    }
+  ]
+}

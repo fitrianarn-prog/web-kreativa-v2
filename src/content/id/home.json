@@ -1,0 +1,152 @@
+{
+  "_source": "kreativaglobal.sch.id/id/beranda/ (dicek 5 Nov 2026) + docs/SPEC.md 3.1",
+  "meta": {
+    "title": "Mencetak Pemimpin Global Berkarakter Islami",
+    "description": "Kreativa Global School: kurikulum Cambridge dengan fondasi Islam yang kuat, untuk jenjang TK hingga SMA, di Bandung."
+  },
+  "hero": {
+    "eyebrow": "Unlocking Potential, Empowering Dreams",
+    "title": "Mencetak Pemimpin Global Berkarakter Islami",
+    "subtitle": "Kurikulum Cambridge dengan fondasi Islam yang kuat, untuk jenjang TK hingga SMA.",
+    "pauseVideo": "Jeda video latar",
+    "playVideo": "Putar video latar"
+  },
+  "heroExtra": {
+    "exploreLabel": "Jelajahi jenjang sekolah",
+    "scrollHint": "Gulir"
+  },
+  "why": {
+    "eyebrow": "Apa alasan memilih Kreativa?",
+    "title": "Keunggulan Kami",
+    "items": [
+      {
+        "icon": "curriculum",
+        "title": "Kurikulum Internasional",
+        "body": "Kurikulum Cambridge yang dipadukan dengan nilai-nilai Islam untuk prestasi akademik dan pembentukan karakter."
+      },
+      {
+        "icon": "leaders",
+        "title": "Dipimpin Pakar yang Visioner",
+        "body": "Dipimpin oleh para pemimpin visioner dan lulusan universitas top dunia, kami berkomitmen memberikan standar pendidikan terbaik."
+      },
+      {
+        "icon": "character",
+        "title": "Pembentukan Akhlak & Karakter",
+        "body": "Program pembinaan karakter untuk menumbuhkan generasi Muslim yang tangguh, cerdas dan berakhlak mulia."
+      },
+      {
+        "icon": "career",
+        "title": "Kesiapan Universitas & Karier",
+        "body": "Persiapan universitas top dunia, pembangunan portofolio, dan pengalaman karier melalui magang, capstone dan mentoring."
+      }
+    ]
+  },
+  "visionaries": {
+    "title": "Pemimpin Visioner Kreativa",
+    "subtitle": "Dibimbing oleh pemimpin yang mengintegrasikan keunggulan global dengan nilai-nilai yang mendalam.",
+    "people": [
+      {
+        "id": "syauqi-robbani",
+        "name": "Mr. Syauqi Robbani, MPA",
+        "role": "Pendiri – Harvard University Graduate",
+        "quote": "…kami berkomitmen membentuk pemimpin masa depan melalui standar global yang berpijak pada nilai-nilai Islam, agar lahir generasi yang memberi makna bagi dunia.",
+        "image": "/images/people/syauqi-robbani.webp"
+      },
+      {
+        "id": "yorga-permana",
+        "name": "Mr. Yorga Permana, PhD",
+        "role": "Dewan Pembina – LSE Graduate",
+        "quote": "…kami membekali peserta didik dengan rasa ingin tahu, karakter, dan keterampilan masa depan untuk memimpin dalam ekosistem global yang terus berubah.",
+        "image": "/images/people/yorga-permana.webp"
+      }
+    ],
+    "moreLabel": "Baca sambutan pendiri"
+  },
+  "levels": {
+    "title": "Jenjang Pendidikan Kami",
+    "subtitle": "Perjalanan pendidikan yang dirancang menyeluruh untuk mendampingi setiap tahap perkembangan anak.",
+    "titles": {
+      "kindergarten": "TK",
+      "primary": "SD",
+      "secondary": "SMP",
+      "high-school": "SMA"
+    }
+  },
+  "programs": {
+    "title": "Program Unggulan Kami",
+    "subtitle": "Inilah cara kami membangun kompetensi — bukan sekadar bercerita, tetapi menunjukkan melalui pengalaman nyata.",
+    "items": [
+      {
+        "id": "capstone",
+        "title": "Eksibisi Capstone Kreativa",
+        "body": "Siswa melakukan riset, merancang, dan mempresentasikan solusi nyata dengan memadukan sains, kreativitas, dan kepemimpinan. Proyek puncak ini menunjukkan kemampuan mereka dalam menyelesaikan masalah kompleks sekaligus menghadirkan dampak nyata di lingkungan sekitar.",
+        "image": "/images/home/program-capstone.webp"
+      },
+      {
+        "id": "internship",
+        "title": "Magang & Dunia Industri",
+        "body": "Kami menjembatani dunia akademik dengan dunia profesional melalui pembelajaran berbasis pengalaman nyata. Siswa mendapatkan pengalaman berharga melalui penempatan magang di perusahaan dan organisasi mitra.",
+        "image": "/images/home/program-internship.webp"
+      },
+      {
+        "id": "clubs",
+        "title": "Klub MUN & Robotika",
+        "body": "Mengembangkan kerja sama tim, inovasi, dan wawasan global melalui klub khusus seperti Model United Nations (MUN) dan Robotics, yang mempersiapkan siswa menghadapi panggung internasional dan tantangan teknologi masa depan.",
+        "image": "/images/home/program-clubs.webp"
+      }
+    ]
+  },
+  "achievements": {
+    "eyebrow": "Prestasi Siswa",
+    "title": "Merayakan Prestasi Siswa Kreativa",
+    "subtitle": "Prestasi terverifikasi siswa Kreativa di bidang akademik, olimpiade, bahasa, olahraga, dan seni.",
+    "categories": {
+      "academic": "Akademik",
+      "olympiad": "Olimpiade",
+      "english": "Bahasa Inggris",
+      "sports": "Olahraga",
+      "arts": "Seni & Kreativitas",
+      "other": "Prestasi"
+    },
+    "pendingTitle": "Konten prestasi dibutuhkan",
+    "pendingBody": "Section ini tidak tampil di situs live sampai prestasi terverifikasi ditambahkan ke src/content/shared/achievements.json."
+  },
+  "testimonials": {
+    "title": "Apa Kata Komunitas Kami",
+    "subtitle": "Cerita penuh kepercayaan dari para orang tua dan siswa kami.",
+    "previous": "Testimoni sebelumnya",
+    "next": "Testimoni berikutnya",
+    "slideLabel": "{n} dari {total}",
+    "items": [
+      {
+        "name": "Mutiara Adi",
+        "role": "Orang Tua Siswa P1",
+        "quote": "Kreativa membuka potensi setiap anak tanpa tekanan. Dalam dua tahun, anak-anak kami menjadi lebih bahagia, disiplin dalam berdoa, dan percaya diri dalam memecahkan masalah serta gemar belajar."
+      },
+      {
+        "name": "Bunga Ayu",
+        "role": "Orang Tua Siswa K1",
+        "quote": "Kami memilih Kreativa Global karena kami menginginkan sekolah yang mendidik anak-anak berwawasan global dan berakar pada nilai-nilai Islam. Hanya dalam tiga bulan, Kehan menguasai surah, doa, dan adab. Semoga Kreativa terus membentuk generasi emas."
+      },
+      {
+        "name": "Rahmaniyar",
+        "role": "Orang Tua Siswa K2",
+        "quote": "Kami memilih Kreativa karena nilai-nilai Islamnya yang kuat. Dastan telah tumbuh mandiri, percaya diri, dan beriman — kini memimpin, berdoa, dan belajar dengan gembira di bawah bimbingan guru-guru yang penuh kasih sayang."
+      },
+      {
+        "name": "Afiona Luthfiranti",
+        "role": "Orang Tua Siswa K1",
+        "quote": "Kurikulum Islam–internasional Kreativa sangat sesuai dengan kebutuhan kami. Dalam tiga bulan, Alula yang awalnya pemalu kini menjadi lebih percaya diri, mudah bersosialisasi, dan menambah hafalan surah baru. Ia berkembang pesat dalam kepercayaan diri, belajar, dan keimanannya."
+      },
+      {
+        "name": "Dyan Getmy",
+        "role": "Orang Tua Siswa P1",
+        "quote": "Kami memilih Kreativa karena nilai-nilainya selaras dengan nilai-nilai kami. Dalam tiga bulan, Ataris menjadi lebih ekspresif, lebih dewasa secara emosional, dan lebih percaya diri. Kreativa menjadi tempat yang aman dan bahagia baginya untuk tumbuh dan menikmati masa kecilnya."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Mengembangkan Potensi Terbaik Anak Anda?",
+    "body": "Jadwalkan kunjungan sekolah untuk melihat lingkungan kami secara langsung, atau mulai proses pendaftaran sekarang."
+  }
+}

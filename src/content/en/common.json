@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "siteTitle": "Kreativa Global School",
+    "defaultTitle": "Kreativa Global School — Islamic International School in Bandung",
+    "defaultDescription": "Kreativa Global School is an Islamic international school in Bandung for Kindergarten to High School, nurturing lifelong learners with global competence, strong character, and Islamic values."
+  },
+  "tagline": "Unlocking Potential, Empowering Dreams",
+  "ui": {
+    "skipToContent": "Skip to main content",
+    "enrollNow": "Enroll Now",
+    "applyNow": "Apply Now",
+    "scheduleTour": "Schedule a School Tour",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "downloadBrochure": "Download Brochure",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "languageLabel": "Language",
+    "switchTo": "Switch language to",
+    "overview": "Overview",
+    "opensInNewTab": "opens in a new tab",
+    "chatOnWhatsapp": "Chat with us on WhatsApp",
+    "untranslatedNotice": "This section is not yet available in Bahasa Indonesia.",
+    "playVideo": "Play video",
+    "breadcrumb": "Breadcrumb"
+  },
+  "whatsapp": {
+    "general": "Hello Kreativa Global School, I would like to ask for more information.",
+    "tour": "Hello Kreativa Global School, I would like to schedule a school tour.",
+    "admission": "Hello Kreativa Global School, I would like to ask about admission for the {year} academic year."
+  },
+  "nav": [
+    {
+      "id": "about",
+      "label": "About Us",
+      "href": "/about",
+      "children": [
+        {
+          "label": "Founder Message",
+          "href": "/about#founder-message"
+        },
+        {
+          "label": "Vision & Mission",
+          "href": "/about#vision-mission"
+        },
+        {
+          "label": "Curriculum Framework",
+          "href": "/about#curriculum-framework"
+        },
+        {
+          "label": "Our Story",
+          "href": "/about#our-story"
+        },
+        {
+          "label": "Our Brand",
+          "href": "/about#our-brand"
+        },
+        {
+          "label": "Facilities",
+          "href": "/about#facilities"
+        },
+        {
+          "label": "FAQ",
+          "href": "/about#faq"
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "Our Schools",
+      "href": null,
+      "children": [
+        {
+          "label": "Kindergarten",
+          "href": "/schools/kindergarten"
+        },
+        {
+          "label": "Primary School",
+          "href": "/schools/primary"
+        },
+        {
+          "label": "Secondary School",
+          "href": "/schools/secondary"
+        },
+        {
+          "label": "High School",
+          "href": "/schools/high-school"
+        },
+        {
+          "label": "Subject Catalog",
+          "href": "/schools/high-school/subjects"
+        }
+      ]
+    },
+    {
+      "id": "admission",
+      "label": "Admission",
+      "href": "/admission",
+      "children": [
+        {
+          "label": "Admission Process",
+          "href": "/admission#process"
+        },
+        {
+          "label": "School Fees",
+          "href": "/admission#fees"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "href": "/career",
+      "children": []
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "/contact",
+      "children": []
+    }
+  ],
+  "schoolsMenu": {
+    "heading": "Our Schools",
+    "intro": "A complete educational journey designed for each stage of development.",
+    "catalogLabel": "High School Subject Catalog",
+    "catalogDescription": "55 elective subjects across Applied Science, Business & Management, and Leadership & Social Science."
+  },
+  "levels": {
+    "kindergarten": {
+      "name": "Kindergarten",
+      "grades": "K1 – K2",
+      "summary": "Developing analytical skills, independent thought, personal responsibility, and social skills."
+    },
+    "primary": {
+      "name": "Primary School",
+      "grades": "Grade 1 – 6",
+      "summary": "Building strong foundations in literacy, numeracy, and critical inquiry in a supportive environment."
+    },
+    "secondary": {
+      "name": "Secondary School",
+      "grades": "Secondary 1 – 3 (Grade 7 – 9)",
+      "summary": "Developing analytical skills, independent thought, personal responsibility, and leadership."
+    },
+    "high-school": {
+      "name": "High School",
+      "grades": "Secondary 4 – Junior College 2 (Grade 10 – 12)",
+      "summary": "Preparing for top universities with specialized tracks, leadership development, and career readiness."
+    }
+  },
+  "footer": {
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": [
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Kindergarten",
+        "href": "/schools/kindergarten"
+      },
+      {
+        "label": "Primary School",
+        "href": "/schools/primary"
+      },
+      {
+        "label": "Secondary School",
+        "href": "/schools/secondary"
+      },
+      {
+        "label": "High School",
+        "href": "/schools/high-school"
+      },
+      {
+        "label": "Admission",
+        "href": "/admission"
+      },
+      {
+        "label": "Career",
+        "href": "/career"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "addressTitle": "Address",
+    "hoursTitle": "Opening Hours",
+    "contactTitle": "Contact Us",
+    "followTitle": "Follow Us",
+    "viewOnMap": "View on Google Maps",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for may have moved as part of our new website.",
+    "backHome": "Back to home"
+  },
+  "whatsappWidget": {
+    "open": "Contact via WhatsApp",
+    "close": "Close",
+    "title": "Contact via WhatsApp",
+    "subtitle": "Edit your message, then send it on WhatsApp",
+    "destination": "WhatsApp destination",
+    "message": "Message",
+    "reset": "Reset message",
+    "send": "Send via WhatsApp"
+  }
+}

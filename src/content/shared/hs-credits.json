@@ -1,0 +1,41 @@
+{
+  "_note": "Kredit per tahun High School, ditranskripsi apa adanya dari tabel HTML /high-school dan /id/sma (5 Nov 2026). PERHATIAN: total Supporting S4 (14) dan JC2 (10) tidak sama dengan jumlah barisnya (12 dan 12) — CONTENT_REVIEW konflik #8. Jangan ubah angka tanpa konfirmasi sekolah. Label per bahasa ada di src/content/{en,id}/high-school.json.",
+  "columns": ["s4", "jc1", "jc2"],
+  "groups": [
+    {
+      "id": "core",
+      "rows": [
+        { "id": "esl", "credits": [6, 4, 4] },
+        { "id": "mathematics", "credits": [6, 4, 4] },
+        { "id": "biology", "credits": [6, 4, 4] },
+        { "id": "chemistry", "credits": [6, 4, 4] },
+        { "id": "physics", "credits": [6, 4, 4] },
+        { "id": "bahasa-indonesia", "credits": [4, 4, 4] },
+        { "id": "sat", "credits": [null, 2, 3] },
+        { "id": "ielts", "credits": [null, 2, 3] }
+      ],
+      "total": [34, 28, 30],
+      "percent": [71, 56, 58]
+    },
+    {
+      "id": "supporting",
+      "rows": [
+        { "id": "islamic-quranic", "credits": [4, 4, 4] },
+        { "id": "global-perspectives", "credits": [2, 2, 2] },
+        { "id": "history-civics", "credits": [2, 2, 2] },
+        { "id": "physical-education", "credits": [2, 2, 2] },
+        { "id": "art", "credits": [2, null, null] },
+        { "id": "business-management", "credits": [null, null, 2] }
+      ],
+      "total": [14, 10, 10],
+      "percent": [29, 20, 19]
+    },
+    {
+      "id": "elective",
+      "rows": [{ "id": "elective-credits", "credits": [0, 12, 12] }],
+      "total": null,
+      "percent": [0, 24, 23]
+    }
+  ],
+  "grandTotal": [48, 50, 52]
+}

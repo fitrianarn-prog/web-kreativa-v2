@@ -1,0 +1,207 @@
+{
+  "_source": "kreativaglobal.sch.id/id/sma/ & /id/tentang/ (dicek 5 Nov 2026). Bagian yang tidak ada = belum ada terjemahan resmi → tampil EN dengan lang=\"en\".",
+  "sections": {
+    "visionMission": "Visi dan Misi",
+    "founderBoard": "Pendiri & Dewan",
+    "principal": "Pesan Kepala Sekolah",
+    "initiative": "Inisiatif Pendidikan",
+    "objectives": "Tujuan Pembelajaran",
+    "characters": "7 Karakter Muslim",
+    "curriculumFramework": "Kerangka Kurikulum",
+    "english": "English Learning Framework",
+    "pathway": "Jalur Kurikulum",
+    "studentLife": "Kehidupan Siswa",
+    "clubs": "Klub dan Kompetisi",
+    "onThisPage": "Di halaman ini"
+  },
+  "verse": {
+    "arabic": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةً لِّلْعَٰلَمِينَ",
+    "translation": "Kami tidak mengutus engkau (Nabi Muhammad), kecuali sebagai rahmat bagi seluruh alam.",
+    "reference": "QS. Al-Anbiya :107"
+  },
+  "visionMission": {
+    "visionTitle": "Visi",
+    "vision": "Mewujudkan generasi pembelajar sepanjang hayat yang berkompetensi global, berkarakter kuat, serta berlandaskan nilai-nilai Islami, sehingga mampu menjadi pemimpin yang memberi dampak positif bagi masyarakat.",
+    "missionTitle": "Misi",
+    "mission": [
+      "Bermitra dengan orang tua sebagai pendidik utama dan sepanjang hayat bagi anak-anak.",
+      "Memberdayakan guru sebagai teladan yang menginspirasi proses pembelajaran dan pembentukan karakter."
+    ]
+  },
+  "founderBoard": {
+    "title": "Pendiri & Dewan Yayasan",
+    "people": [
+      {
+        "id": "syauqi-robbani",
+        "name": "Syauqi Robbani, MPA",
+        "role": "Pendiri",
+        "image": "/images/people/syauqi-robbani.webp",
+        "bio": [
+          "Syauqi menempuh studinya di Harvard University dan memulai karier di bidang perbankan serta investasi, di mana ia membangun fondasi analisis dan kepemimpinan yang kuat. Ia kemudian mendirikan dan mengelola berbagai bisnis di sektor kesehatan, pendidikan, dan industri konsumen.",
+          "Sebagai CEO CNA Investment dan Founder Kreativa Global School, Syauqi menghadirkan visi strategis dan perspektif global, menghubungkan standar internasional dengan nilai-nilai Indonesia dan Islam yang kuat untuk membangun institusi pendidikan yang menginspirasi tujuan dan keberhasilan."
+        ]
+      },
+      {
+        "id": "yorga-permana",
+        "name": "Muhammad Yorga Permana, Ph.D",
+        "role": "Dewan Pembina",
+        "image": "/images/people/yorga-permana.webp",
+        "bio": [
+          "Muhammad Yorga Permana, Ph.D adalah dosen di School of Business and Management, Institut Teknologi Bandung (SBM ITB) serta lulusan London School of Economics and Political Science (LSE). Keahliannya mencakup bidang inovasi, manajemen sumber daya manusia, masa depan dunia kerja, dan studi organisasi.",
+          "Ia meraih gelar PhD dari LSE, Inggris, dan gelar Master dari Eindhoven University of Technology, Belanda—keduanya didanai oleh beasiswa Lembaga Pengelola Dana Pendidikan (LPDP).",
+          "Di luar dunia akademik, ia menjabat sebagai Staf Ahli di Kementerian Ketenagakerjaan dan Asisten Direktur Bidang Kemahasiswaan di ITB. Dengan kepedulian besar terhadap pendidikan dan pengembangan manusia, Yorga mendukung Kreativa Global School dalam menumbuhkan rasa ingin tahu, kolaborasi, dan pendidikan berkarakter untuk membentuk talenta Indonesia yang memiliki kompetensi global menghadapi dunia kerja yang terus berkembang."
+        ]
+      }
+    ]
+  },
+  "initiative": {
+    "title": "Inisiatif Pendidikan",
+    "paragraphs": [
+      "Kreativa Global School adalah inisiatif pendidikan berbasis misi di bawah naungan CNA Investment, sebuah perusahaan investasi yang berpusat di Jawa Barat dengan fokus pada sektor kesehatan, konsumen, dan infrastruktur. Saat ini CNA mengoperasikan empat rumah sakit dan klinik, delapan sekolah, serta berbagai bisnis lain yang terus berkembang.",
+      "Komitmen CNA Investment terhadap pengembangan manusia tercermin dari portofolionya yang beragam, mulai dari kesehatan hingga pendidikan. Kreativa Global School menjadi inisiatif unggulan di bidang pendidikan, berkontribusi langsung pada sejumlah Tujuan Pembangunan Berkelanjutan (SDGs) yang dicanangkan Perserikatan Bangsa-Bangsa."
+    ],
+    "partnersAlt": "Kreativa Global School — A Part of CNA Group: CNA Investment. Operated by: Akademi Insan Mulia. Affiliated with: Sekolah Talenta Juara dan Edelweiss healthcare group.",
+    "sdgs": [
+      {
+        "number": 4,
+        "name": "Pendidikan Berkualitas"
+      },
+      {
+        "number": 5,
+        "name": "Kesetaraan Gender"
+      },
+      {
+        "number": 9,
+        "name": "Industri, Inovasi dan Infrastruktur"
+      },
+      {
+        "number": 10,
+        "name": "Berkurangnya Kesenjangan"
+      },
+      {
+        "number": 17,
+        "name": "Kemitraan untuk Mencapai Tujuan"
+      }
+    ]
+  },
+  "objectives": {
+    "title": "Tujuan Pembelajaran Utama",
+    "items": [
+      {
+        "title": "Keunggulan Akademik",
+        "points": [
+          "Mencapai standar tinggi dalam asesmen nasional & internasional",
+          "Unggul dalam literasi STEM dan narasi global",
+          "Siap masuk universitas terbaik di Indonesia dan luar negeri"
+        ]
+      },
+      {
+        "title": "Mindset Warga Global",
+        "points": [
+          "Menunjukkan kepemimpinan, komunikasi, dan growth mindset",
+          "Menerapkan pemikiran kritis dan kreativitas untuk memecahkan masalah nyata",
+          "Memiliki percaya diri dalam kolaborasi di konteks global"
+        ]
+      },
+      {
+        "title": "Personal Branding",
+        "points": [
+          "Mengenali kekuatan diri dan tujuan hidup",
+          "Menciptakan solusi inovatif melalui STEM dan proyek Capstone",
+          "Membangun portofolio digital dan personal statement"
+        ]
+      }
+    ]
+  },
+  "characters": {
+    "title": "7 Karakter Muslim Peserta Didik Kreativa",
+    "intro": "Fokus pada 3 Klaster Pengembangan Karakter: Iman dan Nilai, Pengembangan Diri, dan Dampak Sosial",
+    "clusters": [
+      {
+        "name": "Iman dan Nilai",
+        "items": [
+          {
+            "title": "Pemikir Berlandaskan Aqidah",
+            "body": "Di Kreativa, iman menjadi fondasi pengetahuan — membimbing peserta didik untuk berpikir kritis, memahami ciptaan Allah, dan tetap teguh dalam tauhid."
+          },
+          {
+            "title": "Berakhlak Mulia",
+            "body": "Peserta didik menampilkan integritas dan adab — kejujuran, kebaikan, tanggung jawab, serta keberanian. Mereka belajar bahwa kepemimpinan sejati dimulai dari akhlak yang baik dan kesesuaian antara ucapan dan perbuatan."
+          }
+        ]
+      },
+      {
+        "name": "Pengembangan Diri",
+        "items": [
+          {
+            "title": "Disiplin Diri",
+            "body": "Peserta didik melatih pengendalian diri dan ketekunan — menguasai diri sebelum menguasai dunia. Mereka berusaha mencapai ihsan (kesempurnaan) dalam belajar, berperilaku, dan berinteraksi."
+          },
+          {
+            "title": "Pembelajar yang Penasaran",
+            "body": "Rasa ingin tahu mendorong pertumbuhan dan inovasi. Peserta didik Kreativa bertanya, mengeksplorasi, dan berinovasi melalui STEM dan pembelajaran berbasis inkuiri, memandang belajar sebagai ibadah sepanjang hayat."
+          },
+          {
+            "title": "Pikiran & Tubuh yang Sehat dan Kuat",
+            "body": "Tubuh aktif dapat meningkatkan proses belajar dan produktivitas. Tubuh yang kuat mendukung pikiran yang kuat. Peserta didik tetap aktif dan seimbang melalui gerak, olahraga, dan rasa syukur atas kesehatan."
+          },
+          {
+            "title": "Teratur & Bertanggung Jawab",
+            "body": "Produktivitas memerlukan fokus dan kerapian. Di era distraksi digital, peserta didik belajar merencanakan, memprioritaskan, dan bertanggung jawab — membangun kebiasaan keteraturan, tanggung jawab, dan fokus."
+          }
+        ]
+      },
+      {
+        "name": "Dampak Sosial",
+        "items": [
+          {
+            "title": "Berdampak untuk Komunitas",
+            "body": "Peserta didik bertumbuh dengan memberi dan melayani. Mereka membantu sesama dan berkontribusi bagi masyarakat — menghidupkan ajaran Nabi: Sebaik-baik manusia adalah yang paling bermanfaat bagi orang lain."
+          }
+        ]
+      }
+    ]
+  },
+  "curriculumFramework": {
+    "title": "Kerangka Kurikulum",
+    "tabs": {
+      "primary": "Kerangka Kurikulum SD",
+      "secondary": "Kerangka Kurikulum SMP & SMA"
+    }
+  },
+  "clubs": {
+    "title": "Klub & Kompetisi",
+    "items": [
+      {
+        "icon": "/images/clubs/innovation-lab.png",
+        "title": "Kreativa Innovation Lab",
+        "body": "Klub Riset, Klub Olimpiade STEM, Komunitas Robotik"
+      },
+      {
+        "icon": "/images/clubs/young-entrepreneurs.png",
+        "title": "Young Entrepreneurs Club",
+        "body": "Program Mentoring CEO Muda, Program Keuangan & Investasi"
+      },
+      {
+        "icon": "/images/clubs/debate-mun.png",
+        "title": "Debate and Model United Nations (MUN) Club",
+        "body": "Klub Debat dan Model Sidang PBB"
+      },
+      {
+        "icon": "/images/clubs/creative-arts.png",
+        "title": "Creative Arts and Performance Ensemble",
+        "body": "Paduan Suara, Musik, Klub Teater, Pameran Seni, Broadcasting"
+      },
+      {
+        "icon": "/images/clubs/languages-culture.png",
+        "title": "Global Languages and Culture Society",
+        "body": "English Mastery, Klub Bahasa Arab, Mandarin, Korea"
+      },
+      {
+        "icon": "/images/clubs/organization.png",
+        "title": "Organization",
+        "body": "OSIS, Pramuka, Palang Merah Remaja (PMR)"
+      }
+    ]
+  }
+}

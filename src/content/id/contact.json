@@ -1,0 +1,19 @@
+{
+  "_source": "Halaman baru (spec 8.2). Data kontak & kampus: src/content/shared/site.json.",
+  "meta": {
+    "title": "Hubungi Kami",
+    "description": "Hubungi Kreativa Global School: WhatsApp, telepon, email, jam operasional, dan tiga kampus kami di Bandung."
+  },
+  "hero": {
+    "title": "Hubungi Kami"
+  },
+  "labels": {
+    "whatsapp": "WhatsApp",
+    "phone": "Telepon",
+    "email": "Email",
+    "hours": "Jam Operasional",
+    "campuses": "Kampus Kami",
+    "mapTitle": "Peta: {name}",
+    "follow": "Ikuti Kami"
+  }
+}

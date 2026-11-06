@@ -1,0 +1,37 @@
+{
+  "_source": "kreativaglobal.sch.id/id/sma/ (dicek 5 Nov 2026). Deskripsi Student Life belum diterjemahkan di sumber → tampil EN.",
+  "meta": {
+    "title": "Sekolah Menengah Atas",
+    "description": "SMA Kreativa Global (Secondary 4 – Junior College 2): mata pelajaran inti, tambahan, dan pilihan untuk mempersiapkan siswa ke universitas terkemuka dunia."
+  },
+  "hero": {
+    "title": "Selamat datang di SMA Kreativa Global",
+    "subtitle": "Meletakkan dasar untuk keunggulan dan mempersiapkan pemimpin masa depan untuk universitas-universitas terkemuka di seluruh dunia."
+  },
+  "credits": {
+    "title": "Jalur Kurikulum",
+    "subjectHeader": "Mata Pelajaran",
+    "columns": { "s4": "Secondary 4", "jc1": "Junior College 1", "jc2": "Junior College 2" },
+    "groups": { "core": "Mata Pelajaran Inti", "supporting": "Mata Pelajaran Tambahan", "elective": "Mata Pelajaran Pilihan" },
+    "rows": {
+      "esl": "Bahasa Inggris (ESL)",
+      "mathematics": "Matematika",
+      "biology": "Biologi",
+      "chemistry": "Kimia",
+      "physics": "Fisika",
+      "bahasa-indonesia": "Bahasa Indonesia",
+      "sat": "SAT",
+      "ielts": "IELTS",
+      "islamic-quranic": "Studi Islam & Al-Qur’an",
+      "global-perspectives": "Perspektif Global",
+      "history-civics": "Sejarah dan Kewarganegaraan",
+      "physical-education": "Pendidikan Jasmani",
+      "art": "Seni",
+      "business-management": "Pengenalan Bisnis & Manajemen",
+      "elective-credits": "Kredit Mata Pelajaran Pilihan (Ilmu Terapan / Bisnis & Manajemen / Kepemimpinan & Ilmu Sosial)"
+    },
+    "totalLabel": "Total Kredit",
+    "grandTotalLabel": "Total Kredit (seluruh mata pelajaran)",
+    "catalogButton": "Katalog Mata Pelajaran"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_source": "docs/SPEC.md 3.8 (kreativaglobal.sch.id/admission). Angka biaya: src/content/shared/fees.json.",
+  "meta": {
+    "title": "School Admission",
+    "description": "Admission process and school fees {year} at Kreativa Global School for Kindergarten, Primary, Secondary, and High School."
+  },
+  "hero": {
+    "title": "School Admission"
+  },
+  "process": {
+    "title": "Admission Process",
+    "steps": [
+      { "title": "Application Submission", "body": "Complete the Registration Form at admission.kreativaglobal.sch.id." },
+      { "title": "Student Observation", "body": "Through student observations, we learn more about each prospective student and their readiness to begin school." },
+      { "title": "Parents Interview", "body": "In this interview, parents will discuss their family values, educational expectations, and their child's development with the school. It's also an opportunity for parents to ask questions and better understand the environment and programs at Kreativa Global School." },
+      { "title": "Admission Decision", "body": "The school will decide if your child is accepted or not." },
+      { "title": "Enrollment", "body": "If Accepted, Complete enrollment by submitting documents and paying fees." },
+      { "title": "Uniform Fitting", "body": "The student tries on uniforms." },
+      { "title": "Parent Orientation", "body": "In the Parents Orientation, parents will learn about the school, meet the teachers, and understand how the school works. Parents will get tips on supporting their child and how to stay informed. This session helps parents feel ready as their child joins Kreativa Global School." },
+      { "title": "Student Orientation", "body": "During the Student Orientation, students from all levels will be introduced to the school environment, meet their teachers and new friends, and get to know the learning routines and expectations. They will also learn about school values, daily activities, and important guidelines to help them feel confident, comfortable, and ready to start their journey at Kreativa Global School." }
+    ]
+  },
+  "fees": {
+    "title": "School Fees {year}",
+    "levelsLabel": "Choose a school level",
+    "registrationFee": "Registration Fee",
+    "grade": "Grade",
+    "annualTuition": "Annual Tuition Fee",
+    "annualProgramFee": "Annual Program Fee",
+    "monthlyTuition": "Monthly Tuition Fee",
+    "enrollmentFee": "Enrollment Fee",
+    "enrollmentNote": "Choose one enrollment fee scheme.",
+    "paidIn": "paid in {grade}",
+    "including": "Including",
+    "excluding": "Excluding",
+    "currencyNote": "All amounts are in Indonesian Rupiah (Rp).",
+    "brochure": "Download Brochure",
+    "brochureType": "PDF"
+  },
+  "closing": {
+    "text": "Kreativa Global: Where your potential is valued, your dreams are nurtured, and your future shines brightly."
+  }
+}

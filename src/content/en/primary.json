@@ -1,0 +1,152 @@
+{
+  "_source": "docs/SPEC.md 3.4 (kreativaglobal.sch.id/primary-school)",
+  "meta": {
+    "title": "Primary School",
+    "description": "Kreativa Global Primary School (Grade 1–6): Cambridge framework, English learning journey, and strong Islamic character in Bandung."
+  },
+  "hero": {
+    "title": "Welcome to Kreativa Global Primary School",
+    "subtitle": "Nurturing generations with character, knowledge, and Qur'anic values for global competitiveness."
+  },
+  "principal": {
+    "title": "Principal Message",
+    "name": "Nurhayati, SP., MSM",
+    "role": "Principal",
+    "credential": "ITB, Master of Science in Management",
+    "image": "/images/people/nurhayati.webp",
+    "greeting": "Welcome to Kreativa Global School! Dear parents, students, and wonderful visitors,",
+    "paragraphs": [
+      "As the Principal, it is a true joy to welcome you to our vibrant school community.",
+      "At Kreativa, we believe that every child is unique, full of potential, and capable of achieving amazing things. Every day on campus is an exciting journey of discovery, learning, and growth. Our dedicated team of educators is passionately committed to nurturing not only bright minds, but also kind hearts, strong Islamic values, and confident future leaders.",
+      "We integrate global standards through the Cambridge framework while keeping our students deeply rooted in noble Islamic character and national pride.",
+      "Through our active and fun learning environment, we encourage children to ask questions, think critically, and build lifelong learning habits. We also ensure that every child receives the personal support they need to thrive at their own pace.",
+      "We strongly believe that a child's success is built on a strong partnership between home and school. Working hand in hand with you—our wonderful parents—is at the heart of everything we do. Together, we create a safe, supportive, and inspiring environment where our children feel loved, valued, and motivated to reach their highest potential.",
+      "Thank you for trusting us to be part of your child's educational journey. We look forward to creating many meaningful milestones together with your family this year. Let's join hands to guide, inspire, and shape a great, bright generation for Indonesia!"
+    ],
+    "signoff": "Warmest regards, Principal, Kreativa Global School"
+  },
+  "english": {
+    "title": "English Learning Framework for EFL Students",
+    "subtitle": "English Learning Journey",
+    "objectivesLabel": "Objectives",
+    "phases": [
+      {
+        "title": "Phase 1: Language Acquisition",
+        "grades": "Grade 1–3",
+        "steps": [
+          {
+            "label": "1st & 2nd Grade",
+            "body": "Natural process of learning a language, including vocabularies and basic conversation."
+          },
+          {
+            "label": "3rd Grade",
+            "body": "Strengthening early literacy skills and transition toward more structured input."
+          }
+        ],
+        "objectives": [
+          "Follow simple spoken instructions",
+          "Participate in basic conversations",
+          "Listen and understand short stories, descriptions, and dialogues",
+          "Understand basic sentence structure",
+          "Begin forming simple sentences",
+          "Read & understand short or early-reader books"
+        ]
+      },
+      {
+        "title": "Phase 2: Linguistic Acquisition",
+        "grades": "Grade 4–6",
+        "steps": [
+          {
+            "label": "4th & 5th Grade",
+            "body": "A structured approach to learning language skills including comprehension and basic grammar."
+          },
+          {
+            "label": "6th Grade",
+            "body": "Strengthening fluency, writing, grammar usage, and academic communication."
+          }
+        ],
+        "objectives": [
+          "Engage in longer conversations (hobbies, stories, etc.)",
+          "Express opinions and ideas clearly",
+          "Develop listening comprehension for academic subjects",
+          "Identify main ideas and details in a paragraph",
+          "Write simple paragraphs using correct structure",
+          "Use basic grammar structures correctly"
+        ]
+      }
+    ]
+  },
+  "studentLife": {
+    "title": "Student Life",
+    "items": [
+      {
+        "title": "STEM Project & Innovation Week",
+        "image": "/images/primary/student-life-1.webp"
+      },
+      {
+        "title": "Spiritual Reflection Circles",
+        "image": "/images/primary/student-life-2.webp"
+      },
+      {
+        "title": "Leadership & Public Speaking",
+        "image": "/images/primary/student-life-3.webp"
+      },
+      {
+        "title": "Clubs & Enrichment",
+        "image": "/images/primary/student-life-4.webp"
+      },
+      {
+        "title": "Academic Competitions",
+        "image": "/images/primary/student-life-5.webp"
+      }
+    ]
+  },
+  "clubs": {
+    "title": "Clubs & Competitions",
+    "items": [
+      {
+        "title": "Olympiad Club",
+        "image": "/images/primary/club-1.webp"
+      },
+      {
+        "title": "Quranic",
+        "image": "/images/primary/club-2.webp"
+      },
+      {
+        "title": "Music",
+        "image": "/images/primary/club-3.webp"
+      },
+      {
+        "title": "Archery",
+        "image": "/images/primary/club-4.webp"
+      },
+      {
+        "title": "Roller Blade",
+        "image": "/images/primary/club-5.webp"
+      },
+      {
+        "title": "Basket Ball",
+        "image": "/images/primary/club-6.webp"
+      },
+      {
+        "title": "Swimming",
+        "image": "/images/primary/club-7.webp"
+      },
+      {
+        "title": "Taekwondo",
+        "image": "/images/primary/club-8.webp"
+      },
+      {
+        "title": "Robotic",
+        "image": "/images/primary/club-9.webp"
+      },
+      {
+        "title": "Painting",
+        "image": "/images/primary/club-10.webp"
+      }
+    ]
+  },
+  "closing": {
+    "text": "Discover more about Kreativa Global Primary School — where faith meets excellence and every learner is prepared to lead with impact."
+  }
+}

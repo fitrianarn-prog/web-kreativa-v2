@@ -1,0 +1,89 @@
+{
+  "_source": "docs/SPEC.md 3.2 (kreativaglobal.sch.id/about)",
+  "meta": {
+    "title": "About Us",
+    "description": "Kreativa Global School is a future-oriented Islamic International School in Bandung offering holistic education from Kindergarten to Junior College."
+  },
+  "hero": {
+    "title": "About Us",
+    "intro": "Kreativa Global School is a future-oriented Islamic International School offering holistic education from Kindergarten to Junior College. We integrate the Cambridge Curriculum and Kurikulum Merdeka to nurture academic excellence, spiritual values, and global awareness in every learner.",
+    "videoTitle": "Kreativa Global School video"
+  },
+  "founderMessage": {
+    "title": "Founder Message",
+    "name": "Syauqi Robbani, MPA",
+    "role": "Founder",
+    "credential": "Harvard University, Master in Public Administration",
+    "paragraphs": [
+      "As the founder of Kreativa Global School, I highlight the importance of English language proficiency in global competition and the need to enhance English language skills in Indonesia. Economic development and progress rely on the complexity of economics and STEM abilities, and it's essential for Indonesia to develop these skills to drive innovation.",
+      "I also acknowledge the crucial role of emotional maturity and Islamic values in education, as they shape children's characters and habits. With Kreativa Global School's mission focused on building a strong foundation in STEM, emotional maturity, and Islamic values, we are committed to helping students prepare for a successful future."
+    ]
+  },
+  "story": {
+    "title": "Our Story",
+    "parts": [
+      {
+        "heading": "Harnessing Indonesia's Potential",
+        "paragraphs": [
+          "Indonesia boasts the world's fourth-largest population, a powerful resource for human capital development. We can learn from India's success in placing skilled professionals in global firms. However, to become a major player, Indonesia needs to address the challenge of limited English proficiency. This hinders communication and collaboration in today's interconnected world.",
+          "Brilliant ideas are only half the battle. The ability to express them clearly and thoughtfully is essential. Furthermore, a nation's progress hinges on continuous innovation, fuelled by a strong foundation in STEM fields. The World Economic Forum highlights the growing importance of skills like structured thinking, problem-solving, and innovation. These, combined with emotional intelligence and strong character, are the building blocks for a well-rounded future generation."
+        ]
+      },
+      {
+        "heading": "Kreativa Global School: Bridging the Gap",
+        "paragraphs": [
+          "Kreativa Global School was founded to address this very need. We aim to equip the younger generation with exceptional English language skills from a young age, cultivate their talents in STEM fields, and instil the confidence to thrive on the global stage. These qualities are nurtured within a framework of Islamic values, providing a moral compass for navigating the complexities of our ever-changing world."
+        ]
+      }
+    ]
+  },
+  "brand": {
+    "title": "Our Brand",
+    "taglineLabel": "Our Tagline",
+    "tagline": "Unlocking Potential, Empowering Dreams",
+    "paragraphs": [
+      "Within each individual lies a wellspring of potential, a reservoir of dreams waiting to be realized. But unlocking this potential and empowering those dreams requires more than just individual motivation. It necessitates a supportive environment, a nurturing ground where skills are honed, confidence is built, and aspirations are ignited.",
+      "In today's interconnected world, nations that thrive are those that invest in their human capital. A nation's most valuable resource isn't its natural resources, but its people – their ingenuity, creativity, and problem-solving abilities. When we empower individuals to unlock their potential, we empower them to become active participants in shaping a brighter future, not just for themselves, but for their communities and the world at large."
+    ],
+    "logoTitle": "Our Logo",
+    "elements": [
+      { "id": "lifelong-learning", "title": "Life Long Learning", "body": "Learning never stops. It's about growing, exploring, and developing ourselves constantly. By embracing learning throughout life, we become better equipped to handle life's changes and complexities. Let's start learning and keep going forever." },
+      { "id": "be-a-star", "title": "Be a Star", "body": "A star burns brightly because of its internal fire. Discover your passion – that one thing that ignites your enthusiasm and motivates you to excel. When you pursue your passion, work doesn't feel like work – it becomes an exciting journey of exploration and self-discovery." },
+      { "id": "resilience", "title": "Resilience", "body": "Resilience means facing challenges with inner strength. Stay positive, believe in yourself, and lean on your support system. Each challenge makes you stronger." },
+      { "id": "critical-thinking", "title": "Critical Thinking", "body": "Critical thinking is crucial. It helps us make smart decisions, solve problems, and be better people. Let's sharpen our critical thinking skills to make the world a better place for everyone." },
+      { "id": "future-leader", "title": "Be a Future Leader", "body": "Let's help create future leaders by nurturing important qualities like vision, communication, and integrity. We can make the world better by supporting and guiding the next generation." }
+    ]
+  },
+  "facilities": {
+    "title": "Facilities",
+    "badge": "Building plan (architectural render)",
+    "items": [
+      { "image": "/images/facilities/lobby.webp", "label": "Lobby" },
+      { "image": "/images/facilities/stem-lab.webp", "label": "STEM Lab" },
+      { "image": "/images/facilities/counseling-room.webp", "label": "Student Counseling Room" },
+      { "image": "/images/facilities/restroom.webp", "label": "Restroom" },
+      { "image": "/images/facilities/kindergarten-b-classroom.webp", "label": "Kindergarten B Classroom" },
+      { "image": "/images/facilities/multipurpose-hall.webp", "label": "Multipurpose Hall" },
+      { "image": "/images/facilities/language-lab.webp", "label": "Language Lab" },
+      { "image": "/images/facilities/kindergarten-outdoor.webp", "label": "Kindergarten Outdoor Area" },
+      { "image": "/images/facilities/kindergarten-a-classroom.webp", "label": "Kindergarten A Classroom" },
+      { "image": "/images/facilities/library.webp", "label": "Library" },
+      { "image": "/images/facilities/kreativamart.webp", "label": "KreativaMart" },
+      { "image": "/images/facilities/sports-field.webp", "label": "Sports Field" }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      { "q": "What is Kreativa Global School?", "a": "Kreativa Global School is the first international Islamic school in East Bandung. It provides an education system with an international perspective while embedding Islamic values." },
+      { "q": "What languages are used as the medium of instruction?", "a": "The medium of instruction at Kreativa Global School is English for all subjects and activities. It further enhances subjects such as Science, Mathematics, and English Literacy." },
+      { "q": "Who are the teachers?", "a": "Teachers at Kreativa Global School are experienced professionals with 2-5 years of experience from international schools." },
+      { "q": "What are the core values?", "a": "Kreativa Global School focuses on three core values: Spirituality, Strong Character, and Academic Excellence." },
+      { "q": "What curriculum does Kreativa Global School follow?", "a": "Kreativa Global School integrates the best components of the IB, Cambridge, National, and a unique Islamic curriculum. It utilizes the CAS method from IB for project-based learning, Cambridge for subject matter, and adjusts to national standards for national exams." },
+      { "q": "How is the Islamic curriculum implemented?", "a": "Through daily spiritual and character-building practices such as Tahfidz, Murojaah, morning Dhikr, Asmaul Husna, communal Dhuha and Dhuhr prayers, storytelling of Nabawi Sirah and Muslim scholars and heroes. The school collaborates with reputable Tahfidz institutions and issues a daily habit report for parents." },
+      { "q": "What facilities does Kreativa Global School have?", "a": "By its fourth year, Kreativa Global School has completed its facilities, which include a five-story building with a swimming pool on the top floor." },
+      { "q": "What does the annual tuition fee cover?", "a": "The annual tuition fee includes the tuition for one year, building fee, annual activity fee, catering, textbooks, and uniform costs, excluding extracurricular fees." },
+      { "q": "Where is Kreativa Global School located?", "a": "{campuses}" }
+    ]
+  }
+}

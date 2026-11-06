@@ -1,0 +1,125 @@
+{
+  "_source": "docs/SPEC.md 3.5 (kreativaglobal.sch.id/secondary-school)",
+  "meta": {
+    "title": "Secondary School",
+    "description": "Kreativa Global Secondary School (Grade 7–9): Cambridge Lower Secondary and IGCSE preparation, grounded in faith and character."
+  },
+  "hero": {
+    "title": "Welcome to Kreativa Global Secondary School",
+    "subtitle": "Grounded in faith, guided by knowledge — nurturing global-minded leaders with integrity and compassion."
+  },
+  "pathway": {
+    "title": "Curriculum Pathway",
+    "note": "Numbers in brackets are Cambridge syllabus codes.",
+    "columns": [
+      "Secondary 1",
+      "Secondary 2",
+      "Secondary 3"
+    ],
+    "rows": [
+      {
+        "label": "Core subjects",
+        "cells": [
+          [
+            "English as a Second Language (0876)",
+            "Mathematics (0862)",
+            "Science (0893)"
+          ],
+          [
+            "English as a Second Language (0510)",
+            "Mathematics (0580)",
+            "Biology (0610)",
+            "Chemistry (0620)",
+            "Physics (0625)",
+            "Bahasa Indonesia (0538)"
+          ],
+          [
+            "English as a Second Language (0510)",
+            "Mathematics (0580)",
+            "Biology (0610)",
+            "Chemistry (0620)",
+            "Physics (0625)",
+            "Bahasa Indonesia (0538)"
+          ]
+        ]
+      },
+      {
+        "label": "Supporting subjects",
+        "cells": [
+          [
+            "Bahasa Indonesia",
+            "Islamic Studies",
+            "Qur'anic Studies",
+            "Physical Education",
+            "Civics",
+            "Digital Literacy (0082)",
+            "Global Perspectives (1129)",
+            "Civics/PE/History/Local Content",
+            "AI & Coding elective"
+          ],
+          [
+            "Islamic Studies",
+            "Qur'anic Studies",
+            "Computer Science (0478) / ICT (0417)",
+            "Global Perspectives (1129)",
+            "History/PE/Civics",
+            "AI & Coding elective"
+          ],
+          [
+            "Islamic Studies",
+            "Qur'anic Studies",
+            "Computer Science (0478) / ICT (0417)",
+            "Global Perspectives (1129)",
+            "History/Physical Education/Civics",
+            "AI & Coding elective"
+          ]
+        ]
+      },
+      {
+        "label": "Assessment",
+        "cells": [
+          [
+            "Internal & Checkpoint Assessments",
+            "Student portfolio"
+          ],
+          [
+            "Internal IGCSE-style preparation",
+            "Project & portfolio evaluation"
+          ],
+          [
+            "Internal IGCSE-style preparation",
+            "Project & portfolio evaluation"
+          ]
+        ]
+      }
+    ]
+  },
+  "studentLife": {
+    "title": "Student Life",
+    "items": [
+      {
+        "title": "Faith & Leadership Expedition",
+        "body": "Outdoor, reflective experiences that build faith, resilience, and teamwork.",
+        "image": "/images/secondary/student-life-3.webp"
+      },
+      {
+        "title": "Global Exchange & Community Service",
+        "body": "Cultural exchange and service projects that build empathy, teamwork, and global awareness.",
+        "image": "/images/secondary/student-life-2.webp"
+      },
+      {
+        "title": "Personal Mastery Track",
+        "body": "A journey of self-discovery and growth where student learn to understand themselves, build confidence and develop the mindset to lead, create and thrive in life.",
+        "image": "/images/secondary/student-life-4.webp"
+      },
+      {
+        "title": "Kreativa Capstone Exhibition & Innovation Symposium",
+        "body": "Students research, design, and present real-world solutions — integrating science, creativity, and leadership.",
+        "image": "/images/secondary/student-life-1.webp"
+      }
+    ]
+  },
+  "closing": {
+    "text": "Discover more about Kreativa Global Secondary School — where faith meets excellence and every learner is prepared to lead with impact."
+  }
+}

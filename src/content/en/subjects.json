@@ -1,0 +1,46 @@
+{
+  "_source": "docs/SPEC.md 3.7 + Lampiran A. Isi mata pelajaran: src/content/shared/electives.json.",
+  "meta": {
+    "title": "Subject Catalog",
+    "description": "High School elective subject catalog: 55 subjects across Applied Science, Business & Management, and Leadership & Social Science."
+  },
+  "hero": {
+    "title": "Subject Catalog",
+    "subtitle": "55 elective subjects across Applied Science, Business & Management, and Leadership & Social Science."
+  },
+  "tracks": {
+    "applied-science": "Applied Science",
+    "business-management": "Business & Management",
+    "leadership-social-science": "Leadership & Social Science"
+  },
+  "table": {
+    "subject": "Elective Subject",
+    "semester": "Semester",
+    "credit": "Credit"
+  },
+  "filters": {
+    "label": "Filter subjects",
+    "search": "Search subjects",
+    "searchPlaceholder": "e.g. psychology, data, entrepreneurship",
+    "track": "Track",
+    "allTracks": "All tracks",
+    "semester": "Semester",
+    "allSemesters": "All semesters",
+    "semesterN": "Semester {n}",
+    "results": "{n} of {total} subjects",
+    "empty": "No subjects match your search.",
+    "reset": "Reset filters"
+  },
+  "detail": {
+    "breadcrumb": "Subject Catalog",
+    "objective": "Educational Objective",
+    "focus": "Focus Areas",
+    "outcomes": "Expected Learning Outcomes",
+    "track": "Track",
+    "semester": "Semester",
+    "credits": "Credits",
+    "notSpecified": "—",
+    "back": "Back to Subject Catalog",
+    "related": "More in {track}"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_source": "docs/SPEC.md 3.6 (kreativaglobal.sch.id/high-school)",
+  "meta": {
+    "title": "High School",
+    "description": "Kreativa Global High School (Secondary 4 – Junior College 2): core, supporting, and elective subjects preparing students for top universities worldwide."
+  },
+  "hero": {
+    "title": "Welcome to Kreativa Global High School",
+    "subtitle": "Laying the foundation for excellence and preparing future leaders for top universities worldwide."
+  },
+  "credits": {
+    "title": "Curriculum Pathway",
+    "subjectHeader": "Subject",
+    "columns": { "s4": "Secondary 4", "jc1": "Junior College 1", "jc2": "Junior College 2" },
+    "groups": { "core": "Core Subject", "supporting": "Supporting Subject", "elective": "Elective Subject" },
+    "rows": {
+      "esl": "English as a Second Language",
+      "mathematics": "Mathematics",
+      "biology": "Biology",
+      "chemistry": "Chemistry",
+      "physics": "Physics",
+      "bahasa-indonesia": "Bahasa Indonesia",
+      "sat": "SAT",
+      "ielts": "IELTS",
+      "islamic-quranic": "Islamic & Qur'anic Studies",
+      "global-perspectives": "Global Perspectives",
+      "history-civics": "History and Civics",
+      "physical-education": "Physical Education",
+      "art": "Art",
+      "business-management": "Introduction to Business & Management",
+      "elective-credits": "Elective Subject Credits (Applied Science / Business & Management / Leadership & Social Science)"
+    },
+    "totalLabel": "Total Credits",
+    "grandTotalLabel": "Total Credits (all subjects)",
+    "catalogButton": "Subject Catalog"
+  },
+  "studentLife": {
+    "title": "Student Life",
+    "items": [
+      { "title": "Faith & Leadership Expedition", "body": "Outdoor, reflective experiences that build faith, resilience, and teamwork.", "image": "/images/secondary/student-life-3.webp" },
+      { "title": "Global Exchange & Community Service", "body": "Cultural exchange and service projects that build empathy, teamwork, and global awareness.", "image": "/images/secondary/student-life-2.webp" },
+      { "title": "Internship & Industry Exposure", "body": "Real-world learning through professional placements with partner companies and organizations.", "image": "/images/high-school/internship.webp" },
+      { "title": "Career & University Readiness Modules", "body": "Guidance and mentoring to prepare for global university admissions, including IELTS, SAT, portfolio, and personal statement coaching.", "image": "/images/secondary/student-life-4.webp" },
+      { "title": "Kreativa Capstone Exhibition & Innovation Symposium", "body": "Students research, design, and present real-world solutions — integrating science, creativity, and leadership.", "image": "/images/secondary/student-life-1.webp" }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_source": "kreativaglobal.sch.id/id/tk/ (dicek 5 Nov 2026). Isi versi ID lama berbeda dengan EN (mis. menyebut Montessori); Thematic Learning, Literacy & Phonics, Independence, dan 7 Muslim Kreativa belum ada → tampil EN.",
+  "meta": {
+    "title": "Taman Kanak-Kanak",
+    "description": "TK Kreativa Global: pembelajaran berbasis bermain, inkuiri, dan tema, berlandaskan nilai-nilai Islam dan Kurikulum Merdeka."
+  },
+  "hero": {
+    "title": "Taman Kanak-Kanak",
+    "subtitle": "Menghasilkan Generasi Unggul, Adaptif, dan Berdaya Saing Global"
+  },
+  "curriculum": {
+    "title": "Kurikulum Taman Kanak-Kanak Kami",
+    "paragraphs": [
+      "Program pembelajaran kami berlandaskan pondasi Kurikulum Merdeka, yang diperkaya dengan pendekatan berbasis bermain, inkuiri, dan pembelajaran terintegrasi tema, serta berlandaskan nilai-nilai Islam.",
+      "Melalui pengalaman belajar yang bermakna, anak-anak didorong untuk bereksplorasi, bertanya, menemukan, dan mengembangkan karakter positif dalam lingkungan belajar yang menyenangkan, aman, dan penuh perhatian."
+    ]
+  },
+  "steam": {
+    "title": "Integrasi STEM",
+    "paragraphs": [
+      "Kami mengintegrasikan STEM (Science, Technology, Engineering, and Mathematics) ke dalam proses pembelajaran untuk menumbuhkan kreativitas, inovasi, kemampuan berpikir kritis, dan pemecahan masalah.",
+      "Melalui proyek lintas disiplin dan pengalaman belajar langsung yang terinspirasi dari pendekatan Montessori, anak-anak diberi kesempatan untuk mengeksplorasi berbagai ide, memahami konsep melalui pengalaman nyata, serta menerapkan pengetahuan dalam kehidupan sehari-hari.",
+      "Pendekatan pembelajaran yang holistik ini membantu anak mengembangkan keterampilan praktis, kemandirian, rasa ingin tahu, dan kecintaan untuk terus belajar sepanjang hayat."
+    ]
+  },
+  "islamic": {
+    "title": "Nilai-nilai Islami",
+    "paragraphs": [
+      "Kami menanamkan nilai-nilai Islam melalui program-program yang memperdalam cinta dan pemahaman terhadap Allah dan Rasul-Nya. Kesadaran ini menumbuhkan sifat-sifat seperti keunggulan, kebaikan, rasa syukur, kejujuran, dan penghormatan terhadap perbedaan. Dengan secara konsisten melibatkan siswa dalam kegiatan yang mempromosikan prinsip-prinsip Islam, sekolah dapat membangun lingkungan yang positif dan penuh kasih. Misalnya, shalat harian dapat menumbuhkan rasa spiritualitas dan hubungan dengan Tuhan. Demikian pula, memasukkan studi Islam ke dalam kurikulum dapat memperdalam pemahaman siswa tentang agama mereka dan ajarannya.",
+      "Sekolah kami juga membiasakan membaca sirah Nabi, yang merupakan alat yang kuat untuk pertumbuhan spiritual. Melalui kisah-kisah kehidupannya, kita dapat menyaksikan secara langsung bagaimana beliau menghadapi tantangan, membuat keputusan sulit, dan mencontohkan standar moral tertinggi. Paparan terhadap teladan ini dapat menginspirasi kita untuk mencapai keunggulan dalam kehidupan kita sendiri. Melalui pengalaman-pengalaman konsisten ini, siswa secara bertahap menginternalisasi nilai-nilai Islam dan mengintegrasikannya ke dalam kehidupan sehari-hari mereka."
+    ]
+  },
+  "holistic": {
+    "title": "Mata Pelajaran: Pendekatan Holistik",
+    "paragraphs": [
+      "Kurikulum kami dirancang komprehensif dan selaras dengan tema yang ditetapkan oleh Departemen Pendidikan Anak Usia Dini Nasional. Ini berarti kami mencakup 30 tema berbeda, masing-masing tema dieksplorasi lebih lanjut melalui 7 bidang pembelajaran utama:"
+    ],
+    "areas": [
+      "Studi Islam",
+      "Keterampilan hidup",
+      "Eksplorasi Sensorik & Sains",
+      "Perkembangan bahasa",
+      "Integrasi Matematika, Teknologi & Engineering",
+      "Kesadaran budaya",
+      "Seni & Kreativitas"
+    ]
+  },
+  "daily": {
+    "title": "Kegiatan Harian",
+    "items": [
+      "Sholat dhuha",
+      "Dzikir pagi",
+      "Tilawah dan Tahfidz Qur’an",
+      "KBM reguler",
+      "Sholat zuhur berjamaah",
+      "Sirah Nabawiyah"
+    ]
+  },
+  "hours": {
+    "title": "Operasional",
+    "rows": [
+      { "label": "Hari Sekolah", "value": "Senin – Jum’at" },
+      { "label": "Pukul", "value": "07.30 – 13.30 WIB" },
+      { "label": "Kedatangan", "value": "07.25 WIB" },
+      { "label": "Kepulangan", "value": "13.30 WIB" }
+    ]
+  }
+}

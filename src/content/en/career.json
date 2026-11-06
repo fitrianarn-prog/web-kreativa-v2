@@ -1,0 +1,77 @@
+{
+  "_source": "docs/SPEC.md 3.9 (kreativaglobal.sch.id/career + transkripsi 5 poster, Okt 2026)",
+  "meta": {
+    "title": "Career",
+    "description": "Join Kreativa Global School. Kreativa Teacher Development Program: a 6-month paid program, Jan–Jun 2027."
+  },
+  "hero": {
+    "title": "Join Our Team",
+    "body": "Join our enthusiastic and dedicated community committed to creating positive change. We are looking for talented and dedicated individuals with a passion for educating the next generation based on Islamic values.",
+    "apply": "Apply Now"
+  },
+  "program": {
+    "title": "Kreativa Teacher Development Program",
+    "tagline": "Grow as an educator. Make an impact.",
+    "intro": "A structured development program combining professional training, mentoring, and real classroom experience to prepare you for a teaching career at Kreativa Global School.",
+    "highlight": "6-Month Paid Program | Jan–Jun 2027",
+    "levels": ["Kindergarten", "Primary", "Secondary", "High School"],
+    "develop": {
+      "title": "What you'll develop",
+      "items": [
+        { "title": "Cambridge Curriculum", "body": "Learn to apply Cambridge curriculum standards and assessment practices." },
+        { "title": "English for Teaching", "body": "Develop your English communication skills for classroom teaching." },
+        { "title": "Effective Pedagogy", "body": "Learn to plan and deliver lessons that support student learning." },
+        { "title": "Understanding Students' Cognitive Development", "body": "Child development, learning psychology, individual learning needs." },
+        { "title": "Classroom Experience", "body": "Practical experience through classroom observation, microteaching, and guided teaching." },
+        { "title": "Kreativa Teaching Culture", "body": "Explore long-term career paths in teaching specialization or school leadership." }
+      ]
+    },
+    "benefits": {
+      "title": "Compensation & Benefits",
+      "items": [
+        { "title": "Competitive Compensation", "body": "Competitive pay throughout the 6-month program." },
+        { "title": "Professional Certification", "body": "Kreativa Teaching Academy certificate upon completion." },
+        { "title": "2-Year Employment Contract", "body": "Upon meeting program standards." },
+        { "title": "Career Growth Opportunities", "body": "Teaching specialization and school leadership." }
+      ]
+    },
+    "who": {
+      "title": "Who can apply",
+      "items": [
+        { "title": "Fresh Graduates", "body": null },
+        { "title": "Experienced Teachers", "body": null },
+        { "title": "Subject Specialists", "body": "Graduates with strong subject knowledge, including those without a teaching background." },
+        { "title": "Cambridge-Experienced Teachers", "body": null }
+      ]
+    },
+    "requirements": {
+      "title": "Requirements",
+      "items": [
+        "Bachelor's degree in a relevant field from a reputable university",
+        "IELTS 6.0+ for Kindergarten–Primary or 6.5+ for Secondary–High School, or equivalent English proficiency",
+        "Strong academic or subject knowledge",
+        "Commitment to Islamic values and education",
+        "Experience with the Cambridge curriculum is preferred"
+      ]
+    },
+    "howTo": {
+      "title": "How to apply",
+      "steps": [
+        { "title": "Apply", "body": "Submit your application." },
+        { "title": "Selection", "body": "Recruitment & assessment." },
+        { "title": "Development", "body": "6-month paid Teacher Development Program." },
+        { "title": "Employment", "body": "Successful participants begin teaching at Kreativa Global School." }
+      ]
+    },
+    "timeline": [
+      { "period": "Oct–Dec 2026", "label": "Application & Selection" },
+      { "period": "Jan–Jun 2027", "label": "Teacher Development Program" },
+      { "period": "Jul 2027", "label": "Teaching appointment" }
+    ],
+    "cta": {
+      "title": "Apply Now",
+      "body": "Visit career.kreativaglobal.sch.id",
+      "note": "Academic Year 2027/2028"
+    }
+  }
+}

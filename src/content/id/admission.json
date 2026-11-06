@@ -1,0 +1,43 @@
+{
+  "_source": "kreativaglobal.sch.id/id/registrasi/ (dicek 5 Nov 2026). Header kolom tabel biaya di situs lama berupa gambar → label tabel versi ID diterjemahkan pengembang (lihat CONTENT_REVIEW).",
+  "meta": {
+    "title": "Penerimaan Siswa Baru",
+    "description": "Proses penerimaan dan biaya sekolah {year} Kreativa Global School untuk jenjang TK, SD, SMP, dan SMA."
+  },
+  "hero": {
+    "title": "Penerimaan Siswa Baru"
+  },
+  "process": {
+    "title": "Proses Penerimaan Siswa Baru",
+    "steps": [
+      { "title": "Pengisian Formulir Pendaftaran", "body": "Lengkapi Formulir Pendaftaran di admission.kreativaglobal.sch.id." },
+      { "title": "Observasi Siswa", "body": "Melalui proses observasi, kami mengenal lebih jauh setiap calon siswa serta kesiapan mereka untuk memulai kegiatan belajar di sekolah." },
+      { "title": "Wawancara Orang Tua", "body": "Pada sesi wawancara, orang tua akan berdiskusi tentang nilai keluarga, harapan pendidikan, serta perkembangan anak bersama pihak sekolah. Ini juga menjadi kesempatan bagi orang tua untuk mengajukan pertanyaan dan mengenal lebih jauh lingkungan serta program di Kreativa Global School." },
+      { "title": "Keputusan Penerimaan", "body": "Sekolah akan menentukan apakah calon siswa diterima atau tidak." },
+      { "title": "Daftar Ulang", "body": "Jika dinyatakan diterima, orang tua dapat melanjutkan proses daftar ulang dengan melengkapi dokumen dan melakukan pembayaran biaya administrasi." },
+      { "title": "Pengukuran dan Fitting Seragam", "body": "Siswa melakukan pengukuran dan mencoba seragam sekolah." },
+      { "title": "Orientasi Orang Tua", "body": "Pada sesi Orientasi Orang Tua, orang tua akan mengenal lebih jauh tentang sekolah, bertemu dengan para guru, serta memahami cara kerja dan budaya sekolah. Orang tua juga akan mendapatkan tips untuk mendukung anak di tahun pertama. Sesi ini bertujuan agar orang tua merasa siap mendampingi anak memasuki Kreativa Global School." },
+      { "title": "Orientasi Siswa", "body": "Selama Orientasi Siswa, peserta dari semua jenjang akan diperkenalkan pada lingkungan sekolah, bertemu guru serta teman baru, dan memahami rutinitas serta ekspektasi belajar. Mereka juga akan mempelajari nilai-nilai sekolah, kegiatan harian, serta panduan penting agar anak merasa percaya diri, nyaman, dan siap memulai perjalanan belajar di Kreativa Global School." }
+    ]
+  },
+  "fees": {
+    "title": "Biaya Sekolah {year}",
+    "levelsLabel": "Pilih jenjang sekolah",
+    "registrationFee": "Biaya Pendaftaran",
+    "grade": "Kelas",
+    "annualTuition": "Biaya Sekolah Tahunan",
+    "annualProgramFee": "Biaya Program Tahunan",
+    "monthlyTuition": "Biaya Sekolah Bulanan",
+    "enrollmentFee": "Uang Pangkal",
+    "enrollmentNote": "Pilih salah satu skema pembayaran uang pangkal.",
+    "paidIn": "dibayar di {grade}",
+    "including": "Termasuk",
+    "excluding": "Tidak Termasuk",
+    "currencyNote": "Semua nominal dalam Rupiah (Rp).",
+    "brochure": "Unduh Brosur",
+    "brochureType": "PDF"
+  },
+  "closing": {
+    "text": "Kreativa Global: Tempat potensimu dihargai, mimpimu tumbuh, dan masa depanmu bersinar."
+  }
+}

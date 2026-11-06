@@ -1,0 +1,58 @@
+{
+  "_note": "Satu-satunya sumber data kontak, kampus, tautan eksternal, dan tahun ajaran. Perubahan di sini otomatis tampil di seluruh situs.",
+  "name": "Kreativa Global School",
+  "shortName": "Kreativa Global",
+  "siteUrl": "https://kreativaglobal.sch.id",
+  "academicYear": "2027/2028",
+  "contact": {
+    "phoneDisplay": "+62 851-8666-4140",
+    "phoneE164": "+6285186664140",
+    "whatsapp": "6285186664140",
+    "email": "info@kreativaglobal.sch.id"
+  },
+  "officeHours": {
+    "_note": "Versi konsolidasi spec Bagian 4.7. Situs lama EN menulis 'Sun & PH: Closed', ID menulis 'Sabtu & Libur Nasional: Libur' — lihat CONTENT_REVIEW.md.",
+    "days": { "en": "Monday – Friday", "id": "Senin – Jumat" },
+    "time": "08.00 – 16.00 WIB",
+    "closed": {
+      "en": "Saturday, Sunday & public holidays: closed",
+      "id": "Sabtu, Minggu & libur nasional: tutup"
+    }
+  },
+  "campuses": [
+    {
+      "id": "campus-1",
+      "name": { "en": "Campus 1", "id": "Kampus 1" },
+      "address": "Jl. Parakan Saat I No. 39, Kota Bandung",
+      "status": { "en": "Under construction", "id": "Dalam pembangunan" },
+      "mapsQuery": "Jl. Parakan Saat I No. 39, Bandung"
+    },
+    {
+      "id": "campus-2",
+      "name": { "en": "Campus 2", "id": "Kampus 2" },
+      "address": "Jl. Soekarno-Hatta No. 729, Kota Bandung",
+      "status": null,
+      "mapsQuery": "Jl. Soekarno-Hatta No. 729, Bandung"
+    },
+    {
+      "id": "campus-3",
+      "name": { "en": "Campus 3", "id": "Kampus 3" },
+      "address": "Jl. Soekarno-Hatta No. 668, Kota Bandung",
+      "status": null,
+      "mapsQuery": "Jl. Soekarno-Hatta No. 668, Bandung"
+    }
+  ],
+  "links": {
+    "admissionPortal": "https://admission.kreativaglobal.sch.id/",
+    "careerPortal": "https://career.kreativaglobal.sch.id/",
+    "aboutVideoYoutubeId": "Bjcf2EFxpjk"
+  },
+  "social": [
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/kreativaglobal" },
+    { "id": "facebook", "label": "Facebook", "url": "https://www.facebook.com/kreativaglobal.id" },
+    { "id": "tiktok", "label": "TikTok", "url": "https://www.tiktok.com/@kreativaglobal" },
+    { "id": "x", "label": "X", "url": "https://x.com/kreativaglobal" },
+    { "id": "youtube", "label": "YouTube", "url": "https://www.youtube.com/@kreativaglobal" },
+    { "id": "linkedin", "label": "LinkedIn", "url": "https://id.linkedin.com/school/kreativaglobal" }
+  ]
+}

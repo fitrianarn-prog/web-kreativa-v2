@@ -1,0 +1,46 @@
+{
+  "_source": "Nama track & label kolom dari /id/sma/. Isi 55 mata pelajaran belum diterjemahkan → tampil EN dengan lang=\"en\".",
+  "meta": {
+    "title": "Katalog Mata Pelajaran",
+    "description": "Katalog mata pelajaran pilihan SMA: 55 mata pelajaran di bidang Ilmu Terapan, Bisnis & Manajemen, serta Kepemimpinan & Ilmu Sosial."
+  },
+  "hero": {
+    "title": "Katalog Mata Pelajaran",
+    "subtitle": "55 mata pelajaran pilihan di bidang Ilmu Terapan, Bisnis & Manajemen, serta Kepemimpinan & Ilmu Sosial."
+  },
+  "tracks": {
+    "applied-science": "Ilmu Terapan",
+    "business-management": "Bisnis & Manajemen",
+    "leadership-social-science": "Kepemimpinan & Ilmu Sosial"
+  },
+  "table": {
+    "subject": "Mata Pelajaran Pilihan",
+    "semester": "Semester",
+    "credit": "Kredit"
+  },
+  "filters": {
+    "label": "Saring mata pelajaran",
+    "search": "Cari mata pelajaran",
+    "searchPlaceholder": "mis. psychology, data, entrepreneurship",
+    "track": "Bidang",
+    "allTracks": "Semua bidang",
+    "semester": "Semester",
+    "allSemesters": "Semua semester",
+    "semesterN": "Semester {n}",
+    "results": "{n} dari {total} mata pelajaran",
+    "empty": "Tidak ada mata pelajaran yang cocok.",
+    "reset": "Atur ulang filter"
+  },
+  "detail": {
+    "breadcrumb": "Katalog Mata Pelajaran",
+    "objective": "Educational Objective",
+    "focus": "Focus Areas",
+    "outcomes": "Expected Learning Outcomes",
+    "track": "Bidang",
+    "semester": "Semester",
+    "credits": "Kredit",
+    "notSpecified": "—",
+    "back": "Kembali ke Katalog Mata Pelajaran",
+    "related": "Mata pelajaran lain di {track}"
+  }
+}

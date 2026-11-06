@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "siteTitle": "Kreativa Global School",
+    "defaultTitle": "Kreativa Global School — Sekolah Islam Internasional di Bandung",
+    "defaultDescription": "Kreativa Global School adalah sekolah Islam internasional di Bandung untuk jenjang TK hingga SMA, membentuk pembelajar sepanjang hayat yang berkompetensi global, berkarakter kuat, dan berlandaskan nilai-nilai Islam."
+  },
+  "tagline": "Membuka Potensi, Mewujudkan Mimpi",
+  "ui": {
+    "skipToContent": "Langsung ke konten utama",
+    "enrollNow": "Daftar Sekarang",
+    "applyNow": "Daftar Sekarang",
+    "scheduleTour": "Jadwalkan Tur Sekolah",
+    "learnMore": "Selengkapnya",
+    "contactUs": "Hubungi Kami",
+    "downloadBrochure": "Unduh Brosur",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "mainNavigation": "Navigasi utama",
+    "languageLabel": "Bahasa",
+    "switchTo": "Ganti bahasa ke",
+    "overview": "Ikhtisar",
+    "opensInNewTab": "terbuka di tab baru",
+    "chatOnWhatsapp": "Hubungi kami lewat WhatsApp",
+    "untranslatedNotice": "Bagian ini belum tersedia dalam Bahasa Indonesia.",
+    "playVideo": "Putar video",
+    "breadcrumb": "Navigasi jejak"
+  },
+  "whatsapp": {
+    "general": "Halo Kreativa Global School, saya ingin bertanya informasi lebih lanjut.",
+    "tour": "Halo Kreativa Global School, saya ingin menjadwalkan tur sekolah.",
+    "admission": "Halo Kreativa Global School, saya ingin bertanya tentang pendaftaran tahun ajaran {year}."
+  },
+  "nav": [
+    {
+      "id": "about",
+      "label": "Tentang Kami",
+      "href": "/about",
+      "children": [
+        {
+          "label": "Pesan Pendiri",
+          "href": "/about#founder-message"
+        },
+        {
+          "label": "Visi & Misi",
+          "href": "/about#vision-mission"
+        },
+        {
+          "label": "Kerangka Kurikulum",
+          "href": "/about#curriculum-framework"
+        },
+        {
+          "label": "Sejarah",
+          "href": "/about#our-story"
+        },
+        {
+          "label": "Brand Kami",
+          "href": "/about#our-brand"
+        },
+        {
+          "label": "Fasilitas",
+          "href": "/about#facilities"
+        },
+        {
+          "label": "Tanya Jawab",
+          "href": "/about#faq"
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "Sekolah Kami",
+      "href": null,
+      "children": [
+        {
+          "label": "TK",
+          "href": "/schools/kindergarten"
+        },
+        {
+          "label": "SD",
+          "href": "/schools/primary"
+        },
+        {
+          "label": "SMP",
+          "href": "/schools/secondary"
+        },
+        {
+          "label": "SMA",
+          "href": "/schools/high-school"
+        },
+        {
+          "label": "Katalog Mata Pelajaran",
+          "href": "/schools/high-school/subjects"
+        }
+      ]
+    },
+    {
+      "id": "admission",
+      "label": "Registrasi",
+      "href": "/admission",
+      "children": [
+        {
+          "label": "Proses Penerimaan",
+          "href": "/admission#process"
+        },
+        {
+          "label": "Biaya Pendidikan",
+          "href": "/admission#fees"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "label": "Karir",
+      "href": "/career",
+      "children": []
+    },
+    {
+      "id": "contact",
+      "label": "Kontak",
+      "href": "/contact",
+      "children": []
+    }
+  ],
+  "schoolsMenu": {
+    "heading": "Jenjang Pendidikan Kami",
+    "intro": "Perjalanan pendidikan yang lengkap, dirancang untuk setiap tahap perkembangan.",
+    "catalogLabel": "Katalog Mata Pelajaran SMA",
+    "catalogDescription": "55 mata pelajaran pilihan dalam jalur Applied Science, Business & Management, serta Leadership & Social Science."
+  },
+  "levels": {
+    "kindergarten": {
+      "name": "TK",
+      "grades": "K1 – K2",
+      "summary": "Mengembangkan keterampilan analitis, kemandirian berpikir, tanggung jawab pribadi, serta kemampuan sosial dalam lingkungan belajar yang menyenangkan."
+    },
+    "primary": {
+      "name": "SD",
+      "grades": "Kelas 1 – 6",
+      "summary": "Membangun fondasi yang kuat dalam literasi, numerasi, dan kemampuan berpikir kritis melalui lingkungan yang suportif dan mendorong rasa ingin tahu."
+    },
+    "secondary": {
+      "name": "SMP",
+      "grades": "Secondary 1 – 3 (Kelas 7 – 9)",
+      "summary": "Mengasah kemampuan analitis, kemandirian dalam berpikir, rasa tanggung jawab, serta membangun jiwa kepemimpinan sebagai bekal menuju jenjang berikutnya."
+    },
+    "high-school": {
+      "name": "SMA",
+      "grades": "Secondary 4 – Junior College 2 (Kelas 10 – 12)",
+      "summary": "Mempersiapkan siswa untuk memasuki universitas top dunia melalui jalur peminatan, pengembangan kepemimpinan, serta kesiapan karier yang matang."
+    }
+  },
+  "footer": {
+    "quickLinksTitle": "Tautan Cepat",
+    "quickLinks": [
+      {
+        "label": "Tentang Kami",
+        "href": "/about"
+      },
+      {
+        "label": "TK",
+        "href": "/schools/kindergarten"
+      },
+      {
+        "label": "SD",
+        "href": "/schools/primary"
+      },
+      {
+        "label": "SMP",
+        "href": "/schools/secondary"
+      },
+      {
+        "label": "SMA",
+        "href": "/schools/high-school"
+      },
+      {
+        "label": "Pendaftaran",
+        "href": "/admission"
+      },
+      {
+        "label": "Karir",
+        "href": "/career"
+      },
+      {
+        "label": "Kontak",
+        "href": "/contact"
+      }
+    ],
+    "addressTitle": "Alamat",
+    "hoursTitle": "Jam Operasional",
+    "contactTitle": "Hubungi Kami",
+    "followTitle": "Ikuti Kami",
+    "viewOnMap": "Lihat di Google Maps",
+    "rights": "Hak cipta dilindungi."
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman yang Anda cari mungkin telah dipindahkan seiring peluncuran situs baru kami.",
+    "backHome": "Kembali ke beranda"
+  },
+  "whatsappWidget": {
+    "open": "Hubungi via WhatsApp",
+    "close": "Tutup",
+    "title": "Hubungi via WhatsApp",
+    "subtitle": "Ubah pesan Anda, lalu kirim lewat WhatsApp",
+    "destination": "Tujuan WhatsApp",
+    "message": "Pesan",
+    "reset": "Kembalikan pesan awal",
+    "send": "Kirim via WhatsApp"
+  }
+}

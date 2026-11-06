@@ -1,0 +1,19 @@
+{
+  "_source": "Halaman baru (spec 8.2). Data kontak & kampus: src/content/shared/site.json.",
+  "meta": {
+    "title": "Contact Us",
+    "description": "Contact Kreativa Global School: WhatsApp, phone, email, opening hours, and our three campuses in Bandung."
+  },
+  "hero": {
+    "title": "Contact Us"
+  },
+  "labels": {
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Opening Hours",
+    "campuses": "Our Campuses",
+    "mapTitle": "Map: {name}",
+    "follow": "Follow Us"
+  }
+}
