@@ -43,3 +43,5 @@ next-env.d.ts
 
 # arsip mentah aset situs lama (diunduh ulang lewat scripts/import-legacy-assets.mjs)
 /.legacy-assets/
+
+.vercel
