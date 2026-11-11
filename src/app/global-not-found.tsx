@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 /** 404 untuk URL yang tidak cocok dengan rute mana pun (root layout berada di app/[locale]). */
 export default function GlobalNotFound() {
   return (
-    <html lang="en" className={poppins.variable}>
+    <html lang="en" className={poppins.variable} data-scroll-behavior="smooth">
       <body className="flex min-h-dvh items-center justify-center bg-surface px-4">
         <main className="max-w-lg text-center">
           {/* eslint-disable-next-line @next/next/no-img-element -- halaman ini dirender di luar pipeline next/image */}

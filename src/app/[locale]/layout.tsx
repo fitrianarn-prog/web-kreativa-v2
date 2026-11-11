@@ -49,7 +49,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   const dict = getDictionary(locale);
 
   return (
-    <html lang={locale} className={poppins.variable}>
+    <html lang={locale} className={poppins.variable} data-scroll-behavior="smooth">
       <body className="flex min-h-dvh flex-col">
         <a
           href="#main"
