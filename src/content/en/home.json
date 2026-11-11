@@ -98,21 +98,13 @@
   },
   "achievements": {
     "eyebrow": "Student Achievements",
-    "title": "Celebrating Our Students",
-    "subtitle": "Celebrating the achievements of Kreativa students in academics, olympiads, sports, and beyond.",
-    "categories": {
-      "academic": "Academic",
-      "olympiad": "Olympiad",
-      "english": "English",
-      "sports": "Sports",
-      "arts": "Arts & Creativity",
-      "other": "Achievement"
-    },
+    "title": "Celebrating Excellence",
+    "subtitle": "Every achievement tells a story of growth.",
     "pendingTitle": "Achievement content needed",
-    "viewPost": "See more on Instagram",
-    "emptyTitle": "Stories coming soon",
-    "emptyBody": "{level} achievements will be shared here soon. Follow @kreativaglobal for the latest updates.",
-    "tabsLabel": "Achievements by school level",
+    "cta": "The Brilliance Goes On",
+    "listLabel": "More student achievements",
+    "pause": "Pause scrolling",
+    "play": "Resume scrolling",
     "pendingBody": "This section stays hidden on the live site until verified achievements are added to src/content/shared/achievements.json."
   },
   "testimonials": {

@@ -1,5 +1,5 @@
 {
-  "_note": "Prestasi siswa untuk section Beranda (satu item = satu siswa, bisa lebih dari satu penghargaan). HANYA isi dengan prestasi yang sudah diverifikasi sekolah dan, bila ada foto/nama siswa, sudah ada izin orang tua. Section tidak tampil di situs live selama 'items' kosong. Format: lihat src/lib/achievements.ts. Teks { en, id: null } = nama resmi/terjemahan belum ada (halaman /id menampilkan EN).",
+  "_note": "Prestasi siswa untuk section Beranda (satu item = satu siswa, bisa lebih dari satu penghargaan). HANYA isi dengan prestasi yang sudah diverifikasi sekolah dan, bila ada foto/nama siswa, sudah ada izin orang tua. Section tidak tampil di situs live selama 'items' kosong. `featured: true` = ditonjolkan di Beranda & halaman Prestasi (pilihan editorial). Format: lihat src/lib/achievements.ts. Teks { en, id: null } = nama resmi/terjemahan belum ada (halaman /id menampilkan EN).",
   "items": [
     {
       "id": "fayra-2026",
@@ -7,6 +7,7 @@
       "level": "primary",
       "className": "P3 Integrity",
       "year": 2026,
+      "featured": true,
       "image": "/images/achievements/fayra-2026.webp",
       "imageAlt": {
         "en": "Fayra, a Kreativa Primary 3 student, smiling and holding two medals",
@@ -33,6 +34,7 @@
       "level": "primary",
       "className": "P1 Curious",
       "year": 2026,
+      "featured": false,
       "image": "/images/achievements/sakha-2026.webp",
       "imageAlt": {
         "en": "Sakha, a Kreativa Primary 1 student, holding a trophy and wearing medals",
@@ -63,6 +65,7 @@
       "level": "primary",
       "className": "P1 Adventurous",
       "year": 2026,
+      "featured": false,
       "image": "/images/achievements/asyfiyah-2026.webp",
       "imageAlt": {
         "en": "Asyfiyah, a Kreativa Primary 1 student, showing her medals",
@@ -100,6 +103,7 @@
       "level": "primary",
       "className": "P2 Empathetic",
       "year": 2026,
+      "featured": false,
       "image": "/images/achievements/haidar-2026.webp",
       "imageAlt": {
         "en": "Haidar, a Kreativa Primary 2 student, smiling with arms crossed",

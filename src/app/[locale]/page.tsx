@@ -207,12 +207,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </section>
 
       {/* ===== Prestasi siswa (tampil di situs live hanya bila ada data terverifikasi) ===== */}
-      <AchievementsSection
-        locale={locale}
-        copy={home.achievements}
-        levelNames={Object.fromEntries(levelIds.map((id) => [id, dict.levels[id].name])) as Record<LevelId, string>}
-        opensInNewTab={dict.ui.opensInNewTab}
-      />
+      <AchievementsSection locale={locale} copy={home.achievements} />
 
       {/* ===== Pendiri & pimpinan ===== */}
       <section aria-labelledby="visionaries-title" className="border-t border-line py-20 lg:py-28">

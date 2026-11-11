@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Our Achievements"
+  },
+  "hero": {
+    "eyebrow": "Student Achievements",
+    "title": "Our Achievements"
+  },
+  "heroIntro": {
+    "subtitle": "Celebrating the dedication, growth, and accomplishments of Kreativa learners across academics, sports, arts, and beyond."
+  },
+  "featured": {
+    "title": "Featured Achievements"
+  },
+  "archive": {
+    "title": "All Achievements",
+    "searchLabel": "Search achievements",
+    "searchPlaceholder": "Search achievements...",
+    "levelLabel": "School level",
+    "allLevels": "All Levels",
+    "yearLabel": "Achievement year",
+    "allYears": "All Years",
+    "clear": "Clear Filters",
+    "loadMore": "Load More",
+    "count": "{count} achievements",
+    "countOne": "1 achievement",
+    "emptyTitle": "No achievements found",
+    "emptyBody": "Try another student name or competition, or clear the filters."
+  }
+}

@@ -98,21 +98,13 @@
   },
   "achievements": {
     "eyebrow": "Prestasi Siswa",
-    "title": "Merayakan Prestasi Siswa Kreativa",
-    "subtitle": "Merayakan prestasi siswa Kreativa di bidang akademik, olimpiade, olahraga, dan lainnya.",
-    "categories": {
-      "academic": "Akademik",
-      "olympiad": "Olimpiade",
-      "english": "Bahasa Inggris",
-      "sports": "Olahraga",
-      "arts": "Seni & Kreativitas",
-      "other": "Prestasi"
-    },
+    "title": "Merayakan Prestasi",
+    "subtitle": "Setiap prestasi memiliki cerita tentang proses dan perkembangan.",
     "pendingTitle": "Konten prestasi dibutuhkan",
-    "viewPost": "Lihat lainnya di Instagram",
-    "emptyTitle": "Segera hadir",
-    "emptyBody": "Prestasi siswa {level} akan segera ditampilkan di sini. Ikuti @kreativaglobal untuk kabar terbaru.",
-    "tabsLabel": "Prestasi per jenjang",
+    "cta": "Kilau Prestasi Terus Berlanjut",
+    "listLabel": "Prestasi siswa lainnya",
+    "pause": "Jeda gulir otomatis",
+    "play": "Lanjutkan gulir otomatis",
     "pendingBody": "Section ini tidak tampil di situs live sampai prestasi terverifikasi ditambahkan ke src/content/shared/achievements.json."
   },
   "testimonials": {

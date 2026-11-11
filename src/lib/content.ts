@@ -21,6 +21,8 @@ import careerEn from "@/content/en/career.json";
 import careerId from "@/content/id/career.json";
 import contactEn from "@/content/en/contact.json";
 import contactId from "@/content/id/contact.json";
+import achievementsEn from "@/content/en/achievements.json";
+import achievementsId from "@/content/id/achievements.json";
 
 /** Konten Beranda: kedua bahasa lengkap. */
 export type HomeContent = typeof homeEn;
@@ -58,6 +60,7 @@ export const subjectsContent = defineContent(subjectsEn, subjectsId);
 export const admissionContent = defineContent(admissionEn, admissionId);
 export const careerContent = defineContent(careerEn, careerId);
 export const contactContent = defineContent(contactEn, contactId);
+export const achievementsContent = defineContent(achievementsEn, achievementsId);
 
 /** Ganti placeholder {kunci} di teks konten. */
 export function fill(text: string, values: Record<string, string | number>): string {

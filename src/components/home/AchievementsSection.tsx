@@ -1,145 +1,84 @@
-import Image from "next/image";
-import { ArrowUpRight, Sparkles } from "lucide-react";
-import { localize, type Locale, type Localized } from "@/lib/i18n/config";
-import { levelIds, type LevelId } from "@/lib/i18n/dictionaries";
-import { getAchievements, type Achievement, type AchievementCategory } from "@/lib/achievements";
-import { site } from "@/lib/site";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import type { Locale } from "@/lib/i18n/config";
+import { resolveAchievements, type ResolvedAchievement } from "@/lib/achievements";
+import { localeHref } from "@/lib/routes";
 import { Eyebrow, HeadingDivider } from "@/components/ui/SectionHeading";
-import { Tabs } from "@/components/ui/Tabs";
+import { Competitions, LevelPill, Photo, Results, classYear } from "@/components/achievements/parts";
+import { AchievementTicker } from "./AchievementTicker";
 
 type Copy = {
   eyebrow: string;
   title: string;
   subtitle: string;
-  categories: Record<AchievementCategory, string>;
-  viewPost: string;
-  emptyTitle: string;
-  emptyBody: string;
-  tabsLabel: string;
+  cta: string;
+  listLabel: string;
+  pause: string;
+  play: string;
   pendingTitle: string;
   pendingBody: string;
 };
 
-type Props = { locale: Locale; copy: Copy; levelNames: Record<LevelId, string>; opensInNewTab: string };
+type Props = { locale: Locale; copy: Copy };
 
-/** Teks per bahasa + atribut lang bila fallback ke EN. */
-function Text({ value, locale }: { value: Localized<string>; locale: Locale }) {
-  const t = localize(value, locale);
-  return t.isFallback ? <span lang={t.lang}>{t.value}</span> : <>{t.value}</>;
-}
+/** Kartu di daftar kanan yang ditampilkan di Beranda (sisanya ada di halaman Prestasi). */
+const MAX_LIST = 8;
 
-/** Pemisah bulat tebal di tengah ("•") antar-penghargaan; pembaca layar mendengar koma. */
-function Dot() {
+/** Prestasi utama (kiri, statis): foto sedang; tipografi lebih menonjol daripada foto. */
+function Featured({ item }: { item: ResolvedAchievement }) {
   return (
-    <>
-      <span aria-hidden className="mx-1.5 inline-block size-1.5 rounded-full bg-black align-middle" />
-      <span className="sr-only">, </span>
-    </>
+    <article className="grid items-center gap-6 sm:grid-cols-[11rem_1fr] lg:grid-cols-[13rem_1fr] lg:gap-8 xl:grid-cols-[15rem_1fr]">
+      {/* Tinggi foto: ±235px (HP) · 277px (lg) · 320px (xl). */}
+      <Photo item={item} sizes="(min-width: 1280px) 240px, 208px" className="w-44 rounded-2xl sm:w-full" />
+      <div>
+        <LevelPill>{item.levelName}</LevelPill>
+        <h3 className="mt-4 text-3xl leading-tight font-bold text-ink md:text-4xl">{item.recipient}</h3>
+        <p className="mt-1 text-sm text-muted">{classYear(item)}</p>
+        <p className="mt-5 text-lg leading-snug font-semibold text-brand-600 md:text-xl">
+          <Results item={item} />
+        </p>
+        <p className="mt-2 text-sm leading-relaxed text-muted">
+          <Competitions item={item} />
+        </p>
+      </div>
+    </article>
   );
 }
 
-function AchievementCard({
-  item,
-  index,
-  locale,
-  levelName,
-}: {
-  item: Achievement;
-  index: number;
-  locale: Locale;
-  levelName: string;
-}) {
-  const alt = item.imageAlt ? localize(item.imageAlt, locale) : null;
+/** Kartu memanjang (kanan): thumbnail 72px + detail; tinggi ±118px. mb-3 (bukan gap) agar loop ticker mulus. */
+function Row({ item, href }: { item: ResolvedAchievement; href: string }) {
   return (
-    // animate-rise diputar ulang setiap kali panel tab ditampilkan (display none → block).
-    <li className="w-[78%] max-w-80 shrink-0 animate-rise snap-start sm:w-auto sm:max-w-none" style={{ animationDelay: `${index * 90}ms` }}>
-      <article className="group flex h-full flex-col rounded-card bg-white p-3 shadow-card ring-1 ring-line/60 transition-shadow duration-300 hover:shadow-float">
-        <div className="relative aspect-square overflow-hidden rounded-xl bg-surface">
-          {item.image && (
-            <Image
-              src={item.image}
-              alt={alt?.value ?? ""}
-              lang={alt?.isFallback ? alt.lang : undefined}
-              fill
-              sizes="(min-width: 1024px) 270px, (min-width: 640px) 45vw, 80vw"
-              className="animate-kenburns object-cover object-[50%_25%]"
-              // Fase berbeda per kartu agar tidak bergerak serempak.
-              style={{ animationDelay: `-${index * 3.5}s` }}
-            />
-          )}
-        </div>
-        <div className="flex flex-1 flex-col px-2 pt-4 pb-2">
-          <div className="flex items-center justify-between gap-3">
-            <span className="rounded-full border border-line bg-surface px-3 py-1 text-[0.625rem] font-semibold tracking-wider text-muted uppercase">
-              {levelName}
-            </span>
-            {item.className && <span className="truncate text-xs text-muted">{item.className}</span>}
+    <li className="mb-3">
+      <Link
+        href={href}
+        className="flex items-center gap-4 rounded-xl border border-line bg-white px-3 py-2.5 transition-colors duration-300 hover:border-brand-200 hover:bg-brand-50/40"
+      >
+        <Photo item={item} sizes="72px" className="w-18 rounded-lg" />
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <h3 className="font-semibold text-ink">{item.recipient}</h3>
+            <LevelPill>{item.levelName}</LevelPill>
           </div>
-          <h3 className="mt-3 text-lg leading-snug font-semibold text-ink">
-            {item.recipient}
-            <span className="block text-base text-brand-600">
-              {item.awards.map((a, i) => (
-                <span key={i}>
-                  {i > 0 && <Dot />}
-                  <Text value={a.result} locale={locale} />
-                </span>
-              ))}
-            </span>
-          </h3>
-          <p className="mt-2 text-xs leading-relaxed text-muted">
-            {item.awards.map((a, i) => (
-              <span key={i}>
-                {i > 0 && <Dot />}
-                <Text value={a.competition} locale={locale} />
-                {a.level && (
-                  <>
-                    {" ("}
-                    <Text value={a.level} locale={locale} />
-                    {")"}
-                  </>
-                )}
-              </span>
-            ))}
+          <p className="mt-1 line-clamp-1 text-sm font-semibold text-brand-600">
+            <Results item={item} />
+          </p>
+          <p className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-muted">
+            <Competitions item={item} />
           </p>
         </div>
-      </article>
+      </Link>
     </li>
   );
 }
 
-function EmptyLevel({ level, copy, instagramUrl, opensInNewTab }: { level: string; copy: Copy; instagramUrl?: string; opensInNewTab: string }) {
-  return (
-    <div className="animate-rise flex flex-col items-center rounded-card border border-dashed border-brand-200 bg-white/70 px-6 py-14 text-center">
-      <span aria-hidden className="inline-flex size-12 items-center justify-center rounded-full bg-brand-50 text-brand-600">
-        <Sparkles className="size-5" />
-      </span>
-      <h3 className="mt-4 text-lg font-semibold text-ink">{copy.emptyTitle}</h3>
-      <p className="mt-2 max-w-md text-sm text-muted">{copy.emptyBody.replace("{level}", level)}</p>
-      {instagramUrl && (
-        <a
-          href={instagramUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 hover:text-brand-800"
-        >
-          @kreativaglobal
-          <ArrowUpRight className="size-4" aria-hidden />
-          <span className="sr-only">(Instagram, {opensInNewTab})</span>
-        </a>
-      )}
-    </div>
-  );
-}
-
 /**
- * Prestasi Siswa. Data dari src/content/shared/achievements.json (hanya prestasi terverifikasi).
+ * Beranda — "Celebrating Excellence". Data: src/content/shared/achievements.json (sama dengan halaman /achievements).
  * - Data kosong + produksi  → section tidak dirender (tanpa konten palsu).
- * - Data kosong + development → kotak penanda "konten dibutuhkan" agar tim tahu section ini ada.
- * - Ada data → tab per jenjang; tiap tab berisi grid kartu siswa (foto bergerak pelan). Tab pertama yang aktif
- *   adalah jenjang pertama yang punya data.
+ * - Data kosong + development → kotak penanda "konten dibutuhkan".
+ * - Ada data → kiri: prestasi `featured` (statis); kanan: daftar prestasi lain (AchievementTicker).
  */
-export function AchievementsSection({ locale, copy, levelNames, opensInNewTab }: Props) {
-  const items = getAchievements();
+export function AchievementsSection({ locale, copy }: Props) {
+  const items = resolveAchievements(locale);
 
   if (items.length === 0) {
     if (process.env.NODE_ENV === "production") return null;
@@ -158,12 +97,12 @@ export function AchievementsSection({ locale, copy, levelNames, opensInNewTab }:
     );
   }
 
-  const instagram = site.social.find((s) => s.id === "instagram");
-  const byLevel = levelIds.map((level) => ({ level, items: items.filter((a) => a.level === level) }));
-  const firstWithData = Math.max(0, byLevel.findIndex((g) => g.items.length > 0));
+  const pageHref = localeHref(locale, "/achievements");
+  const featured = items.find((a) => a.featured && a.image) ?? items.find((a) => a.image) ?? items[0];
+  const rest = items.filter((a) => a !== featured).slice(0, MAX_LIST);
 
   return (
-    <section aria-labelledby="achievements-title" className="bg-surface bg-dots py-20 lg:py-28">
+    <section aria-labelledby="achievements-title" className="bg-white py-20 lg:py-28">
       <div className="container-page">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
@@ -174,40 +113,28 @@ export function AchievementsSection({ locale, copy, levelNames, opensInNewTab }:
             <HeadingDivider center={false} />
             <p className="mt-4 text-sm text-pretty text-muted md:text-lg">{copy.subtitle}</p>
           </div>
-          {instagram && (
-            <a
-              href={instagram.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center gap-1.5 self-start text-sm font-semibold text-brand-600 hover:text-brand-800 md:self-auto"
-            >
-              {copy.viewPost}
-              <ArrowUpRight className="size-4" aria-hidden />
-              <span className="sr-only">({opensInNewTab})</span>
-            </a>
-          )}
+          <Link
+            href={pageHref}
+            className="group inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-accent-200 px-5 py-2.5 text-sm font-semibold text-accent-600 transition-colors duration-300 hover:border-accent-600 hover:bg-accent-600 hover:text-white md:self-auto"
+          >
+            {copy.cta}
+            <ArrowUpRight
+              className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 motion-reduce:transition-none"
+              aria-hidden
+            />
+          </Link>
         </div>
 
-        <Tabs
-          className="mt-10"
-          label={copy.tabsLabel}
-          defaultIndex={firstWithData}
-          items={byLevel.map(({ level, items: group }) => ({
-            id: level,
-            label: levelNames[level],
-            content:
-              group.length > 0 ? (
-                // HP: deretan geser horizontal (tidak memanjang ke bawah); sm+: grid 2 → 4 kolom.
-                <ul className="relative -mx-4 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 pb-4 [scrollbar-width:thin] sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-5 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-4 lg:gap-6">
-                  {group.map((item, i) => (
-                    <AchievementCard key={item.id} item={item} index={i} locale={locale} levelName={levelNames[level]} />
-                  ))}
-                </ul>
-              ) : (
-                <EmptyLevel level={levelNames[level]} copy={copy} instagramUrl={instagram?.url} opensInNewTab={opensInNewTab} />
-              ),
-          }))}
-        />
+        <div className={`mt-12 grid items-center gap-12 ${rest.length > 0 ? "lg:grid-cols-2 lg:gap-16" : ""}`}>
+          <Featured item={featured} />
+          {rest.length > 0 && (
+            <AchievementTicker labels={{ pause: copy.pause, play: copy.play, region: copy.listLabel }}>
+              {rest.map((item) => (
+                <Row key={item.id} item={item} href={pageHref} />
+              ))}
+            </AchievementTicker>
+          )}
+        </div>
       </div>
     </section>
   );

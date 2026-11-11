@@ -14,6 +14,7 @@ export const pagePaths = [
   "/schools/high-school",
   "/schools/high-school/subjects",
   "/admission",
+  "/achievements",
   "/career",
   "/contact",
 ] as const;

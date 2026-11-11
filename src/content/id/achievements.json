@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Prestasi Siswa"
+  },
+  "hero": {
+    "eyebrow": "Prestasi Siswa",
+    "title": "Prestasi Siswa"
+  },
+  "featured": {
+    "title": "Prestasi Unggulan"
+  },
+  "archive": {
+    "title": "Semua Prestasi",
+    "searchLabel": "Cari Prestasi",
+    "searchPlaceholder": "Cari prestasi...",
+    "levelLabel": "Jenjang",
+    "allLevels": "Semua Jenjang",
+    "yearLabel": "Tahun prestasi",
+    "allYears": "Semua Tahun",
+    "clear": "Hapus Filter",
+    "loadMore": "Muat Lebih Banyak",
+    "count": "{count} prestasi",
+    "countOne": "1 prestasi",
+    "emptyTitle": "Prestasi tidak ditemukan",
+    "emptyBody": "Coba nama siswa atau kompetisi lain, atau hapus filter."
+  }
+}

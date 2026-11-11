@@ -51,25 +51,14 @@
   --shadow-card: 0 1px 2px rgb(27 24 68 / 0.04), 0 8px 24px -12px rgb(27 24 68 / 0.18);
   --shadow-float: 0 18px 40px -16px rgb(27 24 68 / 0.35);
 
-  /* Prestasi: zoom foto sangat pelan (Ken Burns) & kartu naik saat tab berganti */
-  --animate-kenburns: kenburns 14s ease-in-out infinite alternate;
-  --animate-rise: rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
-  @keyframes kenburns {
+  /* Prestasi: daftar bergulir pelan ke atas (durasi diatur komponen lewat style) */
+  --animate-marquee-y: marquee-y 40s linear infinite;
+  @keyframes marquee-y {
     from {
-      transform: scale(1) translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
     to {
-      transform: scale(1.08) translate3d(0, -2%, 0);
-    }
-  }
-  @keyframes rise {
-    from {
-      opacity: 0;
-      transform: translate3d(0, 16px, 0);
-    }
-    to {
-      opacity: 1;
-      transform: none;
+      transform: translate3d(0, -50%, 0);
     }
   }
 }
