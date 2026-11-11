@@ -99,7 +99,7 @@
   "achievements": {
     "eyebrow": "Student Achievements",
     "title": "Celebrating Our Students",
-    "subtitle": "Verified achievements by Kreativa students in academics, olympiads, languages, sports, and the arts.",
+    "subtitle": "Celebrating the achievements of Kreativa students in academics, olympiads, sports, and beyond.",
     "categories": {
       "academic": "Academic",
       "olympiad": "Olympiad",
@@ -109,6 +109,10 @@
       "other": "Achievement"
     },
     "pendingTitle": "Achievement content needed",
+    "viewPost": "See more on Instagram",
+    "emptyTitle": "Stories coming soon",
+    "emptyBody": "{level} achievements will be shared here soon. Follow @kreativaglobal for the latest updates.",
+    "tabsLabel": "Achievements by school level",
     "pendingBody": "This section stays hidden on the live site until verified achievements are added to src/content/shared/achievements.json."
   },
   "testimonials": {

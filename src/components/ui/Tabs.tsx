@@ -10,14 +10,16 @@ type Props = {
   className?: string;
   /** "pills" = tombol bulat (default), "underline" = garis bawah. */
   variant?: "pills" | "underline";
+  /** Indeks tab yang aktif saat awal (default 0). */
+  defaultIndex?: number;
 };
 
 /**
  * Tab yang mengikuti pola WAI-ARIA: panah kiri/kanan, Home/End, roving tabindex.
  * Semua panel dirender di HTML (panel yang tidak aktif disembunyikan) sehingga isinya tetap terbaca mesin pencari.
  */
-export function Tabs({ items, label, className = "", variant = "pills" }: Props) {
-  const [active, setActive] = useState(0);
+export function Tabs({ items, label, className = "", variant = "pills", defaultIndex = 0 }: Props) {
+  const [active, setActive] = useState(defaultIndex);
   const base = useId();
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
 

@@ -8,6 +8,7 @@ import { SITE_URL, site } from "@/lib/site";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
+import { ScrollReveal } from "@/components/layout/ScrollReveal";
 import { JsonLd } from "@/components/seo/JsonLd";
 import "../globals.css";
 
@@ -61,6 +62,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           {children}
         </main>
         <SiteFooter locale={locale} />
+        <ScrollReveal />
         <aside aria-label="WhatsApp">
           <WhatsAppFloat
             defaultMessage={dict.whatsapp.general}

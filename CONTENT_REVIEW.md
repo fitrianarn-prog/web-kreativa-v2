@@ -133,6 +133,12 @@ Aturan: informasi akademik, keuangan, dan kelembagaan **tidak diubah diam-diam**
 - foto asli (lebih disukai horizontal ≥ 1600 px) dan sumber verifikasi (sertifikat/rilis resmi).
 - Catatan: Instagram resmi memiliki highlight berjudul "Sasmo 2026". Ini bukan data hasil lomba, jadi tidak dipakai.
 - Tombol "Lihat Semua Prestasi" tidak dibuat karena belum ada halaman tujuan.
+- **Update 9 Nov 2026 — section Prestasi kini tampil di situs live** (atas permintaan pemilik proyek), berisi 4 siswa / 5 penghargaan dari carousel Instagram @kreativaglobal "Kindergarten-Primary Proud Moments!" (±5 Nov 2026), slide 2–5: Fayra (P3 Integrity) – Juara 1 Pre-Alpha, Skate Indonesia 2026: the 5th ISI Asia Championship; Sakha (P1 Curious) – Juara 1 Fast Building Junior, National Competition SGD-RC 2026; Asyfiyah (P1 Adventurous) – Perunggu SMC 2026 & Perak Hobbies Fest Skatecross 2026; Haidar (P2 Empathetic) – Perunggu SMC 2026. Tampilan: tab per jenjang (TK/SD/SMP/SMA), kartu per siswa; jenjang tanpa data menampilkan pesan "Segera hadir" + tautan Instagram (teks ditulis pengembang). Semua siswa saat ini = jenjang SD. Perlu ditindaklanjuti:
+  - **Izin orang tua** untuk nama & foto keempat siswa di website belum dikonfirmasi.
+  - Foto = crop screenshot (±290–350 px lebar, agak buram di layar retina) → ganti dengan foto asli dari tim sekolah, rasio 3:4.
+  - Slide 6–12 carousel belum diterima (kemungkinan berisi prestasi lain).
+  - Kategori ditentukan pengembang: SMC → Olimpiade; ISI Asia & Skatecross → Olahraga; SGD-RC → "Prestasi" (jenis lomba tidak disebut di slide). Tingkat "Nasional" hanya untuk SGD-RC (tertulis "National Competition").
+  - Terjemahan ID hasil lomba ("Juara 1", "Medali Perunggu/Perak"), alt foto, subjudul section, label "Lihat lainnya di Instagram" ditulis pengembang. Nama kompetisi tidak diterjemahkan (`id: null`).
 
 **Foto:**
 - Foto Program Unggulan (`program-capstone/internship/clubs.webp`), foto jenjang SMP (`secondary/student-life-2.webp`), dan foto Visi/Misi tampak seperti gambar AI/stok, bukan foto kegiatan asli Kreativa. Sebaiknya diganti foto asli.

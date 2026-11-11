@@ -156,38 +156,37 @@ export function LearningObjectives({ locale, id = "learning", tone = "surface" }
 }
 
 const clusterStyles = ["bg-brand-600", "bg-accent-600", "bg-navy-700"];
+const clusterText = ["text-brand-600", "text-accent-600", "text-navy-700"];
 
+/**
+ * 7 karakter: grid kartu seragam (bukan kolom per cluster — jumlah item per cluster 2/4/1 membuat kolom
+ * tengah memanjang). Cluster ditunjukkan lewat warna nomor + label kecil di tiap kartu; baris terakhir di tengah.
+ */
 export function CharacterGrid({ locale, id = "characters", tone = "white" }: BlockProps) {
   const c = blocksContent(locale)("characters");
-  const offsets = c.clusters.map((_, i) => c.clusters.slice(0, i).reduce((sum, cl) => sum + cl.items.length, 0));
+  const cards = c.clusters.flatMap((cluster, ci) => cluster.items.map((item) => ({ ...item, cluster: cluster.name, ci })));
   return (
     <Section id={id} title={c.title} intro={c.intro} tone={tone} lang={c.lang} titleLang={c.lang}>
-      <div className="grid gap-6 lg:grid-cols-3">
-        {c.clusters.map((cluster, ci) => (
-          <div key={cluster.name} className={ci === 1 ? "lg:row-span-2" : ""}>
-            <h3 className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-wide text-muted uppercase">
-              <span aria-hidden className={`size-2.5 rounded-full ${clusterStyles[ci]}`} />
-              {cluster.name}
-            </h3>
-            <ul className="space-y-4">
-              {cluster.items.map((item, ii) => {
-                const n = offsets[ci] + ii + 1;
-                return (
-                  <li key={item.title} className="rounded-card border border-line bg-white p-6 shadow-card">
-                    <div className="flex items-center gap-3">
-                      <span aria-hidden className={`inline-flex size-9 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white ${clusterStyles[ci]}`}>
-                        {n}
-                      </span>
-                      <h4 className="font-semibold text-ink">{item.title}</h4>
-                    </div>
-                    <p className="mt-3 text-sm leading-relaxed text-muted">{item.body}</p>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+      <ul className="flex flex-wrap justify-center gap-5">
+        {cards.map((item, i) => (
+          <li
+            key={item.title}
+            className="flex w-full flex-col rounded-card border border-line bg-white p-6 shadow-card sm:w-[calc((100%-1.25rem)/2)] lg:w-[calc((100%-3.75rem)/4)]"
+          >
+            <div className="flex items-center gap-3">
+              <span
+                aria-hidden
+                className={`inline-flex size-9 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white ${clusterStyles[item.ci]}`}
+              >
+                {i + 1}
+              </span>
+              <p className={`text-[0.6875rem] font-semibold tracking-wider uppercase ${clusterText[item.ci]}`}>{item.cluster}</p>
+            </div>
+            <h3 className="mt-4 font-semibold text-ink">{item.title}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted">{item.body}</p>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 }

@@ -1,4 +1,124 @@
 {
-  "_note": "Prestasi siswa untuk section Beranda. HANYA isi dengan prestasi yang sudah diverifikasi sekolah (sertifikat/rilis resmi) dan, bila ada foto/nama siswa, sudah ada izin orang tua. Section tidak tampil di situs live selama 'items' kosong. Format satu item: lihat src/lib/achievements.ts.",
-  "items": []
+  "_note": "Prestasi siswa untuk section Beranda (satu item = satu siswa, bisa lebih dari satu penghargaan). HANYA isi dengan prestasi yang sudah diverifikasi sekolah dan, bila ada foto/nama siswa, sudah ada izin orang tua. Section tidak tampil di situs live selama 'items' kosong. Format: lihat src/lib/achievements.ts. Teks { en, id: null } = nama resmi/terjemahan belum ada (halaman /id menampilkan EN).",
+  "items": [
+    {
+      "id": "fayra-2026",
+      "recipient": "Fayra",
+      "level": "primary",
+      "className": "P3 Integrity",
+      "year": 2026,
+      "image": "/images/achievements/fayra-2026.webp",
+      "imageAlt": {
+        "en": "Fayra, a Kreativa Primary 3 student, smiling and holding two medals",
+        "id": "Fayra, siswi kelas P3 Kreativa, tersenyum memegang dua medali"
+      },
+      "awards": [
+        {
+          "category": "sports",
+          "result": {
+            "en": "1st Place – Pre-Alpha Category",
+            "id": "Juara 1 – Kategori Pre-Alpha"
+          },
+          "competition": {
+            "en": "Skate Indonesia 2026: the 5th ISI Asia Championship",
+            "id": null
+          }
+        }
+      ],
+      "source": "Instagram @kreativaglobal, carousel 'Kindergarten-Primary Proud Moments!' (diunggah ±5 Nov 2026). Data dibaca dari screenshot slide yang dikirim pemilik proyek 9 Nov 2026; foto = crop screenshot (ganti dengan foto asli). Slide 2."
+    },
+    {
+      "id": "sakha-2026",
+      "recipient": "Sakha",
+      "level": "primary",
+      "className": "P1 Curious",
+      "year": 2026,
+      "image": "/images/achievements/sakha-2026.webp",
+      "imageAlt": {
+        "en": "Sakha, a Kreativa Primary 1 student, holding a trophy and wearing medals",
+        "id": "Sakha, siswa kelas P1 Kreativa, memegang trofi dan mengenakan medali"
+      },
+      "awards": [
+        {
+          "category": "other",
+          "result": {
+            "en": "1st Place – Fast Building Junior",
+            "id": "Juara 1 – Fast Building Junior"
+          },
+          "competition": {
+            "en": "SGD-RC 2026",
+            "id": null
+          },
+          "level": {
+            "en": "National",
+            "id": "Nasional"
+          }
+        }
+      ],
+      "source": "Instagram @kreativaglobal, carousel 'Kindergarten-Primary Proud Moments!' (diunggah ±5 Nov 2026). Data dibaca dari screenshot slide yang dikirim pemilik proyek 9 Nov 2026; foto = crop screenshot (ganti dengan foto asli). Slide 3."
+    },
+    {
+      "id": "asyfiyah-2026",
+      "recipient": "Asyfiyah",
+      "level": "primary",
+      "className": "P1 Adventurous",
+      "year": 2026,
+      "image": "/images/achievements/asyfiyah-2026.webp",
+      "imageAlt": {
+        "en": "Asyfiyah, a Kreativa Primary 1 student, showing her medals",
+        "id": "Asyfiyah, siswi kelas P1 Kreativa, menunjukkan medalinya"
+      },
+      "awards": [
+        {
+          "category": "olympiad",
+          "result": {
+            "en": "Bronze Medal",
+            "id": "Medali Perunggu"
+          },
+          "competition": {
+            "en": "Singapore Math Challenge 2026 (SMC)",
+            "id": null
+          }
+        },
+        {
+          "category": "sports",
+          "result": {
+            "en": "Silver Medal",
+            "id": "Medali Perak"
+          },
+          "competition": {
+            "en": "Hobbies Fest Skatecross Competition 2026",
+            "id": null
+          }
+        }
+      ],
+      "source": "Instagram @kreativaglobal, carousel 'Kindergarten-Primary Proud Moments!' (diunggah ±5 Nov 2026). Data dibaca dari screenshot slide yang dikirim pemilik proyek 9 Nov 2026; foto = crop screenshot (ganti dengan foto asli). Slide 4."
+    },
+    {
+      "id": "haidar-2026",
+      "recipient": "Haidar",
+      "level": "primary",
+      "className": "P2 Empathetic",
+      "year": 2026,
+      "image": "/images/achievements/haidar-2026.webp",
+      "imageAlt": {
+        "en": "Haidar, a Kreativa Primary 2 student, smiling with arms crossed",
+        "id": "Haidar, siswa kelas P2 Kreativa, tersenyum sambil melipat tangan"
+      },
+      "awards": [
+        {
+          "category": "olympiad",
+          "result": {
+            "en": "Bronze Medal",
+            "id": "Medali Perunggu"
+          },
+          "competition": {
+            "en": "Singapore Math Challenge 2026 (SMC)",
+            "id": null
+          }
+        }
+      ],
+      "source": "Instagram @kreativaglobal, carousel 'Kindergarten-Primary Proud Moments!' (diunggah ±5 Nov 2026). Data dibaca dari screenshot slide yang dikirim pemilik proyek 9 Nov 2026; foto = crop screenshot (ganti dengan foto asli). Slide 5."
+    }
+  ]
 }
