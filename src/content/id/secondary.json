@@ -1,7 +1,125 @@
 {
-  "_source": "Halaman /id/smp/ lama memakai struktur & pembagian kelas berbeda (IGCSE kelas 9–10, bertentangan dengan EN — CONTENT_REVIEW konflik #7), jadi tidak dipakai. Semua bagian khusus SMP → tampil EN. Blok bersama memakai terjemahan dari /id/sma/.",
+  "_source": "Halaman /id/smp/ lama memakai struktur & pembagian kelas berbeda (IGCSE kelas 9–10, bertentangan dengan EN — CONTENT_REVIEW konflik #7), jadi tidak dipakai. Semua bagian khusus SMP → tampil EN. Blok bersama memakai terjemahan dari /id/sma/. Update 12 Nov 2026: bagian yang sebelumnya tampil EN kini diterjemahkan pengembang atas permintaan pemilik proyek — perlu ditinjau sekolah (CONTENT_REVIEW.md).",
   "meta": {
     "title": "Sekolah Menengah Pertama",
     "description": "SMP Kreativa Global (Kelas 7–9): Cambridge Lower Secondary dan persiapan IGCSE, berlandaskan iman dan karakter."
+  },
+  "hero": {
+    "title": "Selamat datang di SMP Kreativa Global",
+    "subtitle": "Berlandaskan iman, dibimbing ilmu — membina pemimpin berwawasan global yang berintegritas dan penuh kepedulian."
+  },
+  "pathway": {
+    "title": "Jalur Kurikulum",
+    "note": "Angka dalam kurung adalah kode silabus Cambridge.",
+    "columns": [
+      "Secondary 1",
+      "Secondary 2",
+      "Secondary 3"
+    ],
+    "rows": [
+      {
+        "label": "Mata Pelajaran Inti",
+        "cells": [
+          [
+            "Bahasa Inggris sebagai Bahasa Kedua (0876)",
+            "Matematika (0862)",
+            "Sains (0893)"
+          ],
+          [
+            "Bahasa Inggris sebagai Bahasa Kedua (0510)",
+            "Matematika (0580)",
+            "Biologi (0610)",
+            "Kimia (0620)",
+            "Fisika (0625)",
+            "Bahasa Indonesia (0538)"
+          ],
+          [
+            "Bahasa Inggris sebagai Bahasa Kedua (0510)",
+            "Matematika (0580)",
+            "Biologi (0610)",
+            "Kimia (0620)",
+            "Fisika (0625)",
+            "Bahasa Indonesia (0538)"
+          ]
+        ]
+      },
+      {
+        "label": "Mata Pelajaran Tambahan",
+        "cells": [
+          [
+            "Bahasa Indonesia",
+            "Studi Islam",
+            "Studi Al-Qur’an",
+            "Pendidikan Jasmani",
+            "Kewarganegaraan",
+            "Literasi Digital (0082)",
+            "Perspektif Global (1129)",
+            "Kewarganegaraan/PJOK/Sejarah/Muatan Lokal",
+            "Pilihan AI & Coding"
+          ],
+          [
+            "Studi Islam",
+            "Studi Al-Qur’an",
+            "Ilmu Komputer (0478) / ICT (0417)",
+            "Perspektif Global (1129)",
+            "Sejarah/PJOK/Kewarganegaraan",
+            "Pilihan AI & Coding"
+          ],
+          [
+            "Studi Islam",
+            "Studi Al-Qur’an",
+            "Ilmu Komputer (0478) / ICT (0417)",
+            "Perspektif Global (1129)",
+            "Sejarah/Pendidikan Jasmani/Kewarganegaraan",
+            "Pilihan AI & Coding"
+          ]
+        ]
+      },
+      {
+        "label": "Asesmen",
+        "cells": [
+          [
+            "Asesmen Internal & Checkpoint",
+            "Portofolio siswa"
+          ],
+          [
+            "Persiapan internal bergaya IGCSE",
+            "Evaluasi proyek & portofolio"
+          ],
+          [
+            "Persiapan internal bergaya IGCSE",
+            "Evaluasi proyek & portofolio"
+          ]
+        ]
+      }
+    ]
+  },
+  "studentLife": {
+    "title": "Kehidupan Siswa",
+    "items": [
+      {
+        "title": "Ekspedisi Iman & Kepemimpinan",
+        "body": "Pengalaman reflektif di alam terbuka yang membangun keimanan, ketangguhan, dan kerja sama tim.",
+        "image": "/images/secondary/student-life-3.webp"
+      },
+      {
+        "title": "Pertukaran Global & Pengabdian Masyarakat",
+        "body": "Pertukaran budaya dan proyek pengabdian yang menumbuhkan empati, kerja sama tim, dan wawasan global.",
+        "image": "/images/secondary/student-life-2.webp"
+      },
+      {
+        "title": "Personal Mastery Track",
+        "body": "Perjalanan mengenal dan mengembangkan diri, tempat siswa belajar memahami diri sendiri, membangun rasa percaya diri, serta mengembangkan pola pikir untuk memimpin, berkarya, dan berkembang dalam kehidupan.",
+        "image": "/images/secondary/student-life-4.webp"
+      },
+      {
+        "title": "Kreativa Capstone Exhibition & Innovation Symposium",
+        "body": "Siswa meneliti, merancang, dan mempresentasikan solusi nyata, memadukan sains, kreativitas, dan kepemimpinan.",
+        "image": "/images/secondary/student-life-1.webp"
+      }
+    ]
+  },
+  "closing": {
+    "text": "Kenali lebih jauh SMP Kreativa Global — tempat iman berpadu dengan keunggulan dan setiap siswa dipersiapkan untuk memimpin dan memberi dampak."
   }
 }

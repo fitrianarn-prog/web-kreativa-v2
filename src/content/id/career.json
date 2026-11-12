@@ -1,5 +1,5 @@
 {
-  "_source": "kreativaglobal.sch.id/id/karir/ (dicek 5 Nov 2026). Isi program (poster) hanya tersedia dalam bahasa Inggris → tampil EN.",
+  "_source": "kreativaglobal.sch.id/id/karir/ (dicek 5 Nov 2026). Isi program (poster) di situs lama hanya tersedia dalam bahasa Inggris. Bagian program diterjemahkan oleh developer atas permintaan pemilik proyek (12 Nov 2026), menunggu tinjauan sekolah.",
   "meta": {
     "title": "Karir",
     "description": "Bergabung bersama Kreativa Global School. Kreativa Teacher Development Program: program berbayar 6 bulan, Jan–Jun 2027."
@@ -8,5 +8,138 @@
     "title": "Bergabung Bersama Kami",
     "body": "Sebagai bagian dari tim kami, Anda akan bergabung dengan komunitas yang bersemangat dan berdedikasi untuk menciptakan perubahan positif. Kami mencari individu yang berbakat, berdedikasi, dan memiliki semangat untuk mendidik generasi masa depan dengan nilai-nilai Islam.",
     "apply": "Kirim Lamaran"
+  },
+  "program": {
+    "title": "Kreativa Teacher Development Program",
+    "tagline": "Bertumbuh sebagai pendidik. Ciptakan dampak.",
+    "intro": "Program pengembangan terstruktur yang memadukan pelatihan profesional, mentoring, dan pengalaman nyata di kelas untuk mempersiapkan Anda berkarier sebagai guru di Kreativa Global School.",
+    "highlight": "Program Berbayar 6 Bulan | Jan–Jun 2027",
+    "levels": [
+      "TK",
+      "SD",
+      "SMP",
+      "SMA"
+    ],
+    "develop": {
+      "title": "Yang akan Anda kembangkan",
+      "items": [
+        {
+          "title": "Kurikulum Cambridge",
+          "body": "Belajar menerapkan standar kurikulum dan praktik asesmen Cambridge."
+        },
+        {
+          "title": "Bahasa Inggris untuk Mengajar",
+          "body": "Mengembangkan keterampilan komunikasi bahasa Inggris untuk mengajar di kelas."
+        },
+        {
+          "title": "Pedagogi yang Efektif",
+          "body": "Belajar merencanakan dan menyampaikan pelajaran yang mendukung pembelajaran siswa."
+        },
+        {
+          "title": "Memahami Perkembangan Kognitif Siswa",
+          "body": "Perkembangan anak, psikologi belajar, kebutuhan belajar individual."
+        },
+        {
+          "title": "Pengalaman di Kelas",
+          "body": "Pengalaman praktik melalui observasi kelas, microteaching, dan mengajar dengan bimbingan."
+        },
+        {
+          "title": "Budaya Mengajar Kreativa",
+          "body": "Menjelajahi jalur karier jangka panjang di bidang spesialisasi pengajaran atau kepemimpinan sekolah."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Kompensasi & Benefit",
+      "items": [
+        {
+          "title": "Kompensasi Kompetitif",
+          "body": "Gaji yang kompetitif selama 6 bulan program."
+        },
+        {
+          "title": "Sertifikasi Profesional",
+          "body": "Sertifikat Kreativa Teaching Academy setelah menyelesaikan program."
+        },
+        {
+          "title": "Kontrak Kerja 2 Tahun",
+          "body": "Setelah memenuhi standar program."
+        },
+        {
+          "title": "Peluang Pengembangan Karier",
+          "body": "Spesialisasi pengajaran dan kepemimpinan sekolah."
+        }
+      ]
+    },
+    "who": {
+      "title": "Siapa yang dapat melamar",
+      "items": [
+        {
+          "title": "Lulusan Baru",
+          "body": null
+        },
+        {
+          "title": "Guru Berpengalaman",
+          "body": null
+        },
+        {
+          "title": "Spesialis Mata Pelajaran",
+          "body": "Lulusan dengan penguasaan mata pelajaran yang kuat, termasuk yang tidak berlatar belakang pendidikan keguruan."
+        },
+        {
+          "title": "Guru Berpengalaman Cambridge",
+          "body": null
+        }
+      ]
+    },
+    "requirements": {
+      "title": "Persyaratan",
+      "items": [
+        "Gelar sarjana (S1) di bidang yang relevan dari universitas terkemuka",
+        "IELTS 6.0+ untuk TK–SD atau 6.5+ untuk SMP–SMA, atau kemampuan bahasa Inggris yang setara",
+        "Penguasaan akademik atau mata pelajaran yang kuat",
+        "Komitmen terhadap nilai-nilai dan pendidikan Islam",
+        "Pengalaman dengan kurikulum Cambridge lebih diutamakan"
+      ]
+    },
+    "howTo": {
+      "title": "Cara melamar",
+      "steps": [
+        {
+          "title": "Melamar",
+          "body": "Kirimkan lamaran Anda."
+        },
+        {
+          "title": "Seleksi",
+          "body": "Rekrutmen & asesmen."
+        },
+        {
+          "title": "Pengembangan",
+          "body": "Teacher Development Program berbayar selama 6 bulan."
+        },
+        {
+          "title": "Penempatan Kerja",
+          "body": "Peserta yang lulus mulai mengajar di Kreativa Global School."
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "period": "Okt–Des 2026",
+        "label": "Pendaftaran & Seleksi"
+      },
+      {
+        "period": "Jan–Jun 2027",
+        "label": "Teacher Development Program"
+      },
+      {
+        "period": "Jul 2027",
+        "label": "Penempatan mengajar"
+      }
+    ],
+    "cta": {
+      "title": "Lamar Sekarang",
+      "body": "Kunjungi career.kreativaglobal.sch.id",
+      "note": "Tahun Ajaran 2027/2028"
+    }
   }
 }

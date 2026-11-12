@@ -1,0 +1,666 @@
+{
+  "_source": "Terjemahan ID mata pelajaran pilihan SMA (dibuat pengembang atas permintaan pemilik proyek, 12 Nov 2026 — perlu ditinjau sekolah). Dipakai scripts/build-electives.mjs; kunci = slug.",
+  "scientific-thinking-research-method": {
+    "title": "Scientific Thinking & Research Method",
+    "objective": "Mata pelajaran ini membekali siswa untuk berpikir seperti ilmuwan — penuh rasa ingin tahu, logis, dan berbasis bukti. Mata pelajaran ini membangun fondasi untuk penyelidikan dan penemuan dengan memperkenalkan prinsip-prinsip penalaran ilmiah, metodologi penelitian, dan desain eksperimen. Siswa mempelajari bagaimana pengetahuan ilmiah dihasilkan, diuji, dan diterapkan dalam konteks dunia nyata.",
+    "focus": "Siswa menjelajahi bagaimana cara berpikir ilmiah menjangkau lebih jauh dari laboratorium — memengaruhi kebijakan sosial, inovasi bisnis, dan pemecahan masalah sehari-hari. Mereka berlatih merancang eksperimen, menganalisis data, dan merumuskan hipotesis yang berakar pada observasi dan logika.",
+    "outcomes": [
+      "Memahami hakikat dan filsafat ilmu pengetahuan",
+      "Langkah-langkah metode ilmiah: merumuskan pertanyaan, hipotesis, eksperimen, analisis",
+      "Metode penelitian kuantitatif dan kualitatif",
+      "Pengorganisasian, analisis, dan interpretasi data",
+      "Etika dan integritas penelitian",
+      "Menulis dan mempresentasikan hasil penelitian"
+    ]
+  },
+  "the-science-and-implications-of-generative-ai": {
+    "title": "The Science and Implications of Generative AI",
+    "objective": "Mata pelajaran ini memperkenalkan siswa pada dunia Artificial Intelligence, dengan fokus pada sains di balik model generatif yang mampu menghasilkan teks, gambar, dan data. Siswa akan memahami bagaimana sistem AI belajar serta implikasi etis apa yang menyertai kemampuannya dalam membentuk kreativitas, komunikasi, dan masyarakat.",
+    "focus": "Siswa mengkaji cara kerja model generative AI, penerapannya di berbagai bidang, serta tanggung jawab manusia dalam menggunakan dan mengaturnya.",
+    "outcomes": [
+      "Dasar-dasar AI dan neural network",
+      "Pelatihan data dan pemodelan generatif",
+      "Penerapan AI dalam sains, pendidikan, kedokteran, dan seni",
+      "Isu etis dan sosial: bias, privasi, dan misinformasi",
+      "Kegiatan simulasi dan studi kasus penerapan AI"
+    ]
+  },
+  "earth-environmental-science": {
+    "title": "Earth & Environmental Science",
+    "objective": "Siswa memperoleh pemahaman tentang bagaimana sistem-sistem Bumi berfungsi dan saling berinteraksi — atmosfer, hidrosfer, geosfer, dan biosfer — serta bagaimana aktivitas manusia memengaruhinya. Mata pelajaran ini menumbuhkan literasi dan tanggung jawab lingkungan.",
+    "focus": "Siswa mengembangkan kemampuan untuk menganalisis tantangan lingkungan global dan mengusulkan solusi berkelanjutan yang berlandaskan sains dan etika.",
+    "outcomes": [
+      "Sistem alami Bumi dan saling ketergantungan ekologis",
+      "Perubahan lingkungan, polusi, dan konservasi",
+      "Energi terbarukan dan pembangunan berkelanjutan",
+      "Ilmu iklim dan analisis pemanasan global",
+      "Studi kasus lokal dan internasional",
+      "Observasi lapangan dan pengumpulan data lingkungan"
+    ]
+  },
+  "applied-biology-human-systems-health": {
+    "title": "Applied Biology: Human Systems & Health",
+    "objective": "Mata pelajaran ini mengeksplorasi tubuh manusia dari sudut pandang biologi dan kesehatan. Mata pelajaran ini membangun pemahaman tentang anatomi, fisiologi, dan genetika manusia sekaligus mengaitkannya dengan penerapan nyata di bidang kedokteran dan kesehatan.",
+    "focus": "Siswa menganalisis bagaimana sistem biologis menjaga keseimbangan dan bagaimana gangguan terhadapnya menimbulkan penyakit. Mata pelajaran ini mendorong gaya hidup sehat, empati dalam layanan kesehatan, serta apresiasi terhadap peran bioteknologi dalam kemajuan umat manusia.",
+    "outcomes": [
+      "Sistem organ manusia dan regulasi tubuh",
+      "Genetika, pewarisan sifat, dan fungsi sel",
+      "Penyakit, imunitas, dan isu kesehatan global",
+      "Gizi, kesehatan mental, dan kedokteran preventif",
+      "Pengantar bioteknologi kedokteran"
+    ]
+  },
+  "physics-of-everyday-life": {
+    "title": "Physics of Everyday Life",
+    "objective": "Siswa menjelajahi hukum-hukum fisika yang mengatur kehidupan sehari-hari — mulai dari gravitasi dan gerak hingga bunyi, listrik, dan energi.",
+    "focus": "Mata pelajaran ini menekankan relevansi fisika dalam teknologi modern dan desain lingkungan. Siswa belajar menghubungkan persamaan dengan fenomena sehari-hari, sehingga fisika menjadi visual sekaligus praktis.",
+    "outcomes": [
+      "Hukum dasar gerak dan energi",
+      "Cahaya, bunyi, dan elektromagnetisme",
+      "Energi terbarukan dan penerapannya di dunia nyata",
+      "Eksperimen sederhana dan proyek berbasis masalah",
+      "Pengaruh fisika terhadap transportasi, perangkat, dan arsitektur"
+    ]
+  },
+  "chemistry-in-medicine-materials": {
+    "title": "Chemistry in Medicine & Materials",
+    "objective": "Menghubungkan kimia dengan inovasi nyata di bidang layanan kesehatan, kedokteran, dan material berkelanjutan. Siswa menjelajahi bagaimana struktur molekul memengaruhi sifat suatu zat dan merancang terobosan yang meningkatkan kualitas hidup manusia.",
+    "focus": "Siswa mempelajari hubungan antara kimia, biologi, dan rekayasa — mulai dari pengembangan obat hingga biomaterial dan nanoteknologi.",
+    "outcomes": [
+      "Ikatan kimia dan struktur molekul",
+      "Penerapan biokimia dalam kedokteran",
+      "Sintesis material dan nanoteknologi",
+      "Kimia lingkungan dan industri",
+      "Simulasi berbasis laboratorium dan pemodelan kimia"
+    ]
+  },
+  "introduction-to-engineering-design-principles": {
+    "title": "Introduction to Engineering & Design Principles",
+    "objective": "Mata pelajaran ini memperkenalkan teknik (engineering) sebagai disiplin yang kreatif dan berorientasi pada pemecahan masalah. Siswa belajar menerapkan fisika, matematika, dan design thinking untuk menciptakan solusi praktis bagi tantangan dunia nyata.",
+    "focus": "Dengan memadukan inovasi dan pemikiran analitis, siswa menjelajahi bagaimana para insinyur merancang sistem, membangun prototipe, dan meningkatkan efisiensi di industri maupun masyarakat.",
+    "outcomes": [
+      "Cabang-cabang teknik: sipil, mesin, elektro, dan lingkungan",
+      "Proses desain: mendefinisikan, menggali ide, membuat prototipe, menguji",
+      "Optimalisasi sistem dan proses",
+      "Etika keinsinyuran dan keberlanjutan",
+      "Proyek praktik langsung dan tantangan kolaboratif"
+    ]
+  },
+  "introduction-to-applied-statistics-data-visualization": {
+    "title": "Introduction to Applied Statistics & Data Visualization",
+    "objective": "Siswa belajar menafsirkan dan mengomunikasikan data secara efektif — keterampilan penting di bidang sains, bisnis, dan teknologi.",
+    "focus": "Mata pelajaran ini menekankan bagaimana angka dapat bercerita. Siswa membangun keterampilan dalam pengumpulan data, penalaran statistik, dan visualisasi untuk menarik kesimpulan yang tepat dan berbasis data.",
+    "outcomes": [
+      "Dasar-dasar statistika deskriptif dan inferensial",
+      "Pengorganisasian data, sampling, dan reliabilitas",
+      "Korelasi, probabilitas, dan uji hipotesis",
+      "Perangkat visualisasi data (Excel, Python, Tableau)",
+      "Mengomunikasikan temuan melalui visual dan laporan"
+    ]
+  },
+  "biotechnology-society": {
+    "title": "Biotechnology & Society",
+    "objective": "Siswa menyelidiki bagaimana bioteknologi mengubah dunia melalui kemajuan di bidang kedokteran, pertanian, dan pengelolaan lingkungan.",
+    "focus": "Mata pelajaran ini memadukan sains, inovasi, dan etika — mendorong pemikiran kritis tentang kekuatan sekaligus tanggung jawab bioteknologi modern.",
+    "outcomes": [
+      "DNA, rekayasa genetika, dan teknologi CRISPR",
+      "Bioteknologi dalam pangan dan pertanian",
+      "Biofarmasi dan inovasi kedokteran",
+      "Debat bioetika dan keberlanjutan",
+      "Studi kasus penelitian bioteknologi di dunia nyata"
+    ]
+  },
+  "advanced-data-science-predictive-analytics": {
+    "title": "Advanced Data Science & Predictive Analytics",
+    "objective": "Mata pelajaran ini membekali siswa dengan keterampilan komputasi modern untuk menganalisis kumpulan data berskala besar dan memprediksi hasil. Mata pelajaran ini menjadi jembatan antara matematika, ilmu komputer, dan penerapan sosial.",
+    "focus": "Siswa menjelajahi bagaimana data membentuk pengambilan keputusan, perancangan kebijakan, dan strategi bisnis melalui praktik langsung pemodelan dan interpretasi.",
+    "outcomes": [
+      "Dasar-dasar analisis data dan machine learning",
+      "Pemodelan prediktif dan pengenalan pola",
+      "Metode peramalan (forecasting), regresi, dan klasifikasi",
+      "Etika data, bias, dan tanggung jawab digital",
+      "Proyek akhir (capstone) data berbasis dataset nyata"
+    ]
+  },
+  "mathematics-for-economics-decision-making": {
+    "title": "Mathematics for Economics & Decision Making",
+    "objective": "Mata pelajaran ini menghubungkan logika matematika dengan penalaran ekonomi, sehingga siswa dapat memahami bagaimana data dan rumus memengaruhi pasar dan pilihan.",
+    "focus": "Siswa menerapkan matematika untuk memodelkan masalah nyata di bidang bisnis, keuangan, dan sistem sosial. Mereka mengembangkan wawasan kuantitatif dan kepercayaan diri dalam mengambil keputusan.",
+    "outcomes": [
+      "Prinsip aljabar, kalkulus, dan optimasi",
+      "Probabilitas, statistika, dan teori permainan (game theory)",
+      "Pemodelan dan simulasi ekonomi",
+      "Ekonomi perilaku dan analisis risiko",
+      "Proyek matematika dalam konteks pengambilan keputusan nyata"
+    ]
+  },
+  "scientific-research-academic-writing": {
+    "title": "Scientific Research & Academic Writing",
+    "objective": "Mata pelajaran ini membimbing siswa melalui seluruh proses penelitian ilmiah — dari penyelidikan hingga publikasi. Mata pelajaran ini memperkuat pemikiran analitis, metodologi, dan komunikasi formal.",
+    "focus": "Siswa melaksanakan proyek penelitian berskala kecil sambil belajar menyusun tulisan akademik, menganalisis data, dan mempresentasikan temuan secara efektif.",
+    "outcomes": [
+      "Desain penelitian dan metodologi data",
+      "Struktur penulisan akademik dan pengutipan referensi",
+      "Analisis kuantitatif dan kualitatif",
+      "Presentasi dan proses peer review",
+      "Publikasi dan etika dalam karya akademik"
+    ]
+  },
+  "sustainable-energy-systems": {
+    "title": "Sustainable Energy Systems",
+    "objective": "Siswa menjelajahi sains dan inovasi di balik sistem energi terbarukan, dengan tujuan memahami bagaimana teknologi bersih mendukung keberlanjutan global.",
+    "focus": "Mata pelajaran ini menekankan pembelajaran interdisipliner, memadukan fisika, kimia, dan ilmu lingkungan untuk memecahkan tantangan terkait energi.",
+    "outcomes": [
+      "Sumber energi dan kebutuhan energi global",
+      "Teknologi tenaga surya, angin, dan air",
+      "Sistem penyimpanan baterai dan efisiensi",
+      "Perubahan iklim dan kebijakan energi",
+      "Proyek desain: membangun prototipe energi terbarukan berskala kecil"
+    ]
+  },
+  "global-health-epidemiology": {
+    "title": "Global Health & Epidemiology",
+    "objective": "Mata pelajaran ini mempelajari bagaimana sains menjadi dasar bagi sistem kesehatan masyarakat, pengendalian penyakit, dan kesejahteraan global. Siswa menjelajahi hubungan antara biologi, lingkungan, dan masyarakat.",
+    "focus": "Siswa menggunakan data dan studi kasus untuk memahami bagaimana penyakit menyebar, bagaimana kebijakan kesehatan dirumuskan, dan bagaimana inovasi ilmiah dapat meningkatkan kualitas hidup di seluruh dunia.",
+    "outcomes": [
+      "Epidemiologi dan sistem data kesehatan",
+      "Penyakit menular dan penyakit kronis",
+      "Kesehatan masyarakat dan infrastruktur kesehatan global",
+      "Penelitian dalam pencegahan penyakit dan vaksinasi",
+      "Merancang proyek penyadaran kesehatan berbasis komunitas"
+    ]
+  },
+  "introduction-to-budgeting-and-financial-management": {
+    "title": "Introduction to Budgeting and Financial Management",
+    "objective": "Membekali siswa dengan keterampilan penting dalam perencanaan keuangan dan pengelolaan sumber daya yang digunakan oleh organisasi maupun individu. Siswa akan mempelajari bagaimana uang bergerak di dalam sebuah bisnis — mulai dari proyeksi pendapatan dan pengeluaran hingga perencanaan investasi dan risiko.",
+    "focus": "Mata pelajaran ini memperkenalkan manajemen keuangan sebagai bahasa bisnis. Siswa memperoleh pengalaman praktis dalam penyusunan anggaran, menafsirkan laporan keuangan, dan mengambil keputusan keuangan strategis yang menopang pertumbuhan.",
+    "outcomes": [
+      "Dasar-dasar penganggaran dan perencanaan keuangan",
+      "Pengelolaan arus kas dan pengendalian biaya",
+      "Membaca dan menganalisis laporan keuangan",
+      "Alokasi modal dan sumber pendanaan",
+      "Penganggaran strategis dan model proyeksi (forecasting)"
+    ]
+  },
+  "operations-business-process-management": {
+    "title": "Operations & Business Process Management",
+    "objective": "Membantu siswa memahami bagaimana organisasi menghadirkan produk dan layanan secara efisien melalui perancangan proses dan perbaikan berkelanjutan.",
+    "focus": "Siswa menjelajahi ilmu operasi — titik temu antara strategi bisnis dan pelaksanaannya. Mereka akan belajar merancang alur kerja, mengukur kinerja, dan mengoptimalkan proses menggunakan kasus bisnis nyata.",
+    "outcomes": [
+      "Pengantar manajemen operasi dan rantai pasok (supply chain)",
+      "Pemetaan proses dan desain sistem",
+      "Prinsip Lean management dan Six Sigma",
+      "Pengendalian mutu dan strategi efisiensi",
+      "Studi kasus: mengoptimalkan proses layanan atau produk"
+    ]
+  },
+  "performance-leadership": {
+    "title": "Performance Leadership",
+    "objective": "Mengembangkan pola pikir dan keterampilan seorang pemimpin yang berorientasi pada kinerja, yang mampu memotivasi tim dan mendorong tercapainya hasil.",
+    "focus": "Siswa akan menganalisis teori kepemimpinan, model umpan balik, dan metrik kinerja yang menopang keunggulan. Mata pelajaran ini memadukan ilmu perilaku dengan prinsip-prinsip manajemen.",
+    "outcomes": [
+      "Memahami gaya kepemimpinan dan motivasi",
+      "Penetapan tujuan dan sistem akuntabilitas",
+      "Coaching dan umpan balik untuk perbaikan",
+      "Metrik kinerja dan analisis produktivitas",
+      "Simulasi kepemimpinan dan penilaian diri"
+    ]
+  },
+  "entrepreneurship-and-innovation-in-the-private-and-social-sectors": {
+    "title": "Entrepreneurship and Innovation in the Private and Social Sectors",
+    "objective": "Menginspirasi siswa untuk merintis usaha yang tidak hanya mengejar keuntungan, tetapi juga memiliki tujuan yang bermakna. Mata pelajaran ini memperkenalkan kewirausahaan sebagai katalis bagi inovasi dan perubahan sosial yang positif.",
+    "focus": "Siswa akan belajar cara mengidentifikasi peluang, merancang solusi, dan membangun organisasi yang berkelanjutan, baik dalam konteks komersial maupun nirlaba.",
+    "outcomes": [
+      "Pola pikir kewirausahaan dan kemampuan mengenali peluang",
+      "Perencanaan startup dan analisis kelayakan",
+      "Inovasi dalam bisnis dan kewirausahaan sosial",
+      "Mempresentasikan ide (pitching) dan menarik investasi",
+      "Studi kasus: inovator sosial yang sukses"
+    ]
+  },
+  "microeconomics-for-modern-society": {
+    "title": "Microeconomics for Modern Society",
+    "objective": "Memperkenalkan siswa pada dasar-dasar ekonomi mikro serta bagaimana individu, rumah tangga, dan perusahaan mengambil keputusan dalam perekonomian nyata.",
+    "focus": "Siswa akan menjelajahi konsep seperti permintaan dan penawaran, pilihan konsumen, dan efisiensi pasar sambil menghubungkan teori dengan tantangan bisnis di dunia nyata.",
+    "outcomes": [
+      "Kelangkaan, pilihan, dan biaya peluang (opportunity cost)",
+      "Permintaan, penawaran, dan mekanisme harga",
+      "Keseimbangan pasar dan elastisitas",
+      "Perilaku konsumen dan produsen",
+      "Struktur pasar: persaingan, monopoli, dan regulasi"
+    ]
+  },
+  "financial-accounting-for-beginners": {
+    "title": "Financial Accounting for Beginners",
+    "objective": "Memberikan siswa fondasi yang kuat dalam prinsip-prinsip akuntansi dan pelaporan keuangan.",
+    "focus": "Siswa belajar cara mencatat, mengikhtisarkan, dan menafsirkan transaksi keuangan yang mencerminkan kinerja suatu organisasi.",
+    "outcomes": [
+      "Konsep akuntansi dan siklus akuntansi",
+      "Menyusun neraca dan laporan laba rugi",
+      "Pembukuan berpasangan (double-entry bookkeeping)",
+      "Memahami rasio dan laporan keuangan",
+      "Latihan praktis dan analisis kasus"
+    ]
+  },
+  "behavioral-economics": {
+    "title": "Behavioral Economics",
+    "objective": "Menjelajahi bagaimana psikologi membentuk keputusan ekonomi. Mata pelajaran ini mengungkap mengapa orang terkadang membuat pilihan yang tidak rasional — dan bagaimana pemahaman tentang perilaku dapat memperbaiki rancangan kebijakan dan bisnis.",
+    "focus": "Siswa memadukan wawasan dari ilmu ekonomi dan psikologi untuk memahami keputusan, bias, dan motivasi konsumen.",
+    "outcomes": [
+      "Bias kognitif dan heuristik",
+      "Pengambilan keputusan dalam kondisi ketidakpastian",
+      "Keuangan dan pemasaran perilaku (behavioral finance & marketing)",
+      "Nudging dan perancangan insentif",
+      "Eksperimen dalam penelitian perilaku"
+    ]
+  },
+  "financial-literacy-personal-investing": {
+    "title": "Financial Literacy & Personal Investing",
+    "objective": "Mempersiapkan siswa untuk mencapai kemandirian finansial di dunia nyata. Siswa belajar cara mengelola uang, memahami investasi, dan merencanakan masa depan.",
+    "focus": "Penekanan diberikan pada keuangan pribadi yang praktis, strategi investasi, dan perilaku ekonomi yang bertanggung jawab.",
+    "outcomes": [
+      "Penganggaran dan perencanaan keuangan pribadi",
+      "Menabung, kredit, dan pengelolaan utang",
+      "Saham, obligasi, dan reksa dana",
+      "Risiko, diversifikasi, dan etika investasi",
+      "Proyek simulasi investasi pribadi"
+    ]
+  },
+  "start-up-incubator-project": {
+    "title": "Start-up Incubator Project",
+    "objective": "Mengubah ide menjadi usaha nyata. Siswa mengalami perjalanan kewirausahaan secara utuh, dari konsep hingga peluncuran.",
+    "focus": "Mata pelajaran berbasis proyek ini menekankan inovasi, kerja sama tim, dan pelaksanaan di dunia nyata — yang berpuncak pada presentasi (pitch) startup.",
+    "outcomes": [
+      "Penggalian ide dan identifikasi masalah",
+      "Business model canvas dan pengembangan prototipe",
+      "Branding, pemasaran, dan keuangan",
+      "Pendampingan (mentorship) dan kompetisi pitch",
+      "Refleksi dan evaluasi bisnis"
+    ]
+  },
+  "marketing-consumer-psychology": {
+    "title": "Marketing & Consumer Psychology",
+    "objective": "Memahami bagaimana konsumen berpikir, merasa, dan mengambil keputusan — serta bagaimana pemasar menggunakan psikologi untuk memengaruhi mereka.",
+    "focus": "Siswa menjembatani teori dan praktik dalam branding, riset pasar, dan desain iklan.",
+    "outcomes": [
+      "Bauran pemasaran (marketing mix) dan perjalanan konsumen (consumer journey)",
+      "Strategi branding dan positioning",
+      "Pemasaran digital dan media sosial",
+      "Segmentasi pasar dan analisis perilaku",
+      "Faktor-faktor psikologis pendorong keputusan pembelian"
+    ]
+  },
+  "design-thinking-product-innovation": {
+    "title": "Design Thinking & Product Innovation",
+    "objective": "Menumbuhkan kreativitas dan inovasi yang berpusat pada manusia. Siswa belajar memecahkan masalah melalui empati, eksperimen, dan iterasi.",
+    "focus": "Siswa merancang produk dan layanan yang menjawab kebutuhan nyata pengguna dengan menggunakan kerangka design thinking yang dipelopori oleh institusi-institusi terkemuka dunia.",
+    "outcomes": [
+      "Prinsip-prinsip design thinking",
+      "Empathy mapping dan perumusan masalah",
+      "Penggalian ide, pembuatan prototipe, dan uji pengguna",
+      "Desain produk dan strategi inovasi",
+      "Proyek portofolio: desain untuk dampak"
+    ]
+  },
+  "business-analytics-data-driven-decisions": {
+    "title": "Business Analytics & Data-Driven Decisions",
+    "objective": "Mengembangkan keterampilan analitis dan interpretasi data untuk pengambilan keputusan bisnis modern.",
+    "focus": "Siswa belajar mengubah data menjadi wawasan yang dapat ditindaklanjuti dengan menggunakan perangkat statistik dan dashboard.",
+    "outcomes": [
+      "Dasar-dasar business analytics",
+      "Visualisasi data dan storytelling",
+      "Pemodelan prediktif dan metrik utama",
+      "Pengambilan keputusan dalam kondisi ketidakpastian",
+      "Proyek: proposal bisnis berbasis data"
+    ]
+  },
+  "introduction-to-global-trade-development": {
+    "title": "Introduction to Global Trade & Development",
+    "objective": "Menjelajahi perekonomian global dan keterkaitan antarnegara melalui perdagangan dan pembangunan.",
+    "focus": "Siswa mempelajari bagaimana perdagangan global membentuk perekonomian, memengaruhi kebijakan, serta berdampak pada ketimpangan dan keberlanjutan.",
+    "outcomes": [
+      "Teori dan pola perdagangan internasional",
+      "Globalisasi dan pasar negara berkembang (emerging markets)",
+      "Peran organisasi internasional (WTO, IMF, Bank Dunia)",
+      "Pembangunan berkelanjutan dan SDGs",
+      "Studi kasus kebijakan perdagangan dan investasi"
+    ]
+  },
+  "global-macroeconomics-policy": {
+    "title": "Global Macroeconomics & Policy",
+    "objective": "Memahami kekuatan dan kebijakan ekonomi berskala besar yang membentuk pertumbuhan, inflasi, dan perdagangan global.",
+    "focus": "Siswa menerapkan teori ekonomi makro untuk menganalisis keputusan pemerintah dan tantangan ekonomi internasional.",
+    "outcomes": [
+      "Pendapatan nasional, PDB, dan model pertumbuhan",
+      "Kebijakan fiskal dan moneter",
+      "Inflasi, pengangguran, dan suku bunga",
+      "Keuangan internasional dan nilai tukar",
+      "Simulasi perumusan kebijakan dan penyusunan laporan"
+    ]
+  },
+  "social-entrepreneurship-innovation": {
+    "title": "Social Entrepreneurship & Innovation",
+    "objective": "Memberdayakan siswa untuk menciptakan solusi inovatif bagi permasalahan sosial dan lingkungan.",
+    "focus": "Siswa memadukan keterampilan kewirausahaan dengan empati untuk merancang proyek yang menghasilkan dampak sosial yang terukur.",
+    "outcomes": [
+      "Model dan strategi usaha sosial (social enterprise)",
+      "Analisis kebutuhan masyarakat",
+      "Pengukuran dan pelaporan dampak",
+      "Pendanaan, pengembangan skala, dan kemitraan",
+      "Meluncurkan proyek berdampak sosial"
+    ]
+  },
+  "principles-of-business-strategic-management": {
+    "title": "Principles of Business & Strategic Management",
+    "objective": "Memberikan gambaran tentang bagaimana bisnis distrukturkan, dikelola, dan dipimpin secara strategis.",
+    "focus": "Siswa mempelajari bagaimana visi, perencanaan, dan kepemimpinan mendorong keberhasilan bisnis.",
+    "outcomes": [
+      "Organisasi dan tata kelola bisnis",
+      "Analisis SWOT dan analisis persaingan",
+      "Perencanaan strategis dan penetapan tujuan",
+      "Kerangka pengambilan keputusan",
+      "Kepemimpinan di lingkungan bisnis"
+    ]
+  },
+  "innovation-economics-future-markets": {
+    "title": "Innovation Economics & Future Markets",
+    "objective": "Menganalisis bagaimana teknologi dan inovasi membentuk ulang perekonomian dan industri.",
+    "focus": "Siswa menyelidiki tren seperti otomatisasi, transformasi digital, dan pasar yang digerakkan oleh keberlanjutan.",
+    "outcomes": [
+      "Pertumbuhan ekonomi dan siklus inovasi",
+      "Industri baru dan ekonomi digital",
+      "Ekosistem dan kebijakan inovasi",
+      "Pasar tenaga kerja masa depan dan ekonomi AI",
+      "Proyek riset tentang inovasi industri"
+    ]
+  },
+  "business-ethics-corporate-responsibility": {
+    "title": "Business Ethics & Corporate Responsibility",
+    "objective": "Membantu siswa mengembangkan kesadaran moral dan kerangka pengambilan keputusan untuk kepemimpinan yang beretika.",
+    "focus": "Mata pelajaran ini mengkaji bagaimana etika memengaruhi perilaku perusahaan, tata kelola, dan keberlanjutan.",
+    "outcomes": [
+      "Teori etika dan dilema bisnis",
+      "Tanggung jawab sosial perusahaan (CSR)",
+      "Lingkungan, Sosial, dan Tata Kelola (ESG)",
+      "Analisis pemangku kepentingan dan whistleblowing",
+      "Studi kasus dan debat bisnis"
+    ]
+  },
+  "digital-entrepreneurship-e-commerce-strategy": {
+    "title": "Digital Entrepreneurship & E-Commerce Strategy",
+    "objective": "Mengajarkan siswa cara membangun dan mengelola bisnis digital dengan memanfaatkan platform daring, data, dan pemasaran.",
+    "focus": "Siswa memadukan strategi kewirausahaan dengan teknologi dan desain pengalaman pengguna.",
+    "outcomes": [
+      "Model dan ekosistem bisnis digital",
+      "Manajemen dan logistik e-commerce",
+      "Pemasaran daring dan analitik",
+      "Pengalaman pelanggan dan desain UX",
+      "Proyek: meluncurkan prototipe toko digital"
+    ]
+  },
+  "introduction-to-islamic-economics-and-halal-industry": {
+    "title": "Introduction to Islamic Economics and Halal Industry",
+    "objective": "Memperkenalkan siswa pada keuangan yang beretika dan ekonomi halal global yang berkembang pesat.",
+    "focus": "Siswa mengkaji bagaimana prinsip-prinsip Islam menuntun kegiatan ekonomi, perdagangan, dan investasi secara adil dan berkelanjutan.",
+    "outcomes": [
+      "Prinsip-prinsip dasar ekonomi Islam",
+      "Sektor industri halal: makanan, keuangan, pariwisata, dan fesyen",
+      "Zakat, wakaf, dan keadilan sosial dalam ekonomi",
+      "Studi kasus tren pasar halal",
+      "Etika dan inklusivitas dalam perdagangan global"
+    ]
+  },
+  "project-management-agile-leadership": {
+    "title": "Project Management & Agile Leadership",
+    "objective": "Mempersiapkan siswa untuk merencanakan, melaksanakan, dan mengelola proyek secara efektif dengan metode agile modern.",
+    "focus": "Siswa mengembangkan keterampilan manajemen proyek dan kerja sama tim menggunakan kerangka kerja global seperti Scrum dan Kanban.",
+    "outcomes": [
+      "Siklus hidup proyek dan alat perencanaan",
+      "Manajemen risiko dan komunikasi",
+      "Prinsip agile dan desain iteratif",
+      "Kepemimpinan dalam tim proyek",
+      "Simulasi dan presentasi proyek"
+    ]
+  },
+  "hospitality-and-service-operations": {
+    "title": "Hospitality and Service Operations",
+    "objective": "Mengenal industri perhotelan dan jasa global serta ilmu di balik layanan yang unggul.",
+    "focus": "Siswa mempelajari bagaimana operasional, pengalaman tamu, dan manajemen saling terkait di hotel, pariwisata, dan bisnis jasa.",
+    "outcomes": [
+      "Gambaran umum industri perhotelan dan jasa",
+      "Desain layanan dan kepuasan pelanggan",
+      "Manajemen acara dan fasilitas",
+      "Perhotelan dan pariwisata berkelanjutan",
+      "Proyek industri atau simulasi kasus"
+    ]
+  },
+  "strategy-structure-and-leadership-in-public-service-organizations": {
+    "title": "Strategy, Structure, and Leadership in Public Service Organizations",
+    "objective": "Mata pelajaran ini mempersiapkan siswa untuk memahami bagaimana kepemimpinan berjalan di organisasi pelayanan publik, pemerintahan, dan nirlaba. Siswa mempelajari bagaimana struktur, kebijakan, dan strategi membentuk pengambilan keputusan di lembaga-lembaga yang melayani masyarakat.",
+    "focus": "Mata pelajaran ini menekankan keseimbangan antara kerja yang digerakkan oleh misi dan manajemen strategis. Siswa mengkaji model nyata dari lembaga publik dan organisasi internasional untuk memahami bagaimana keputusan kepemimpinan memengaruhi hasil dan dampak sosial.",
+    "outcomes": [
+      "Dasar-dasar struktur dan manajemen organisasi",
+      "Gaya kepemimpinan di sektor publik dan nirlaba",
+      "Implementasi kebijakan dan kerangka pengambilan keputusan",
+      "Studi kasus administrasi pemerintahan, pendidikan, dan kesehatan",
+      "Etika, akuntabilitas, dan inovasi dalam pelayanan publik"
+    ]
+  },
+  "getting-things-done-management-in-a-development-context": {
+    "title": "Getting Things Done: Management in a Development Context",
+    "objective": "Mata pelajaran ini memperkenalkan siswa pada realitas pengelolaan proyek dan inisiatif dalam konteks pembangunan — ketika sumber daya terbatas, tantangannya kompleks, dan kepemimpinan menuntut kreativitas.",
+    "focus": "Siswa mempelajari bagaimana manajer yang efektif merencanakan, mengoordinasikan, dan mengevaluasi program sosial. Mata pelajaran ini menyoroti bagaimana manajemen pembangunan memadukan logistik, kerja sama tim, dan empati.",
+    "outcomes": [
+      "Dasar-dasar manajemen proyek dalam pembangunan sosial",
+      "Kerangka pemantauan dan evaluasi",
+      "Pemetaan pemangku kepentingan dan pelibatan masyarakat",
+      "Kepemimpinan adaptif dan pemecahan masalah di tengah keterbatasan",
+      "Simulasi proyek lapangan dan refleksi"
+    ]
+  },
+  "introduction-to-negotiation-analysis": {
+    "title": "Introduction to Negotiation Analysis",
+    "objective": "Membekali siswa dengan keterampilan penting dalam negosiasi dan resolusi konflik — keterampilan yang memampukan pemimpin membangun konsensus, mengelola perbedaan pendapat, dan mencapai hasil yang saling menguntungkan (win-win).",
+    "focus": "Siswa mempelajari bagaimana psikologi, komunikasi, dan strategi saling berkaitan dalam negosiasi. Melalui simulasi dan studi kasus nyata, mereka menganalisis teknik yang digunakan dalam diplomasi, bisnis, dan interaksi sehari-hari.",
+    "outcomes": [
+      "Prinsip negosiasi dan dinamika konflik",
+      "Kepentingan vs. posisi: menciptakan nilai bersama",
+      "Persuasi, komunikasi, dan kecerdasan emosional",
+      "Negosiasi dan mediasi lintas budaya",
+      "Lokakarya praktik dan latihan bermain peran"
+    ]
+  },
+  "global-issues-un-diplomacy-mun": {
+    "title": "Global Issues & UN Diplomacy (MUN)",
+    "tagline": "Bersuara untuk bangsa-bangsa. Berkarya untuk kemanusiaan.",
+    "objective": "Mata pelajaran ini membawa siswa mendalami tata kelola global melalui kerangka Perserikatan Bangsa-Bangsa (PBB). Mata pelajaran ini mengembangkan pemahaman tentang hubungan internasional, diplomasi, dan perumusan kebijakan.",
+    "focus": "Siswa berperan sebagai diplomat, mewakili negara dan merundingkan solusi atas isu-isu global yang mendesak. Mereka belajar meneliti, berdebat, dan berkolaborasi sambil memahami kompleksitas urusan dunia.",
+    "outcomes": [
+      "Pengenalan sistem PBB dan hukum internasional",
+      "Tantangan global terkini (iklim, kemiskinan, konflik, migrasi)",
+      "Penulisan diplomatik dan public speaking",
+      "Simulasi MUN dan partisipasi dalam sidang komite",
+      "Penyusunan resolusi dan kerja sama internasional"
+    ]
+  },
+  "emotional-influences-on-decision-making-bias-and-benefit": {
+    "title": "Emotional Influences on Decision Making: Bias and Benefit",
+    "objective": "Mengkaji bagaimana emosi dan bias memengaruhi pilihan manusia — dalam kepemimpinan, politik, pemasaran, dan kehidupan sehari-hari.",
+    "focus": "Siswa menganalisis bagaimana emosi mendorong penilaian dan mempelajari strategi untuk mengenali diri serta mengambil keputusan yang lebih baik. Mata pelajaran ini memadukan wawasan dari psikologi, neurosains, dan ekonomi perilaku.",
+    "outcomes": [
+      "Kecerdasan emosional dan psikologi pengambilan keputusan",
+      "Bias kognitif dan teori pilihan rasional",
+      "Peran intuisi dalam kepemimpinan",
+      "Mengelola emosi dalam negosiasi dan kerja sama tim",
+      "Praktik reflektif dan latihan regulasi emosi"
+    ]
+  },
+  "leadership-and-personal-branding": {
+    "title": "Leadership and Personal Branding",
+    "objective": "Membantu siswa menemukan identitas kepemimpinannya dan belajar mengomunikasikan kekuatan diri secara autentik dan percaya diri.",
+    "focus": "Siswa merefleksikan siapa diri mereka, nilai apa yang mereka pegang, dan bagaimana mereka ingin dipandang dalam konteks akademik, sosial, dan profesional.",
+    "outcomes": [
+      "Dasar-dasar kepemimpinan diri",
+      "Membangun kesadaran diri dan rasa percaya diri",
+      "Merumuskan visi pribadi dan identitas digital",
+      "Komunikasi dan storytelling untuk memengaruhi",
+      "Menyusun portofolio dan presentasi kepemimpinan"
+    ]
+  },
+  "philanthropy-and-public-problem-solving": {
+    "title": "Philanthropy and Public Problem-Solving",
+    "objective": "Memperkenalkan siswa pada filantropi sebagai kekuatan pendorong inovasi sosial dan tanggung jawab kewargaan.",
+    "focus": "Siswa mempelajari bagaimana organisasi amal, wirausahawan sosial, dan donatur swasta berkolaborasi untuk mengatasi permasalahan publik yang kompleks.",
+    "outcomes": [
+      "Sejarah dan filosofi filantropi",
+      "Merancang inisiatif berbagi dan berdampak yang efektif",
+      "Kemitraan antara pemerintah, dunia usaha, dan masyarakat sipil",
+      "Mengevaluasi dampak sosial dan keberlanjutan",
+      "Studi kasus nyata dan penyusunan proposal"
+    ]
+  },
+  "creative-writing-journalism": {
+    "title": "Creative Writing & Journalism",
+    "objective": "Membantu siswa menguasai seni bercerita — merangkai narasi yang memberi informasi, menginspirasi, dan menggugah masyarakat.",
+    "focus": "Siswa menjelajahi kekuatan tulisan dalam berbagai genre seperti jurnalisme, nonfiksi kreatif, dan tulisan opini.",
+    "outcomes": [
+      "Dasar-dasar menulis dan struktur cerita",
+      "Etika jurnalistik dan teknik investigasi",
+      "Tulisan opini, editorial, dan feature",
+      "Bentuk penulisan kreatif: puisi, fiksi, esai",
+      "Proyek publikasi siswa atau majalah digital"
+    ]
+  },
+  "introduction-to-psychology": {
+    "title": "Introduction to Psychology",
+    "objective": "Memperkenalkan siswa pada kajian ilmiah tentang pikiran dan perilaku.",
+    "focus": "Siswa memperoleh wawasan tentang proses kognitif, emosional, dan sosial yang membentuk kehidupan manusia. Mata pelajaran ini menjembatani pengalaman sehari-hari dengan psikologi akademik.",
+    "outcomes": [
+      "Perspektif dan tokoh utama psikologi",
+      "Persepsi, belajar, memori, dan motivasi",
+      "Perkembangan kepribadian dan emosi",
+      "Kesehatan mental dan kesejahteraan manusia",
+      "Metode eksperimen dalam psikologi"
+    ]
+  },
+  "art-design-and-identity": {
+    "title": "Art, Design, and Identity",
+    "objective": "Mengkaji bagaimana seni dan desain membentuk identitas budaya dan ekspresi diri.",
+    "focus": "Siswa menganalisis bahasa visual, simbolisme, dan estetika melalui perspektif historis maupun kontemporer.",
+    "outcomes": [
+      "Aliran seni dan narasi budaya",
+      "Komunikasi visual dan prinsip desain",
+      "Seni sebagai kritik sosial dan aktivisme",
+      "Portofolio pribadi dan pameran karya",
+      "Kunjungan ke galeri atau studio seniman"
+    ]
+  },
+  "psychology-for-learning-and-well-being": {
+    "title": "Psychology for Learning and Well-being",
+    "objective": "Membantu siswa memahami bagaimana prinsip-prinsip psikologi meningkatkan kemampuan belajar, ketangguhan, dan pertumbuhan pribadi.",
+    "focus": "Siswa mempelajari motivasi, manajemen stres, dan regulasi emosi sebagai bagian dari pembelajaran sepanjang hayat.",
+    "outcomes": [
+      "Ilmu tentang belajar dan memori",
+      "Teori motivasi dan pola pikir (mindset)",
+      "Strategi coping dan psikologi positif",
+      "Refleksi diri dan penetapan tujuan",
+      "Kebiasaan belajar yang berlandaskan kesejahteraan diri"
+    ]
+  },
+  "film-media-and-society": {
+    "title": "Film, Media, and Society",
+    "objective": "Menganalisis bagaimana media dan film memengaruhi budaya, identitas, dan perubahan sosial.",
+    "focus": "Siswa secara kritis mengkaji penceritaan visual dan kekuatannya untuk mencerminkan — sekaligus membentuk ulang — dunia di sekitar mereka.",
+    "outcomes": [
+      "Teori media dan bahasa film",
+      "Representasi dan narasi budaya",
+      "Pengaruh media terhadap perilaku dan politik",
+      "Dasar-dasar pembuatan film dan produksi digital",
+      "Analisis film dan penulisan ulasan"
+    ]
+  },
+  "sociology-culture-in-modern-society": {
+    "title": "Sociology & Culture in Modern Society",
+    "objective": "Memberikan pemahaman tentang bagaimana masyarakat berfungsi dan berkembang melalui institusi, budaya, dan interaksi sosial.",
+    "focus": "Siswa menganalisis perilaku sosial, ketimpangan, dan isu-isu global melalui sudut pandang sosiologi.",
+    "outcomes": [
+      "Dasar-dasar sosiologi dan struktur sosial",
+      "Budaya, identitas, dan norma",
+      "Ketimpangan, kekuasaan, dan globalisasi",
+      "Perubahan sosial dan modernitas",
+      "Penelitian tentang komunitas lokal dan global"
+    ]
+  },
+  "creative-writing-storytelling-for-change": {
+    "title": "Creative Writing & Storytelling for Change",
+    "objective": "Melatih siswa menggunakan penulisan kreatif sebagai sarana advokasi dan empati.",
+    "focus": "Siswa menulis cerita yang menyuarakan isu-isu sosial dan pengalaman manusia.",
+    "outcomes": [
+      "Teknik naratif dan penceritaan yang menyentuh emosi",
+      "Menulis untuk advokasi dan peningkatan kesadaran",
+      "Pengembangan tokoh dan dialog",
+      "Menerbitkan dan menampilkan karya tulis",
+      "Proyek akhir: kumpulan cerita atau kampanye digital"
+    ]
+  },
+  "media-literacy-digital-society": {
+    "title": "Media Literacy & Digital Society",
+    "objective": "Mengajarkan siswa cara menavigasi, menganalisis, dan berkarya secara bertanggung jawab di era digital.",
+    "focus": "Siswa belajar mengevaluasi konten daring, mengenali bias, dan memahami dampak media terhadap demokrasi dan budaya.",
+    "outcomes": [
+      "Analisis kritis terhadap pesan media",
+      "Media sosial dan identitas",
+      "Misinformasi dan etika digital",
+      "Produksi media dan pembuatan konten",
+      "Kewargaan digital dan keamanan daring"
+    ]
+  },
+  "psychology-of-leadership-influence": {
+    "title": "Psychology of Leadership & Influence",
+    "objective": "Mengkaji bagaimana prinsip-prinsip psikologi membentuk kepemimpinan, persuasi, dan motivasi manusia.",
+    "focus": "Siswa mempelajari bagaimana para pemimpin hebat membangun kepercayaan, memengaruhi keputusan, dan mendorong perubahan dengan kecerdasan emosional dan wawasan sosial.",
+    "outcomes": [
+      "Teori motivasi dan perilaku",
+      "Kecerdasan emosional dan dinamika interpersonal",
+      "Persuasi, kekuasaan, dan pengaruh",
+      "Komunikasi kepemimpinan dan pengambilan keputusan",
+      "Asesmen kepribadian kepemimpinan"
+    ]
+  },
+  "international-relations-global-diplomacy": {
+    "title": "International Relations & Global Diplomacy",
+    "objective": "Membangun pemahaman tentang bagaimana negara-negara berinteraksi, bekerja sama, dan bersaing di panggung global.",
+    "focus": "Siswa mengkaji kebijakan luar negeri, konflik internasional, dan diplomasi melalui sudut pandang teoretis maupun praktis.",
+    "outcomes": [
+      "Teori hubungan internasional",
+      "Diplomasi dan resolusi konflik",
+      "Lembaga dan tata kelola global",
+      "Keamanan dan pembangunan internasional",
+      "Simulasi krisis dan latihan model diplomasi"
+    ]
+  },
+  "cultural-studies-identity-gender-power": {
+    "title": "Cultural Studies: Identity, Gender & Power",
+    "objective": "Mengkaji bagaimana budaya, identitas, dan struktur sosial membentuk pemahaman kita tentang gender, ras, dan kekuasaan dalam masyarakat.",
+    "focus": "Siswa secara kritis mengkaji representasi dalam media, politik, dan kehidupan sehari-hari untuk membangun kesadaran dan empati di tengah perbedaan.",
+    "outcomes": [
+      "Teori budaya, identitas, dan interseksionalitas",
+      "Gender dan representasi media",
+      "Perspektif global tentang keberagaman dan inklusi",
+      "Debat tentang kesetaraan dan pemberdayaan",
+      "Proyek refleksi dan esai analisis sosial"
+    ]
+  },
+  "islamic-civilization-history": {
+    "title": "Islamic Civilization History",
+    "objective": "Mengkaji kebangkitan, kontribusi, dan pengaruh abadi peradaban Islam selama berabad-abad.",
+    "focus": "Siswa mempelajari bagaimana sejarah Islam membentuk ilmu pengetahuan, budaya, dan etika dunia — mulai dari sains dan filsafat hingga seni dan pemerintahan.",
+    "outcomes": [
+      "Asal-usul dan penyebaran peradaban Islam",
+      "Kontribusi dalam sains, seni, dan arsitektur",
+      "Dinasti-dinasti penting dan pertukaran budaya",
+      "Nilai keadilan, ilmu, dan kebersamaan",
+      "Relevansi masa kini dan dialog antarumat beragama"
+    ]
+  }
+}

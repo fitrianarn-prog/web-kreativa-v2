@@ -1,5 +1,5 @@
 {
-  "_source": "kreativaglobal.sch.id/id/sd-kreativa-global/ (dicek 5 Nov 2026): hanya hero yang berbahasa Indonesia. Bagian lain → tampil EN. Blok bersama (visi, pendiri, dst.) memakai terjemahan dari /id/sma/.",
+  "_source": "kreativaglobal.sch.id/id/sd-kreativa-global/ (dicek 5 Nov 2026): hanya hero yang berbahasa Indonesia di situs lama. Blok bersama (visi, pendiri, dst.) memakai terjemahan dari /id/sma/. Bagian principal, english, studentLife, clubs, dan closing diterjemahkan oleh developer atas permintaan pemilik proyek (12 Nov 2026), menunggu tinjauan sekolah.",
   "meta": {
     "title": "Sekolah Dasar",
     "description": "SD Kreativa Global (Kelas 1–6): kerangka Cambridge, perjalanan belajar bahasa Inggris, dan karakter Islami yang kuat di Bandung."
@@ -7,5 +7,146 @@
   "hero": {
     "title": "Selamat datang di SD Kreativa Global",
     "subtitle": "Membina generasi yang berakhlak mulia, berilmu dan berbudi pekerti luhur serta berakhlak mulia dalam rangka daya saing global."
+  },
+  "principal": {
+    "title": "Sambutan Kepala Sekolah",
+    "name": "Nurhayati, SP., MSM",
+    "role": "Kepala Sekolah",
+    "credential": "ITB, Master of Science in Management",
+    "image": "/images/people/nurhayati.webp",
+    "greeting": "Selamat datang di Kreativa Global School! Bapak/Ibu orang tua, para siswa, dan para pengunjung yang luar biasa,",
+    "paragraphs": [
+      "Sebagai Kepala Sekolah, sungguh merupakan kebahagiaan bagi saya untuk menyambut Anda di komunitas sekolah kami yang penuh semangat.",
+      "Di Kreativa, kami percaya bahwa setiap anak itu unik, penuh potensi, dan mampu meraih hal-hal yang luar biasa. Setiap hari di kampus adalah perjalanan seru untuk menemukan, belajar, dan bertumbuh. Tim pendidik kami yang berdedikasi berkomitmen penuh untuk membina bukan hanya pikiran yang cerdas, tetapi juga hati yang baik, nilai-nilai Islam yang kuat, serta calon pemimpin masa depan yang percaya diri.",
+      "Kami mengintegrasikan standar global melalui kerangka Cambridge, sekaligus menjaga agar siswa kami tetap berakar kuat pada akhlak Islami yang mulia dan kebanggaan nasional.",
+      "Melalui lingkungan belajar yang aktif dan menyenangkan, kami mendorong anak-anak untuk bertanya, berpikir kritis, dan membangun kebiasaan belajar sepanjang hayat. Kami juga memastikan setiap anak mendapatkan dukungan personal yang dibutuhkannya untuk berkembang sesuai dengan kecepatannya masing-masing.",
+      "Kami sangat meyakini bahwa keberhasilan seorang anak dibangun di atas kemitraan yang kuat antara rumah dan sekolah. Bekerja sama bergandengan tangan dengan Anda—para orang tua yang luar biasa—adalah inti dari semua yang kami lakukan. Bersama-sama, kita menciptakan lingkungan yang aman, suportif, dan menginspirasi, tempat anak-anak kita merasa dicintai, dihargai, dan termotivasi untuk mencapai potensi tertinggi mereka.",
+      "Terima kasih atas kepercayaan Anda kepada kami untuk menjadi bagian dari perjalanan pendidikan putra-putri Anda. Kami menantikan terciptanya banyak pencapaian bermakna bersama keluarga Anda tahun ini. Mari bergandengan tangan untuk membimbing, menginspirasi, dan membentuk generasi Indonesia yang hebat dan cemerlang!"
+    ],
+    "signoff": "Salam hangat, Kepala Sekolah, Kreativa Global School"
+  },
+  "english": {
+    "title": "Kerangka Pembelajaran Bahasa Inggris untuk Siswa EFL",
+    "subtitle": "Perjalanan Belajar Bahasa Inggris",
+    "objectivesLabel": "Tujuan",
+    "phases": [
+      {
+        "title": "Fase 1: Pemerolehan Bahasa",
+        "grades": "Kelas 1–3",
+        "steps": [
+          {
+            "label": "Kelas 1 & 2",
+            "body": "Proses alami mempelajari bahasa, termasuk kosakata dan percakapan dasar."
+          },
+          {
+            "label": "Kelas 3",
+            "body": "Penguatan keterampilan literasi awal dan transisi menuju input yang lebih terstruktur."
+          }
+        ],
+        "objectives": [
+          "Mengikuti instruksi lisan sederhana",
+          "Berpartisipasi dalam percakapan dasar",
+          "Menyimak dan memahami cerita pendek, deskripsi, dan dialog",
+          "Memahami struktur kalimat dasar",
+          "Mulai menyusun kalimat sederhana",
+          "Membaca & memahami buku pendek atau buku untuk pembaca pemula"
+        ]
+      },
+      {
+        "title": "Fase 2: Pemerolehan Linguistik",
+        "grades": "Kelas 4–6",
+        "steps": [
+          {
+            "label": "Kelas 4 & 5",
+            "body": "Pendekatan terstruktur untuk mempelajari keterampilan berbahasa, termasuk pemahaman dan tata bahasa dasar."
+          },
+          {
+            "label": "Kelas 6",
+            "body": "Penguatan kefasihan, menulis, penggunaan tata bahasa, dan komunikasi akademik."
+          }
+        ],
+        "objectives": [
+          "Terlibat dalam percakapan yang lebih panjang (hobi, cerita, dll.)",
+          "Mengungkapkan pendapat dan gagasan dengan jelas",
+          "Mengembangkan pemahaman menyimak untuk mata pelajaran akademik",
+          "Mengidentifikasi gagasan utama dan rincian dalam sebuah paragraf",
+          "Menulis paragraf sederhana dengan struktur yang benar",
+          "Menggunakan struktur tata bahasa dasar dengan benar"
+        ]
+      }
+    ]
+  },
+  "studentLife": {
+    "title": "Kehidupan Siswa",
+    "items": [
+      {
+        "title": "Proyek STEM & Pekan Inovasi",
+        "image": "/images/primary/student-life-1.webp"
+      },
+      {
+        "title": "Lingkar Refleksi Spiritual",
+        "image": "/images/primary/student-life-2.webp"
+      },
+      {
+        "title": "Kepemimpinan & Public Speaking",
+        "image": "/images/primary/student-life-3.webp"
+      },
+      {
+        "title": "Klub & Pengayaan",
+        "image": "/images/primary/student-life-4.webp"
+      },
+      {
+        "title": "Kompetisi Akademik",
+        "image": "/images/primary/student-life-5.webp"
+      }
+    ]
+  },
+  "clubs": {
+    "title": "Klub & Kompetisi",
+    "items": [
+      {
+        "title": "Klub Olimpiade",
+        "image": "/images/primary/club-1.webp"
+      },
+      {
+        "title": "Al-Qur’an",
+        "image": "/images/primary/club-2.webp"
+      },
+      {
+        "title": "Musik",
+        "image": "/images/primary/club-3.webp"
+      },
+      {
+        "title": "Panahan",
+        "image": "/images/primary/club-4.webp"
+      },
+      {
+        "title": "Sepatu Roda",
+        "image": "/images/primary/club-5.webp"
+      },
+      {
+        "title": "Bola Basket",
+        "image": "/images/primary/club-6.webp"
+      },
+      {
+        "title": "Renang",
+        "image": "/images/primary/club-7.webp"
+      },
+      {
+        "title": "Taekwondo",
+        "image": "/images/primary/club-8.webp"
+      },
+      {
+        "title": "Robotik",
+        "image": "/images/primary/club-9.webp"
+      },
+      {
+        "title": "Melukis",
+        "image": "/images/primary/club-10.webp"
+      }
+    ]
+  },
+  "closing": {
+    "text": "Kenali lebih jauh SD Kreativa Global — tempat iman berpadu dengan keunggulan, dan setiap pembelajar dipersiapkan untuk memimpin dengan memberi dampak."
   }
 }

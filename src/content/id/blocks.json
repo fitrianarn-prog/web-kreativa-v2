@@ -1,5 +1,5 @@
 {
-  "_source": "kreativaglobal.sch.id/id/sma/ & /id/tentang/ (dicek 5 Nov 2026). Bagian yang tidak ada = belum ada terjemahan resmi → tampil EN dengan lang=\"en\".",
+  "_source": "kreativaglobal.sch.id/id/sma/ & /id/tentang/ (dicek 5 Nov 2026). Bagian yang tidak ada = belum ada terjemahan resmi → tampil EN dengan lang=\"en\". Update 12 Nov 2026: bagian yang sebelumnya tampil EN kini diterjemahkan pengembang atas permintaan pemilik proyek — perlu ditinjau sekolah (CONTENT_REVIEW.md).",
   "sections": {
     "visionMission": "Visi dan Misi",
     "founderBoard": "Pendiri & Dewan",
@@ -8,7 +8,7 @@
     "objectives": "Tujuan Pembelajaran",
     "characters": "7 Karakter Muslim",
     "curriculumFramework": "Kerangka Kurikulum",
-    "english": "English Learning Framework",
+    "english": "Kerangka Pembelajaran Bahasa Inggris",
     "pathway": "Jalur Kurikulum",
     "studentLife": "Kehidupan Siswa",
     "clubs": "Klub dan Kompetisi",
@@ -167,6 +167,67 @@
     "tabs": {
       "primary": "Kerangka Kurikulum SD",
       "secondary": "Kerangka Kurikulum SMP & SMA"
+    }
+  },
+  "curriculumDiagram": {
+    "pathwayLabel": "Jalur Kurikulum",
+    "outcomeLabel": "Capaian Pembelajaran",
+    "primary": {
+      "pathway": [
+        "Pembelajaran Aktif + Berbasis Inkuiri",
+        "Kurikulum Cambridge – Terstruktur + Berbasis Mata Pelajaran",
+        "Integrasi Kurikulum Nasional",
+        "Fondasi Nilai-Nilai Islam"
+      ],
+      "stages": [
+        {
+          "label": "Kelas 1–3",
+          "outcomeTitle": "Kapasitas Belajar",
+          "outcomes": [
+            "Keterampilan Bahasa Inggris",
+            "Keterampilan Motorik",
+            "Sosial Emosional",
+            "Keterampilan Presentasi"
+          ]
+        },
+        {
+          "label": "Kelas 4–6",
+          "outcomeTitle": "Fondasi Ketangguhan Akademik",
+          "outcomes": [
+            "Membangun Kepemilikan atas Proses Belajar Sendiri"
+          ]
+        }
+      ]
+    },
+    "secondary": {
+      "stages": [
+        {
+          "school": "SMP",
+          "label": "Secondary 1–3 (Kelas 7–9)",
+          "pathway": [
+            "Kurikulum Terstruktur Berbasis Mata Pelajaran",
+            "Cambridge + Persiapan IGCSE",
+            "Integrasi Kurikulum Nasional"
+          ],
+          "outcomes": [
+            "Fondasi Ketangguhan Akademik",
+            "Pemecahan Masalah + Kolaborasi"
+          ]
+        },
+        {
+          "school": "SMA",
+          "label": "Secondary 4 (Kelas 10), Junior College 1–2 (Kelas 11–12)",
+          "pathway": [
+            "Berbasis Inkuiri + Capstone Project",
+            "Persiapan SAT + IELTS",
+            "Integrasi Kurikulum Nasional"
+          ],
+          "outcomes": [
+            "Jalan Menuju Universitas Global",
+            "Kepemimpinan + Komunikasi Global"
+          ]
+        }
+      ]
     }
   },
   "clubs": {

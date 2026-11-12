@@ -62,12 +62,12 @@ Aturan: informasi akademik, keuangan, dan kelembagaan **tidak diubah diam-diam**
 - Kredit mata pelajaran *Introduction to Negotiation Analysis* (kosong di sumber; tampil "—").
 - Sambutan Principal untuk SMP dan SMA (sidebar lama menautkan "Principal Message" tanpa isi). Sambutan Principal hanya ada untuk SD (Nurhayati, SP., MSM).
 - Misi hanya berisi 2 poin. Apakah memang lengkap?
-- Terjemahan ID judul & pengantar section pendekatan belajar TK (`#approach`, 12 Nov 2026): "A Thoughtful Approach to Early Learning" / "Five integrated approaches that nurture curiosity, character, and a strong foundation for future learning." (teks EN dari pemilik proyek). Halaman /id menampilkan versi EN (`lang="en"`) sampai ada terjemahan resmi.
 - Teks pengganti paragraf "Our Logo" (teks lama membahas website sebagai etalase toko).
 - Koordinat/pin Google Maps per kampus. Saat ini tautan memakai pencarian alamat.
 - ID Google Analytics/GA4 (situs belum memasang analytics).
 
 **Teks yang ditulis/diterjemahkan pengembang — perlu ditinjau sekolah** (bukan teks resmi dari situs lama)
+- **Terjemahan ID lengkap (12 Nov 2026, atas permintaan pemilik proyek):** semua bagian yang sebelumnya tampil EN di /id kini diterjemahkan pengembang — TK (judul & pengantar pendekatan, Thematic Learning, Literacy & Phonics, Independence, 7 Muslim Kreativa), SD (sambutan kepala sekolah, kerangka bahasa Inggris, student life, klub, penutup), SMP (hero, jalur kurikulum, student life, penutup), SMA (student life), diagram kurikulum (blocks), Karier (program), Prestasi (pengantar hero), label detail mata pelajaran, dan isi 55 mata pelajaran pilihan SMA (`src/content/id/electives.json`, judul mata pelajaran tetap EN). Nama kompetisi di data prestasi tetap EN (nama resmi). Bagian TK "Integrasi STEM" & "Nilai-nilai Islami" tetap memakai teks ID resmi situs lama (isinya berbeda dari EN). Istilah yang perlu dicek: nama klub SD (mis. "Sepatu Roda", "Klub Olimpiade"), "Lingkar Refleksi Spiritual", "Pemerolehan Bahasa/Linguistik", tagline MUN "Bersuara untuk bangsa-bangsa. Berkarya untuk kemanusiaan.", ciri 7 Muslim Kreativa versi ID.
 - Label kolom tabel biaya versi ID (di situs lama berupa gambar): "Kelas", "Biaya Sekolah Tahunan", "Biaya Program Tahunan", "Biaya Sekolah Bulanan", "Uang Pangkal" (untuk *Enrollment Fee*), "dibayar di P1", "Pilih salah satu skema pembayaran uang pangkal."
 - Label fasilitas versi EN (versi ID dari judul gambar "Rencana Gedung Kami"): Student Counseling Room, Multipurpose Hall, Kindergarten Outdoor Area, dll.
 - Deskripsi meta (SEO) tiap halaman, label navigasi "Di halaman ini", label filter/pencarian katalog, label halaman Kontak, catatan "Numbers in brackets are Cambridge syllabus codes." di tabel SMP.

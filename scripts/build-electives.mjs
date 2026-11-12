@@ -4,6 +4,9 @@
 import fs from "node:fs";
 
 const spec = fs.readFileSync("docs/SPEC.md", "utf8").replace(/\r\n/g, "\n");
+// Terjemahan ID (dibuat pengembang atas permintaan pemilik proyek, 12 Nov 2026 — perlu ditinjau sekolah).
+const idTranslations = JSON.parse(fs.readFileSync("src/content/id/electives.json", "utf8"));
+delete idTranslations._source;
 
 const TRACKS = [
   { id: "applied-science", heading: "Applied Science" },
@@ -47,8 +50,8 @@ while ((m = re.exec(appendix))) {
       focus: focus.trim(),
       outcomes: outcomes.replace(/\.$/, "").split(" · ").map((s) => s.trim()),
     },
-    // Terjemahan ID belum tersedia di sumber: halaman /id memakai fallback EN (lihat CONTENT_REVIEW.md).
-    id: null,
+    // Terjemahan ID dari src/content/id/electives.json (kunci = slug); tanpa entri → null = fallback EN.
+    id: idTranslations[slug] ?? null,
   });
 }
 

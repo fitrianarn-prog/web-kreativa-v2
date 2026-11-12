@@ -33,9 +33,9 @@
   },
   "detail": {
     "breadcrumb": "Katalog Mata Pelajaran",
-    "objective": "Educational Objective",
-    "focus": "Focus Areas",
-    "outcomes": "Expected Learning Outcomes",
+    "objective": "Tujuan Pembelajaran",
+    "focus": "Fokus Materi",
+    "outcomes": "Capaian Pembelajaran yang Diharapkan",
     "track": "Bidang",
     "semester": "Semester",
     "credits": "Kredit",

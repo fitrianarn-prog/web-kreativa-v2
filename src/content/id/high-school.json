@@ -1,5 +1,5 @@
 {
-  "_source": "kreativaglobal.sch.id/id/sma/ (dicek 5 Nov 2026). Deskripsi Student Life belum diterjemahkan di sumber → tampil EN.",
+  "_source": "kreativaglobal.sch.id/id/sma/ (dicek 5 Nov 2026). Deskripsi Student Life belum diterjemahkan di sumber → tampil EN. Update 12 Nov 2026: bagian yang sebelumnya tampil EN kini diterjemahkan pengembang atas permintaan pemilik proyek — perlu ditinjau sekolah (CONTENT_REVIEW.md).",
   "meta": {
     "title": "Sekolah Menengah Atas",
     "description": "SMA Kreativa Global (Secondary 4 – Junior College 2): mata pelajaran inti, tambahan, dan pilihan untuk mempersiapkan siswa ke universitas terkemuka dunia."
@@ -11,8 +11,16 @@
   "credits": {
     "title": "Jalur Kurikulum",
     "subjectHeader": "Mata Pelajaran",
-    "columns": { "s4": "Secondary 4", "jc1": "Junior College 1", "jc2": "Junior College 2" },
-    "groups": { "core": "Mata Pelajaran Inti", "supporting": "Mata Pelajaran Tambahan", "elective": "Mata Pelajaran Pilihan" },
+    "columns": {
+      "s4": "Secondary 4",
+      "jc1": "Junior College 1",
+      "jc2": "Junior College 2"
+    },
+    "groups": {
+      "core": "Mata Pelajaran Inti",
+      "supporting": "Mata Pelajaran Tambahan",
+      "elective": "Mata Pelajaran Pilihan"
+    },
     "rows": {
       "esl": "Bahasa Inggris (ESL)",
       "mathematics": "Matematika",
@@ -33,5 +41,35 @@
     "totalLabel": "Total Kredit",
     "grandTotalLabel": "Total Kredit (seluruh mata pelajaran)",
     "catalogButton": "Katalog Mata Pelajaran"
+  },
+  "studentLife": {
+    "title": "Kehidupan Siswa",
+    "items": [
+      {
+        "title": "Ekspedisi Iman & Kepemimpinan",
+        "body": "Pengalaman reflektif di alam terbuka yang membangun keimanan, ketangguhan, dan kerja sama tim.",
+        "image": "/images/secondary/student-life-3.webp"
+      },
+      {
+        "title": "Pertukaran Global & Pengabdian Masyarakat",
+        "body": "Pertukaran budaya dan proyek pengabdian yang menumbuhkan empati, kerja sama tim, dan wawasan global.",
+        "image": "/images/secondary/student-life-2.webp"
+      },
+      {
+        "title": "Magang & Pengenalan Industri",
+        "body": "Belajar dari dunia nyata melalui penempatan profesional di perusahaan dan organisasi mitra.",
+        "image": "/images/high-school/internship.webp"
+      },
+      {
+        "title": "Modul Kesiapan Karier & Universitas",
+        "body": "Bimbingan dan pendampingan untuk mempersiapkan pendaftaran ke universitas global, termasuk pelatihan IELTS, SAT, portofolio, dan personal statement.",
+        "image": "/images/secondary/student-life-4.webp"
+      },
+      {
+        "title": "Kreativa Capstone Exhibition & Innovation Symposium",
+        "body": "Siswa meneliti, merancang, dan mempresentasikan solusi nyata, memadukan sains, kreativitas, dan kepemimpinan.",
+        "image": "/images/secondary/student-life-1.webp"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_source": "kreativaglobal.sch.id/id/tk/ (dicek 5 Nov 2026). Isi versi ID lama berbeda dengan EN (mis. menyebut Montessori); Thematic Learning, Literacy & Phonics, Independence, dan 7 Muslim Kreativa belum ada → tampil EN.",
+  "_source": "kreativaglobal.sch.id/id/tk/ (dicek 5 Nov 2026). Isi versi ID lama berbeda dengan EN (mis. menyebut Montessori); Thematic Learning, Literacy & Phonics, Independence, dan 7 Muslim Kreativa belum ada → tampil EN. Update 12 Nov 2026: bagian yang sebelumnya tampil EN kini diterjemahkan pengembang atas permintaan pemilik proyek — perlu ditinjau sekolah (CONTENT_REVIEW.md).",
   "meta": {
     "title": "Taman Kanak-Kanak",
     "description": "TK Kreativa Global: pembelajaran berbasis bermain, inkuiri, dan tema, berlandaskan nilai-nilai Islam dan Kurikulum Merdeka."
@@ -15,6 +15,16 @@
       "Melalui pengalaman belajar yang bermakna, anak-anak didorong untuk bereksplorasi, bertanya, menemukan, dan mengembangkan karakter positif dalam lingkungan belajar yang menyenangkan, aman, dan penuh perhatian."
     ]
   },
+  "approach": {
+    "title": "Pendekatan Bermakna untuk Pembelajaran Anak Usia Dini",
+    "intro": "Lima pendekatan terpadu yang menumbuhkan rasa ingin tahu, karakter, dan fondasi kuat untuk pembelajaran di masa depan."
+  },
+  "thematic": {
+    "title": "Pembelajaran Tematik",
+    "paragraphs": [
+      "Setiap semester, anak-anak menjelajahi dunia melalui blok tematik yang bermakna, mulai dari Teman, Keluarga & Aku hingga Luar Angkasa dan Masa Depan. Setiap tema memadukan literasi, numerasi, sains, seni, dan perkembangan sosial menjadi satu pengalaman belajar yang utuh. Anak-anak tidak sekadar mempelajari mata pelajaran; mereka menjelajahi gagasan, bertanya, dan memahami dunia di sekitar mereka."
+    ]
+  },
   "steam": {
     "title": "Integrasi STEM",
     "paragraphs": [
@@ -23,12 +33,38 @@
       "Pendekatan pembelajaran yang holistik ini membantu anak mengembangkan keterampilan praktis, kemandirian, rasa ingin tahu, dan kecintaan untuk terus belajar sepanjang hayat."
     ]
   },
+  "literacy": {
+    "title": "Literasi & Fonik",
+    "paragraphs": [
+      "Bahasa Inggris dikembangkan melalui dua jalur yang berjalan berdampingan: imersi kontekstual dalam setiap unit tematik dan program Fonik terstruktur yang membangun kesadaran fonemik serta kemampuan membaca awal secara sistematis. Pendekatan ini dirancang untuk anak-anak yang mempelajari bahasa Inggris sebagai bahasa asing, sehingga mereka tumbuh percaya diri berbahasa Inggris sesuai kecepatan masing-masing."
+    ]
+  },
   "islamic": {
     "title": "Nilai-nilai Islami",
     "paragraphs": [
       "Kami menanamkan nilai-nilai Islam melalui program-program yang memperdalam cinta dan pemahaman terhadap Allah dan Rasul-Nya. Kesadaran ini menumbuhkan sifat-sifat seperti keunggulan, kebaikan, rasa syukur, kejujuran, dan penghormatan terhadap perbedaan. Dengan secara konsisten melibatkan siswa dalam kegiatan yang mempromosikan prinsip-prinsip Islam, sekolah dapat membangun lingkungan yang positif dan penuh kasih. Misalnya, shalat harian dapat menumbuhkan rasa spiritualitas dan hubungan dengan Tuhan. Demikian pula, memasukkan studi Islam ke dalam kurikulum dapat memperdalam pemahaman siswa tentang agama mereka dan ajarannya.",
       "Sekolah kami juga membiasakan membaca sirah Nabi, yang merupakan alat yang kuat untuk pertumbuhan spiritual. Melalui kisah-kisah kehidupannya, kita dapat menyaksikan secara langsung bagaimana beliau menghadapi tantangan, membuat keputusan sulit, dan mencontohkan standar moral tertinggi. Paparan terhadap teladan ini dapat menginspirasi kita untuk mencapai keunggulan dalam kehidupan kita sendiri. Melalui pengalaman-pengalaman konsisten ini, siswa secara bertahap menginternalisasi nilai-nilai Islam dan mengintegrasikannya ke dalam kehidupan sehari-hari mereka."
     ]
+  },
+  "independence": {
+    "title": "Kemandirian & Keterampilan Hidup",
+    "paragraphs": [
+      "Di TK Kreativa Global, kemandirian adalah latihan sehari-hari. Sejak tiba di sekolah, anak-anak bertanggung jawab atas hari mereka: menggantung tas, merapikan tempat belajar, menyiapkan perlengkapan, dan merawat barang-barang milik mereka. Melalui rutinitas yang konsisten dan dorongan penuh kasih, anak-anak berkembang dalam empat aspek kemandirian: merawat diri, tanggung jawab atas barang milik sendiri, kemandirian sosial, dan kesiapan belajar, yang semuanya berlandaskan nilai-nilai Islam tentang disiplin diri."
+    ]
+  },
+  "muslimKreativa": {
+    "title": "7 Muslim Kreativa",
+    "intro": "Setiap pengalaman belajar di TK Kreativa Global dirancang untuk menumbuhkan profil pelajar 7 Muslim Kreativa, membentuk anak-anak yang:",
+    "traits": [
+      "Berpikir dengan Landasan Iman",
+      "Berakhlak Mulia",
+      "Disiplin Diri",
+      "Pembelajar yang Penuh Rasa Ingin Tahu",
+      "Sehat Jiwa & Raga",
+      "Tertib & Bertanggung Jawab",
+      "Bermanfaat bagi Masyarakat"
+    ],
+    "outro": "Ini bukan sekadar nilai yang kami ajarkan, melainkan kualitas yang kami jalani dan praktikkan bersama, setiap hari."
   },
   "holistic": {
     "title": "Mata Pelajaran: Pendekatan Holistik",
@@ -59,10 +95,22 @@
   "hours": {
     "title": "Operasional",
     "rows": [
-      { "label": "Hari Sekolah", "value": "Senin – Jum’at" },
-      { "label": "Pukul", "value": "07.30 – 13.30 WIB" },
-      { "label": "Kedatangan", "value": "07.25 WIB" },
-      { "label": "Kepulangan", "value": "13.30 WIB" }
+      {
+        "label": "Hari Sekolah",
+        "value": "Senin – Jum’at"
+      },
+      {
+        "label": "Pukul",
+        "value": "07.30 – 13.30 WIB"
+      },
+      {
+        "label": "Kedatangan",
+        "value": "07.25 WIB"
+      },
+      {
+        "label": "Kepulangan",
+        "value": "13.30 WIB"
+      }
     ]
   }
 }
