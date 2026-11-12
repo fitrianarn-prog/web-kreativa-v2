@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import { Eye, Flag, GraduationCap, Globe2, Sparkles } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
@@ -90,7 +91,53 @@ export function FounderBoard({ locale, id = "founder", tone = "surface" }: Block
   );
 }
 
-const sdgColors: Record<number, string> = { 4: "#C5192D", 5: "#FF3A21", 9: "#FD6925", 10: "#DD1367", 17: "#19486A" };
+/**
+ * Bento SDG: ukuran kartu mengikuti komposisi angka.
+ * - Angka 2 digit (10, 17) → kartu lebar (4/6 kolom), angka paling besar.
+ * - Angka 1 digit (4, 5) → kartu ringkas (2/6 kolom).
+ * - SDG 9 (judul terpanjang) → strip penuh yang pendek, angka di kiri.
+ * DOM tetap urut 4·5·9·10·17 (pembaca layar); susunan visual diatur lewat col/row-start.
+ * HP (2 kolom): 4|5 · 9 · 10|17. `ink` = warna SDG digelapkan agar angka tetap kontras ≥ 3:1 di latar tint.
+ */
+type SdgVariant = "compact" | "wide" | "strip";
+const sdgStyles: Record<number, { color: string; ink: string; variant: SdgVariant; place: string }> = {
+  4: { color: "#C5192D", ink: "#C5192D", variant: "compact", place: "sm:col-span-2 sm:col-start-1 sm:row-start-1" },
+  10: { color: "#DD1367", ink: "#C0105A", variant: "wide", place: "sm:col-span-4 sm:col-start-3 sm:row-start-1" },
+  17: { color: "#19486A", ink: "#19486A", variant: "wide", place: "sm:col-span-4 sm:col-start-1 sm:row-start-2" },
+  5: { color: "#FF3A21", ink: "#CC2A15", variant: "compact", place: "sm:col-span-2 sm:col-start-5 sm:row-start-2" },
+  9: { color: "#FD6925", ink: "#B5470D", variant: "strip", place: "col-span-2 sm:col-span-6 sm:row-start-3" },
+};
+const sdgFallback = { color: "#3B358D", ink: "#3B358D", variant: "strip" as SdgVariant, place: "col-span-2 sm:col-span-6" };
+
+const sdgLayout: Record<SdgVariant, { card: string; number: string }> = {
+  compact: { card: "min-h-32 flex-col justify-between p-4", number: "text-[2.5rem] lg:text-[2.75rem]" },
+  wide: { card: "min-h-32 items-end gap-4 p-5", number: "text-5xl lg:text-[3.5rem]" },
+  strip: { card: "items-center gap-5 px-5 py-4", number: "text-[2.5rem] lg:text-[2.75rem]" },
+};
+
+function SdgCard({ number, name }: { number: number; name: string }) {
+  const s = sdgStyles[number] ?? sdgFallback;
+  const l = sdgLayout[s.variant];
+  return (
+    <li
+      style={{ "--sdg": s.color } as CSSProperties}
+      className={`group/sdg relative flex overflow-hidden rounded-2xl bg-[color-mix(in_srgb,var(--sdg)_8%,white)] transition-[background-color,transform] duration-300 hover:-translate-y-0.5 hover:bg-[color-mix(in_srgb,var(--sdg)_13%,white)] motion-reduce:transition-none motion-reduce:hover:translate-y-0 ${s.place} ${l.card}`}
+    >
+      {/* Aksen garis tipis warna SDG resmi. */}
+      <span aria-hidden className="absolute inset-x-0 top-0 h-1 bg-(--sdg) opacity-80" />
+      <p className="flex shrink-0 flex-col leading-none" style={{ color: s.ink }}>
+        <span className="text-[0.625rem] font-semibold tracking-[0.2em] uppercase opacity-75">SDG</span>
+        <span className={`mt-1 font-bold tracking-tight tabular-nums ${l.number}`}>
+          <span className="sr-only">SDG </span>
+          {number}
+        </span>
+      </p>
+      <span className={`text-sm leading-snug font-semibold text-balance text-ink ${s.variant === "wide" ? "pb-1.5" : ""}`}>
+        {name}
+      </span>
+    </li>
+  );
+}
 
 export function EducationInitiative({ locale, id = "education", tone = "white" }: BlockProps) {
   const c = blocksContent(locale)("initiative");
@@ -102,18 +149,9 @@ export function EducationInitiative({ locale, id = "education", tone = "white" }
             <p key={i}>{p}</p>
           ))}
         </div>
-        <ul className="grid gap-3 sm:grid-cols-2 lg:col-span-2" aria-label="SDGs">
+        <ul className="grid grid-cols-2 gap-3 self-start sm:grid-cols-6 lg:col-span-2" aria-label="SDGs">
           {c.sdgs.map((s) => (
-            <li key={s.number} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-3 shadow-card">
-              <span
-                className="inline-flex size-14 shrink-0 items-center justify-center rounded-xl text-3xl font-bold text-white"
-                style={{ backgroundColor: sdgColors[s.number] }}
-              >
-                <span className="sr-only">SDG </span>
-                {s.number}
-              </span>
-              <span className="text-sm leading-snug font-semibold text-ink">{s.name}</span>
-            </li>
+            <SdgCard key={s.number} number={s.number} name={s.name} />
           ))}
         </ul>
       </div>

@@ -62,6 +62,7 @@ Aturan: informasi akademik, keuangan, dan kelembagaan **tidak diubah diam-diam**
 - Kredit mata pelajaran *Introduction to Negotiation Analysis* (kosong di sumber; tampil "—").
 - Sambutan Principal untuk SMP dan SMA (sidebar lama menautkan "Principal Message" tanpa isi). Sambutan Principal hanya ada untuk SD (Nurhayati, SP., MSM).
 - Misi hanya berisi 2 poin. Apakah memang lengkap?
+- Terjemahan ID judul & pengantar section pendekatan belajar TK (`#approach`, 12 Nov 2026): "A Thoughtful Approach to Early Learning" / "Five integrated approaches that nurture curiosity, character, and a strong foundation for future learning." (teks EN dari pemilik proyek). Halaman /id menampilkan versi EN (`lang="en"`) sampai ada terjemahan resmi.
 - Teks pengganti paragraf "Our Logo" (teks lama membahas website sebagai etalase toko).
 - Koordinat/pin Google Maps per kampus. Saat ini tautan memakai pencarian alamat.
 - ID Google Analytics/GA4 (situs belum memasang analytics).

@@ -14,6 +14,10 @@
       "Our program is built upon Kurikulum Merdeka Fase Fondasi, enriched with a play-based, inquiry-driven, and theme-integrated learning approach, while being grounded in Islamic values. Through meaningful learning experiences, children are encouraged to explore, ask questions, discover, and develop strong character in a joyful and nurturing environment."
     ]
   },
+  "approach": {
+    "title": "A Thoughtful Approach to Early Learning",
+    "intro": "Five integrated approaches that nurture curiosity, character, and a strong foundation for future learning."
+  },
   "thematic": {
     "title": "Thematic Learning",
     "paragraphs": [

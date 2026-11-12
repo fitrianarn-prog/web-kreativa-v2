@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { BookOpen, Clock, FlaskConical, HandHeart, Languages, Moon, Shapes, Star } from "lucide-react";
+import { BookOpen, Clock, Star } from "lucide-react";
 import { hasLocale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { blocksContent, getHomeContent, kindergartenContent } from "@/lib/content";
@@ -10,6 +10,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { Section } from "@/components/ui/Section";
 import { SectionNav } from "@/components/ui/SectionNav";
 import { CtaBand } from "@/components/blocks/CtaBand";
+import { ApproachAccordion } from "@/components/kindergarten/ApproachAccordion";
 
 const PATH = "/schools/kindergarten";
 const HERO_IMAGE = "/images/kindergarten/slide-2.webp";
@@ -29,6 +30,7 @@ export default async function KindergartenPage({ params }: PageProps<"/[locale]/
   const dict = getDictionary(locale);
   const hero = c("hero");
   const curriculum = c("curriculum");
+  const approach = c("approach");
   const holistic = c("holistic");
   const daily = c("daily");
   const hours = c("hours");
@@ -36,11 +38,11 @@ export default async function KindergartenPage({ params }: PageProps<"/[locale]/
 
   // Pilar pembelajaran: urutan sama dengan halaman EN; bagian tanpa terjemahan resmi tampil EN.
   const pillars = [
-    { key: "thematic", icon: Shapes, data: c("thematic") },
-    { key: "steam", icon: FlaskConical, data: c("steam") },
-    { key: "literacy", icon: Languages, data: c("literacy") },
-    { key: "islamic", icon: Moon, data: c("islamic") },
-    { key: "independence", icon: HandHeart, data: c("independence") },
+    { key: "thematic", data: c("thematic") },
+    { key: "steam", data: c("steam") },
+    { key: "literacy", data: c("literacy") },
+    { key: "islamic", data: c("islamic") },
+    { key: "independence", data: c("independence") },
   ] as const;
 
   const nav = [
@@ -73,23 +75,17 @@ export default async function KindergartenPage({ params }: PageProps<"/[locale]/
         </div>
       </Section>
 
-      <section id="approach" className="bg-surface bg-dots py-16 lg:py-20">
-        <ul className="container-page grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {pillars.map(({ key, icon: Icon, data }) => (
-            <li key={key} lang={data.lang} className="rounded-card bg-white p-7 shadow-card">
-              <span className="inline-flex size-12 items-center justify-center rounded-2xl bg-level-kindergarten text-white">
-                <Icon className="size-6" aria-hidden />
-              </span>
-              <h2 className="mt-5 text-xl font-bold text-ink">{data.title}</h2>
-              <div className="mt-3 space-y-3 text-sm leading-relaxed text-muted">
-                {data.paragraphs.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <Section
+        id="approach"
+        tone="surface"
+        eyebrow={curriculum.title}
+        title={approach.title}
+        intro={approach.intro}
+        titleLang={approach.lang}
+        lang={approach.lang}
+      >
+        <ApproachAccordion items={pillars.map(({ key, data }) => ({ key, title: data.title, paragraphs: data.paragraphs, lang: data.lang }))} />
+      </Section>
 
       <Section id="muslim-kreativa" title={mk.title} intro={mk.intro} titleLang={mk.lang} lang={mk.lang}>
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
